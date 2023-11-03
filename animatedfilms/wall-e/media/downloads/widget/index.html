@@ -1,0 +1,117 @@
+<HTML>
+<HEAD>
+<meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<TITLE>Wall-E Widget</TITLE>
+<script language="JavaScript">
+
+function QueryString(key)
+{
+	var value = null;
+	for (var i=0;i<QueryString.keys.length;i++)
+		if (QueryString.keys[i]==key)
+		{
+			value = QueryString.values[i];
+			break;
+		}
+	return value;
+}
+QueryString.keys = new Array();
+QueryString.values = new Array();
+
+function QueryString_Parse()
+{
+	var query = unescape(window.location.search.substring(1) );
+    
+	var pairs = query.split("&");
+	for (var i=0;i<pairs.length;i++)
+	{
+		var pos = pairs[i].indexOf('=');
+		if (pos >= 0)
+		{
+			var argname = pairs[i].substring(0,pos);
+			var value = pairs[i].substring(pos+1);
+			QueryString.keys[QueryString.keys.length] = argname;
+			QueryString.values[QueryString.values.length] = value;		
+		}
+	}
+}
+
+QueryString_Parse();
+
+var image = unescape(QueryString("image") );
+if (image == "null")
+    image = "wallpaper_1_800.jpg";
+
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+<style type="text/css">
+<!--
+body, td {
+	font-family: verdana, arial;
+	font-size: 10px;
+	color: #ffffff;
+	text-decoration: none;
+}
+td {
+	padding:1em;
+}
+a {
+	color: #FFCC00;
+	font-weight:bold;
+	text-decoration: none;
+}
+a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+p {
+	margin:0;
+}
+ol {
+	margin:0.5em, 0;
+}
+
+table {
+	height:100%;
+}
+-->
+</style>
+</HEAD>
+<BODY bgcolor="#000000" text="#ffffff" link="#ffffff" vlink="#ffffff" alink="#ffffff" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="10%" align="right" valign="top"><b><a href="javascript:window.close();">[&nbsp;X&nbsp;]</a></b></td>
+  </tr>
+  <tr>
+    <td align="center" valign="middle" class="iconImg"> 
+      <!--[if IE]> 
+  <object width="300" height="400" type="application/x-shockwave-flash" quality="high" id="W48d92895b68355ac"> 
+  <param value="http://widgets.clearspring.com/o/48c72fb9cc6a51fa/48d92895b68355ac/48c72fb9cc6a51fa/263cf0a5" name="movie"/>
+
+<![endif]--> 
+<!--[if !IE]><!--> 
+  <object width="300" height="400" type="application/x-shockwave-flash" id="W48d92895b68355ac" data="http://widgets.clearspring.com/o/48c72fb9cc6a51fa/48d92895b68355ac/48c72fb9cc6a51fa/263cf0a5">
+
+<!--<![endif]--> 
+<param name="wmode" value="transparent"/> 
+<param name="allowScriptAccess" value="always"/> 
+<param name="allowNetworking" value="all"/> 
+</object> 
+<script type="text/javascript" src= "http://widgets.clearspring.com/o/48c72fb9cc6a51fa/48d92895b68355ac/48c72fb9cc6a51fa/263cf0a5/widget.js"></script>
+
+</td>
+  </tr>
+  <tr>
+    <td align="right" valign="bottom" class="iconImg">
+    &copy; Disney/Pixar</td>
+  </tr>
+</table>
+</BODY>
+</HTML>
