@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<header>
+		<release_year>2008</release_year>
+		<!-- 1 for January, 2 for February etc-->
+		<release_month>11</release_month>
+		<release_day>18</release_day>
+		<!-- ...but you can adjust its x & y value here -->
+		<logo src="usa/images/header_logo.png" x="-105" y="3" />
+		<prestreet x="0" y="68">
+			<![CDATA[<textformat leading="-1"><font size="12">COMING TO DISNEY DVD AND BLU-RAY™ HI-DEF<br /><font size="18">NOVEMBER 18</font></textformat>]]>
+		</prestreet>		
+		<poststreet y="66">
+			<![CDATA[<textformat leading="-1"><font size="18">NOW AVAILABLE</font><br /><font size="12">ON DISNEY DVD AND BLU-RAY™ HI-DEF</font></textformat>]]>
+		</poststreet>		
+		<order_label_dvd y="-4">
+			<![CDATA[<textformat leading="-2"><font size="12">ORDER ON<br />DISNEY DVD</font></textformat>]]>
+		</order_label_dvd>		
+		<order_label_bluray y="-4">
+			<![CDATA[<textformat leading="-2"><font size="12">ORDER ON<br />BLU-RAY™ HI-DEF</font></textformat>]]>
+		</order_label_bluray>		
+		<order_url_dvd>javascript:openWindow('http://transfer.go.com/cgi/transfer.dll?name=23303&SOURCE=23303&srvc=store&goto=http://disneyshopping.go.com/webapp/wcs/stores/servlet/DSIProductDisplay?catalogId=10002&storeId=10051&productId=1234691&langId=-1&categoryId=13698&CMP=OTL-TWDC_BVHE&att=BVHE');</order_url_dvd>		
+		<order_url_bluray>javascript:openWindow('http://transfer.go.com/cgi/transfer.dll?name=23303&SOURCE=23303&srvc=store&goto=http://disneyshopping.go.com/webapp/wcs/stores/servlet/DSIProductDisplay?catalogId=10002&storeId=10051&productId=1234689&langId=-1&categoryId=13698&CMP=OTL-TWDC_BVHE&att=BVHE');</order_url_bluray>		
+</header>

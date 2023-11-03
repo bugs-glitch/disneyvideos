@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<global_header>
+		<copy id='release_year'>2008</copy>
+		<!-- 1 for January, 2 for February etc-->
+		<copy id='release_month'>11</copy>
+		<copy id='release_day'>18</copy>
+		<!-- the logo is actually hard-coded at this location (relative to the cid defined in the Javascript) -->
+		<!-- because it loads concurrently with this XML data to display on the loading screen -->
+		<!-- ...but you can adjust its x & y value here -->
+		<copy id='logo_img'>images/logo.swf</copy>
+		<copy id='prestreet_read'>
+			<![CDATA[<textformat leading="-2"><font size="12">COMING TO DISNEY DVD AND BLU-RAY™ HI-DEF<br /><font size="22">NOVEMBER 18</font></textformat>]]>
+		</copy>
+		<copy id='poststreet_read'>
+			<![CDATA[<textformat leading="-2"><font size="22">NOW AVAILABLE</font><br /><font size="12">ON DISNEY DVD AND<br />BLU-RAY™ HI-DEF</font></textformat>]]>
+		</copy>
+		<copy id='order_label_dvd'>
+			<![CDATA[<textformat leading="-2"><font size="12">ORDER ON<br />DISNEY DVD</font></textformat>]]>
+		</copy>
+		<copy id='order_label_bluray'>
+			<![CDATA[<textformat leading="-2"><font size="12">ORDER ON<br />BLU-RAY™ HI-DEF</font></textformat>]]>
+		</copy>
+		<copy id='order_url_dvd'>javascript:openWindow("http://transfer.go.com/cgi/transfer.dll?name=23303&SOURCE=23303&srvc=store&goto=http://disneyshopping.go.com/webapp/wcs/stores/servlet/DSIProductDisplay?catalogId=10002&storeId=10051&productId=1234691&langId=-1&categoryId=13698&CMP=OTL-TWDC_BVHE&att=BVHE");</copy>
+		<copy id='order_url_bluray'>javascript:openWindow("http://transfer.go.com/cgi/transfer.dll?name=23303&SOURCE=23303&srvc=store&goto=http://disneyshopping.go.com/webapp/wcs/stores/servlet/DSIProductDisplay?catalogId=10002&storeId=10051&productId=1234689&langId=-1&categoryId=13698&CMP=OTL-TWDC_BVHE&att=BVHE");</copy>
+		<copy id='copyrightRead'><![CDATA[<font size="9">© Disney/Pixar</font>]]></copy>
+	</global_header>
+
+	<section id='general'>
+<!-- end level is 6 -->
+		<cheat id='cheatson'>1</cheat>
+		<copy id='loading'><![CDATA[LOADING]]></copy>
+		<copy id='download_unlocked'><![CDATA[BONUS VIDEO]]></copy>
+		<copy id='start'><![CDATA[PLAY]]></copy>
+		<copy id='continue'><![CDATA[<font size="11">CONTINUE</font>]]></copy>
+		<copy id='play'><![CDATA[NEXT]]></copy>
+		<copy id='visit_site'><![CDATA[Visit Official Site]]></copy>
+		<copy id='level'><![CDATA[LEVEL]]></copy>
+		<copy id='score'><![CDATA[SCORE]]></copy>
+		<copy id='high_score'><![CDATA[BEST]]></copy>
+		<copy id='intro_copy'><![CDATA[When EVE wants to show off her target practice skills, WALL·E can't wait to play too!  It's simple to play, just zap the scrap that WALL·E throws!]]></copy>
+		<copy id='game_title'><![CDATA[<font size="29">SCRAP SHOOT</font>]]></copy>	
+		<copy id='instruction_button'><![CDATA[Instructions]]></copy>
+		<copy id='restart_btn'><![CDATA[<font size="12">RESTART</font>]]></copy>
+		<copy id='accuracy'><![CDATA[Accuracy bonus:]]></copy>
+		<copy id='copyright'><![CDATA[© Disney/Pixar]]></copy>
+		<copy id='endScreen_accuracy'><![CDATA[ACCURACY]]></copy>
+		<copy id='bonus_body'><![CDATA[SHOOT THE BONUS<br />DISCS TO UNLOCK]]></copy>
+		<copy id='bonus_title'><![CDATA[Bonus Video!]]></copy>
+		<url id='video_path'><![CDATA[usa/video/teaser.flv]]></url>
+	</section>
+		
+	<section id='instruction_panel'>
+		<copy id='ip_title'><![CDATA[INSTRUCTIONS]]></copy>
+		<copy id='ip_instruction1'><![CDATA[Hit these:]]></copy>
+		<copy id='ip_instruction2'><![CDATA[Don't hit this:]]></copy>
+	</section>
+	
+	<section id='instruction_panel_spare'>
+		<copy id='ip_title'><![CDATA[INSTRUCTIONS]]></copy>
+		<!--<copy id='ip_instruction1'><![CDATA[Hit these:]]></copy> -->
+		<copy id='ip_instruction1'><![CDATA[As items fly through the air, move your mouse to point at them and click to shoot.<br><br>New items are added every level, so make sure you read the new instructions at the start of each level.]]></copy>
+	</section>
+	
+	<section id='end_section'>
+		<copy id='end_title'><![CDATA[WELL DONE!]]></copy>
+		<copy id='end_body_fail'><![CDATA[Nice shooting!  Unlock the exclusive download next time by shooting every red letter.]]></copy>
+		<copy id='end_body_success'><![CDATA[Awesome shooting! You've unlocked the bonus video!]]></copy>
+		<url id='bonus_download'><![CDATA[]]></url>
+	</section>
+	
+	<section id='instructions'>
+		<level id='1'>
+			<page id='1_1'>
+				<copy id='1_1_title'><![CDATA[LEVEL 1]]></copy>
+				<copy id='1_1_body'><![CDATA[Shoot all the flying items]]></copy>
+				<copy id='1_1_info2'><![CDATA[Hit these once to destroy]]></copy>
+				<copy id='1_1_info3'><![CDATA[Hit these for bonus points!]]></copy>
+			</page>
+		</level>
+		<level id='2'>
+			<page id='2_1'>
+				<copy id='2_1_title'><![CDATA[LEVEL 2]]></copy>
+				<copy id='2_1_body'><![CDATA[Now there are some bigger items]]></copy>
+				<copy id='2_1_info1'><![CDATA[Hit these twice to destroy]]></copy>
+			</page>
+		</level>
+		<level id='3'>
+			<page id='3_1'>
+				<copy id='3_1_title'><![CDATA[LEVEL 3]]></copy>
+				<copy id='3_1_body'><![CDATA[Tin cans fly into the sky when hit! Catch them again on the way down for more points]]></copy>
+				<copy id='3_1_info1'><![CDATA[Hit these three times to destroy]]></copy>
+			</page>
+		</level>
+		<level id='4'>
+			<page id='4_1'>
+				<copy id='4_1_title'><![CDATA[LEVEL 4]]></copy>
+				<copy id='4_1_body'><![CDATA[Now you need to avoid the precious boxes. Think before you shoot!]]></copy>
+				<copy id='4_1_info1'><![CDATA[Lose points if you hit these]]></copy>
+			</page>
+		</level>
+		<level id='5'>
+			<page id='5_1'>
+				<copy id='5_1_title'><![CDATA[<font size="28">FINAL LEVEL - SPEED!</font>]]></copy>
+				<copy id='5_1_body'><![CDATA[An extra item is added with each throw. Can you make it to ten?]]></copy>
+				<copy id='5_1_info1'><![CDATA[Hit once to destroy]]></copy>
+			</page>
+		</level>
+		<level id='stage_end'>
+			<copy id = 'stage_end_title'><![CDATA[<font size="12">LEVEL COMPLETE</font>]]></copy>
+			<copy id = 'stage_end_copy'><![CDATA[Good shooting! Now let's step it up a gear!]]></copy>
+			<copy id = 'stage_end_score'><![CDATA[SCORE:]]></copy>
+		</end>
+	</section>
+
+	</root>
