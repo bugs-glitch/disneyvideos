@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xmldata>
+	<value>true</value>
+	<time>8000</time><!-- 1000 approximately = 1 second-->
+	<!--
+	quotes can be offset from the default location with x & y values, e.g.:
+	<item x="10" y="-30">
+	html formatting can also be applied, e.g.:
+	<![CDATA[<textformat leading="-12"><font size="15">"ONE OF THE BEST<br>MOVIES OF THE YEAR."</font></textformat>]]>
+	-->
+	<item>
+		<graphic value="false"></graphic>
+		<quote><![CDATA["Enthralling Entertainment."]]></quote>
+		<attribute><![CDATA[- RICHARD CORLISS, TIME]]></attribute>
+		<logo value="false" />
+	</item>
+	<item>
+		<graphic value="false"></graphic>
+		<quote><![CDATA["...a work of art."]]></quote>
+		<attribute><![CDATA[- David Edelstein, NEW YORK MAGAZINE]]></attribute>
+		<logo value="false" />
+	</item>
+	<item y="-12">
+		<graphic value="false"></graphic>
+		<quote><![CDATA[<textformat leading="-2"><font size="13">"WALL-E, a film that brings off what the best Pixar films have: It whisks you to another world, then makes it every inch our own."</font></textformat>]]></quote>
+		<attribute><![CDATA[- Owen Gleiberman, ENTERTAINMENT WEEKLY]]></attribute>
+		<logo value="false" />
+	</item>
+</xmldata>

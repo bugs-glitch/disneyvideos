@@ -1,0 +1,545 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<xmldata>
+<!-- global movie info -->
+<movieinfo>
+	<!-- initial properties for Omniture instantiation -->
+	<hbxPageName>home</hbxPageName>
+	<hbxMlc>/walle/information/home</hbxMlc>
+	<hbxAccount>DM520604MHNA</hbxAccount>
+	<omnitureAccount>wdgdsec</omnitureAccount>
+	<omnitureSite>wal</omnitureSite>
+	<omnitureCategory>dmov</omnitureCategory>
+	<omnitureSiteSection>home</omnitureSiteSection>
+	<omniturePageName>home</omniturePageName>
+	<omnitureContentType>homepage</omnitureContentType>
+	<omnitureProperty>wal</omnitureProperty>
+	<omnitureGenre>pixar</omnitureGenre>
+	<!-- This defines date to flip the street read: yyyy,mm,dd -->
+	<!-- display prestreet if before this date; display poststreet if after -->
+	<!-- use querystring in URL to test, e.g.: ../flash_site.html?today=2008,11,18 -->
+	<!-- each line appears @ top center of site by default; adjust position w/ x & y values -->
+	<!-- note: position of many elements throughout site may be adjusted with x & y values in this XML doc -->
+	<streetread date="2008,11,18">
+		<prestreet>
+			<line x="0" y="117">
+				<![CDATA[<font size="16">COMING TO DISNEY DVD AND BLU-RAY™ HI-DEF</font>]]>
+			</line>
+			<line x="0" y="135">
+				<![CDATA[<font size="26">NOVEMBER 18</font>]]>
+			</line>
+		</prestreet>
+		<poststreet>
+			<line x="0" y="114" xscale="75">
+				<![CDATA[<font size="18">NOW AVAILABLE ON DISNEY DVD AND BLU-RAY™ HI-DEF</font>]]>
+			</line>
+		</poststreet>
+	</streetread>
+</movieinfo>
+
+<orderinfo>
+	<orderbtn id="dvd" x="-343" y="132" url="javascript:openWindow('http://disney.go.com/guestservices/disclaimers/redirect?destination=http://www.amazon.com/Wall-E-Three-Disc-Special-Ben-Burtt/dp/B001EOQWEO/ref=sr_1_4?s=movies-tv');" hitbox="exit_wal_order_dvd" hitboxCategory="/walle/information/home" omniture="exit_wal_order_dvd" omnitureCategory="homepage" omnitureType="home" actiontag="http://switch.atdmt.com/action/WallE_buynow">
+		<img src="media/images/common/pack_dvd.png" x="-113" y="-44" w="98" h="118" />
+		<navLabel x="53" y="-9">
+			<![CDATA[<font size="16">ORDER ON</font>]]>
+		</navLabel>
+		<navLabel x="53" y="8">
+			<![CDATA[<font size="16">DISNEY DVD</font>]]>
+		</navLabel>
+	</orderbtn>
+	<orderbtn id="bluray" x="343" y="132" url="javascript:openWindow('http://disney.go.com/guestservices/disclaimers/redirect?destination=http://www.amazon.com/Wall-E-Two-Disc-Edition-Live-Blu-ray/dp/B001EOQWF8/ref=tmm_blu_title_0');" hitboxCategory="/walle/information/home" omniture="exit_wal_order_bluray" omnitureCategory="homepage" omnitureType="home" actiontag="http://switch.atdmt.com/action/WallE_BR_buynow">
+		<img src="media/images/common/pack_bluray.png" x="22" y="-44" w="99" h="118" />
+		<navLabel x="-44" y="-9">
+			<![CDATA[<font size="16">ORDER ON</font>]]>
+		</navLabel>
+		<navLabel x="-44" y="8">
+			<![CDATA[<font size="16">BLU-RAY HI-DEF</font>]]>
+		</navLabel>
+	</orderbtn>
+</orderinfo>
+
+<titletreatment src="media/images/common/title_treatment.png" x="-136" y="7" w="284" h="82" />
+
+<accolades x="0" y="147" link="javascript:popWindow('media/accolades','820','440','accolades');" interval="5" omni="exit_wal_disneyfile_missingcode_splash" delay="10">
+	<img id="acc_1" src="media/images/common/accolade_academy_bestanimated.png" x="1" y="0.5" w="339" h="42" />
+	<img id="acc_2" src="media/images/common/accolade_1dvd_bluray.png" x="0" y="1" w="338" h="16" />
+	<img id="acc_3" src="media/images/common/accolade_goldenglobe.png" x="0" y="-1" w="336" h="29" />
+	<img id="acc_4" src="media/images/common/accolade_bestpicture.png" x="0" y="-1" w="352" h="24" />
+</accolades>
+
+<copy>
+	<txt id="loading"><![CDATA[LOADING]]></txt>
+	<txt id="sound"><![CDATA[SOUND]]></txt>
+	<txt id="sectionBack"><![CDATA[<font size='22'>BACK</font>]]></txt>
+	<txt id="videoBack"><![CDATA[<font size='12'>BACK</font>]]></txt>
+	<txt id="skip"><![CDATA[<font size='13'>SKIP</font>]]></txt>
+	<txt id="copyright"><![CDATA[<font size='10'>© DISNEY/PIXAR</font>]]></txt>
+	<txt id="legalPopup"><![CDATA[<font size='10'>Please be aware that by clicking this link you will be leaving Disney Online and different Terms of Use and Privacy Policy will apply.</font>]]></txt>
+	<txt id="xprCloseX"><![CDATA[<font size='11'>CLOSE  X</font>]]></txt>
+	<txt id="xprClickDots"><![CDATA[<font size='10'>CLICK DOTS TO NAVIGATE</font>]]></txt>
+	<txt id="xprBufferingLabel"><![CDATA[<font size='12'>BUFFERING</font>]]></txt>
+	<txt id="xprVideoBufferingLabel"><![CDATA[<font size='9'>BUFFERING</font>]]></txt>
+	<txt id="xprWatchClipLabel"><![CDATA[<font size='12'>WATCH CLIP</font>]]></txt>
+	<txt id="xprNavWallesTruckLabel"><![CDATA[<font size='16'>WALL-E'S TRUCK</font>]]></txt>
+	<txt id="xprNavTheAxiomLabel"><![CDATA[<font size='16'>THE AXIOM</font>]]></txt>
+	<txt id="xprNavWalleHomeBtn"><![CDATA[<font size='12'>WALL-E HOME</font>]]></txt>
+	<txt id="xprNavWallesTruckBtn"><![CDATA[<font size='12'>WALL-E'S TRUCK</font>]]></txt>
+	<txt id="xprNavAxiomBtn"><![CDATA[<font size='14'>THE AXIOM</font>]]></txt>
+	<txt id="xprGinzaClose"><![CDATA[<font size='13'>CLOSE</font>]]></txt>
+	<txt id="xprGinzaPlayAgain"><![CDATA[<font size='13'>PLAY AGAIN</font>]]></txt>
+</copy>
+
+<!-- this defines info for sections within site -->
+<!-- NOTE: The order of sections must remain consistent. -->
+<!-- References to individual section are hard-coded into the site. -->
+<!-- e.g. the nav button just to right of center gets its info from sections.section[3] (About the Film) -->
+<!-- NODE FOR EPK SECTIONS -->
+<sections omniture="Walle">
+	<!-- EXPERIENCE SECTIONS -->
+	
+	<!--0 The Truck -->
+	<section sname="Truck" epkSection="false" experienceSection="true" loading="true" value="true" comingsoon="false" linkout="false" deeplink="false" hitbox="TRUCK" hitboxCategory="/walle/truck" omniture="truck" omnitureCategory="truck" omnitureType="regular">
+		<file path="sections/truck/truck.swf" />
+		<hidden>
+			<!-- LIGHT BULB (video) -->
+			<item title="BOUNCY BALLS VIGNETTE" hitbox="BALLS" hitboxCategory="/walle/multimedia/clips" omniture="clip7" omnitureCategory="videos:clips" omnitureType="videos" image="media/images/video/balls.png" file="media/videos/vignettes/Walle_wsb_111_BouncyBalls_High_640x256.flv" otheroptions="false" />
+			<!-- CUP (game) -->
+			<item comingsoon="false" legal="false" title="Cup Shuffle" rolloverCopy="PLAY" image="media/images/games/cupshuffle.png" linkpath="javascript:popWindow('games/cup_shuffle/','650','630','gameWin');" hitbox="cup_shuffle" hitboxCategory="/walle/interactive+content/games" omniture="cup_shuffle" omnitureCategory="games" omnitureType="games" linkout="false" />
+			<!-- MAGNET (video) -->
+			<item title="MAGNET VIGNETTE" hitbox="MAGNET" hitboxCategory="/walle/multimedia/clips" omniture="clip2" omnitureCategory="videos:clips" omnitureType="videos" image="media/images/video/magnet.png" file="media/videos/vignettes/WallE_Magnet_High_640x256.flv" otheroptions="false" />
+			<!-- BOWLING PIN (game) -->
+			<item comingsoon="false" legal="false" title="Treasure Round-Up" image="media/images/games/treasure.png" linkpath="javascript:popWindow('games/treasure_roundup/','760','620','gameWin');" hitbox="treasure_roundup" hitboxCategory="/walle/interactive+content/games" omniture="treasure_roundup" omnitureCategory="games" omnitureType="games" />
+			<!-- TROPHY (video) -->
+			<item title="FIRE HYDRANT VIGNETTE" hitbox="HYDRANT" hitboxCategory="/walle/multimedia/clips" omniture="clip8" omnitureCategory="videos:clips" omnitureType="videos" image="media/images/video/hydrant.png" file="media/videos/vignettes/Walle_wsb_109_FireHydrant_High_640x256.flv" otheroptions="false" />
+			<!-- GNOME RIGHT (wallpaper) -->
+			<item hitbox="WALLPAPER_01" hitboxCategory="/walle/downloads/wallpapers" image="media/downloads/wallpaper/thumbs/truck_01.jpg" file="WallE_01" omniture="wp1" omnitureCategory="downloads:wallpapers" omnitureType="downloads" />
+			<!-- PADDLE (video) -->
+			<item title="HEADPHONES VIGNETTE" hitbox="HEADPHONES" hitboxCategory="/walle/multimedia/clips" omniture="clip4" omnitureCategory="videos:clips" omnitureType="videos" image="media/images/video/headphones.png" file="media/videos/vignettes/WallE_HPhones_High_640x256.flv" otheroptions="false" />
+			<!-- CANDY MACHINE (wallpaper) -->
+			<item hitbox="WALLPAPER_02" hitboxCategory="/walle/downloads/wallpapers" image="media/downloads/wallpaper/thumbs/truck_02.jpg" file="WallE_02" omniture="wp2" omnitureCategory="downloads:wallpapers" omnitureType="downloads" />
+			<!-- GNOME LEFT (wallpaper) -->
+			<item hitbox="WALLPAPER_05" hitboxCategory="/walle/downloads/wallpapers" image="media/downloads/wallpaper/thumbs/truck_05.jpg" file="WallE_05" omniture="wp5" omnitureCategory="downloads:wallpapers" omnitureType="downloads" />
+			<!-- BUG ZAPPER (wallpaper) -->
+			<item hitbox="WALLPAPER_09" hitboxCategory="/walle/downloads/wallpapers" image="media/downloads/wallpaper/thumbs/truck_09.jpg" file="WallE_09" omniture="wp9" omnitureCategory="downloads:wallpapers" omnitureType="downloads" />
+		</hidden>
+	</section>
+	
+	<!-- 1 The Axiom -->
+	<section sname="Axiom" epkSection="false" experienceSection="true" loading="true" value="true" comingsoon="false" linkout="false" deeplink="false" hitbox="AXIOM" hitboxCategory="/walle/axiom" omniture="axium" omnitureCategory="axiom" omnitureType="regular">
+		<file path="sections/axiom/axiom.swf" />
+		<allCharacters>media/videos/allCharactersClip_06.flv</allCharacters>
+		<hidden>
+			<!-- FIRE EXTINGUISHER -->
+			<item legal="false" title="Scrap Shoot" image="media/images/games/scrapshoot.jpg" linkpath="javascript:popWindow('games/scrap_shoot/','660','600','gameWin');" hitbox="scrap_shoot" hitboxCategory="/walle/interactive+content/games" omniture="scrap_shoot" omnitureCategory="games" omnitureType="games" />
+		</hidden>
+	</section>
+	
+	<!-- 2 HOMEPAGE -->
+	<section sname="Homepage" epkSection="false" loading="true" value="true" comingsoon="false" linkout="false" hitbox="HOMEPAGE" hitboxCategory="/walle/information/home" omniture="home" omnitureCategory="home" omnitureType="homepage" actiontag="http://switch.atdmt.com/action/WallE_homepage">
+		<file path="sections/homepage.swf" />
+		<burst x="-24" y="640" legal="true" sectionid="11">
+			<line x="0" y="-30"><![CDATA[<font size="10.5">Explore the REAL universe with WALL-E</font>]]></line>
+			<img src="media/images/common/home_burst_wwt.png" x="-92" y="-21" />
+		</burst>
+		
+		<burst date="2008,11,18">
+			<pre x="183" y="640" sectionid="12">
+				<img src="media/images/common/home_dmr.png" x="-98" y="-34" />
+				<line x="34" y="-6"><![CDATA[<font size="12">PARTICIPATING</font>]]></line>
+				<line x="34" y="10"><![CDATA[<font size="12">TITLE</font>]]></line>
+			</pre>
+			<post x="183" y="640" sectionid="13">
+				<img src="media/images/common/home_dmr.png" x="-98" y="-34" />
+				<line x="34" y="-6"><![CDATA[<font size="12">ENTER THE WALL-E</font>]]></line>
+				<line x="34" y="10"><![CDATA[<font size="12">SWEEPSTAKES</font>]]></line>
+			</post>
+		</burst>
+		
+		<burst x="390" y="640" sectionid="14">
+			<line x="0" y="0"><![CDATA[<font size="16">ACCOLADES</font>]]></line>
+		</burst>
+		
+	<!-- 
+		<disneyfile x="0" y="174" link="javascript:loadPage('http://www.disneyfile.com/?deeplink=faqs');" omni="exit_wal_disneyfile_missingcode_homepage" delay="300">
+			<![CDATA[<textformat leading="-2"><font size="13">Missing your DisneyFile Activation Code?<br><font size="17">CLICK HERE</font></textformat>]]>
+		</disneyfile>
+	-->
+
+	</section>
+
+	<!-- 3 About The Film -->
+	<section sname="About" epkSection="true" loading="true" value="true" comingsoon="false" linkout="false"  deeplink="false" hitbox="ABOUT" hitboxCategory="/walle/about" omniture="home" omnitureCategory="about" omnitureType="regular" actiontag="http://switch.atdmt.com/action/WallE_about">
+		<!-- INTEGRATION NOTE -->
+		<!-- <navLabel> defines the text label and placement on the nav button. -->
+		<!-- Dynamic text field in Flash is HTML-friendly so you can adjust font size -->
+		<!-- e.g. <font size="16"> (default size is 14 pt) -->
+		<navLabel x="26.5" y="25.5">
+			<![CDATA[ABOUT]]>
+		</navLabel>
+		<headerLabel letterSpacing="7.5">
+			<![CDATA[<font size="27">ABOUT</font>]]>
+		</headerLabel>
+		<file path="sections/about.swf" />
+		<defaultsection section="0" />
+		<subsection sname="Story" value="true" comingsoon="false" linkout="false"  hitbox="synopsis" hitboxCategory="/walle/about/story" omniture="story" omnitureCategory="about" omnitureType="regular">
+			<navLabel><![CDATA[SYNOPSIS]]></navLabel>
+			<copyVar><![CDATA[<font size="17">The highly acclaimed director of <font face="myriadBlackItal">Finding Nemo</font> and the creative storytellers behind <font face="myriadBlackItal">Cars</font> and <font face="myriadBlackItal">Ratatouille</font> transport you to a galaxy not so far away for a new cosmic comedy adventure about a determined robot named WALL•E.<font size="12"><br /><br /></font>After hundreds of lonely years of doing what he was built for, the curious and lovable WALL•E discovers a new purpose in life when he meets a sleek search robot named EVE. Join them and a hilarious cast of characters on a fantastic journey across<br>the universe.<font size="12"><br /><br /></font>Transport yourself to a fascinating new world with Disney • Pixar's latest adventure, now even more astonishing on DVD and Blu-ray Hi-def and loaded with bonus features, including the exclusive animated short film <font face="myriadBlackItal">BURN•E</font>. <font face="myriadBlackItal">WALL•E</font> is a film your family will want to enjoy over and over again.</font>]]>
+</copyVar>
+		</subsection>
+		<subsection sname="DVDFeatures" value="true" comingsoon="false" linkout="false" hitbox="dvd" hitboxCategory="/walle/about/bonus+features" omniture="bonus_features_dvd" omnitureCategory="about" omnitureType="regular">
+			<navLabel><![CDATA[DVD FEATURES]]></navLabel>
+			<dfile src="media/images/common/about_missingcode.png" link="javascript:loadPage('http://www.disneyfile.com/?deeplink=faqs');" x="140" y="1142" omni="exit_wal_disneyfile_missingcode_about" delay="300" />
+			<copyVar><![CDATA[<img src="media/images/common/about_disc1_bonus.png" />
+
+<li><font face="myriadBlack" color="#005AAB">"BURN-E"</font></li><textformat blockindent="36">A Hilarious, All-New Animated Short<br /><font face="myriadItal">Bringing Light To The Galaxy... Eventual-E</font></textformat>
+<li><font face="myriadBlack" color="#005AAB">"Presto"</font></li><textformat blockindent="36">An Amazing Animated Theatrical Short Film</textformat>
+<li><font face="myriadBlack" color="#005AAB">Deleted Scenes</font></li><br /><li><font face="myriadBlack" color="#005AAB">Animation Sound Design: Building Worlds From The Sound Up</font></li><textformat blockindent="36">Legendary Sound Designer Ben Burtt Shares Secrets Of Creating The Sounds Of WALL-E</textformat>
+<li><font face="myriadBlack" color="#005AAB">Audio Commentary</font></li><textformat blockindent="36">With Director Andrew Stanton</textformat>
+<li><font face="myriadBlack" color="#005AAB">Sneak Peek: WALL-E's Tour Of The Universe</font></li><textformat blockindent="36">WALL-E Takes You On A Real Ride Through Space</textformat>
+<br /><textformat blockindent="252"><font face="myriadBlack" color="#981c22">ONLY AVAILABLE ON 3-DISC SPECIAL EDITION:</font></textformat><img src="media/images/common/about_disc2_bonus.png" />
+
+<br /><li><font face="myriadBlack" color="#005AAB">"The Pixar Story" By Leslie Iwerks</font></li><textformat blockindent="36">An Award-Winning Filmmaker Tells The Riveting Story Of The Innovative Company That Revolutionized Hollywood</textformat>
+<li><font face="myriadBlack" color="#005AAB">BnL Shorts</font></li><textformat blockindent="36">An Amusing Peek Into The Inner Workings Of The Buy n Large Corporation</textformat>
+<li><font face="myriadBlack" color="#005AAB">WALL-E's Treasures And Trinkets</font></li><textformat blockindent="36">Hilarious Moments</textformat>
+<li><font face="myriadBlack" color="#005AAB">Bot Files</font></li><textformat blockindent="36">Get To Know WALL-E's Robot Friends</textformat>
+<li><font face="myriadBlack" color="#005AAB">"Lots Of Bots" Storybook</font></li><textformat blockindent="36">This Imaginative Storybook Comes To Life Loaded With Fun Games</textformat>
+<li><font face="myriadBlack" color="#005AAB">"Making Of" Featurettes</font></li><br /><li><font face="myriadBlack" color="#005AAB">Additional Deleted Scenes</font></li>
+<br /><textformat blockindent="252"><font face="myriadBlack" color="#981c22">ONLY AVAILABLE ON 3-DISC SPECIAL EDITION:</font></textformat><img src="media/images/common/about_disc3_disneyfile.png" />
+
+
+
+
+
+
+
+
+
+
+
+<font face="myriadBlack" size="14">TECHNICAL SPECIFICATIONS</font><br /><font face="myriadBlack" size="11">May Only Apply to Feature Film</font><font size="11"><br /><br /><li>Dolby Digital 5.1 and 2.0 Surround Sound</li><li>Original Theatrical Aspect Ratio</li></font>]]>
+			</copyVar>
+		</subsection>
+		<subsection sname="BlurayFeatures" value="true" comingsoon="false" linkout="false" hitbox="bluray" hitboxCategory="/walle/about/bonus+features" omniture="bonus_features_bluray" omnitureCategory="about" omnitureType="regular">
+			<navLabel><![CDATA[BLU-RAY FEATURES]]></navLabel>
+			<dfile src="media/images/common/about_missingcode.png" link="javascript:loadPage('http://www.disneyfile.com/?deeplink=faqs');" x="140" y="1200" omni="exit_wal_disneyfile_missingcode_about" delay="300" />
+			<copyVar><![CDATA[<img src="media/images/common/about_bluray_2discbonus.png" vspace="2" />
+<br><textformat blockindent="215"><font face="myriadBlack" color="#981c22">NEW ONLY ON BLU-RAY:</font></textformat>
+<li><font face="myriadBlack" color="#005AAB">"Burn-E" With Boards</font></li><textformat blockindent="36">Hilarious, All-New Animated Short With Picture-In-Picture Presentation By Director Angus MacLane</textformat>
+<li><font face="myriadBlack" color="#005AAB">Cine-Explore</font></li><textformat blockindent="36">With Director Andrew Stanton</textformat>
+<li><font face="myriadBlack" color="#005AAB">Geek Track</font></li><textformat blockindent="36">Commentary Provided By Pixar's Biggest Geeks</textformat>
+<li><font face="myriadBlack" color="#005AAB">The Axiom Arcade</font></li><textformat blockindent="36">Video Games With A WALL-E Twist</textformat>
+<li><font face="myriadBlack" color="#005AAB">3-D Set Fly-Throughs</font></li><textformat blockindent="36">See Film Locations From A Whole New Angle</textformat>
+<li><font face="myriadBlack" color="#005AAB">BD Live</font> (US Only)</li>
+<textformat blockindent="180"><font face="myriadBlack" color="#981c22">PLUS ALL DVD FEATURES INCLUDING:</font></textformat>
+<li><font face="myriadBlack" color="#005AAB">"Presto"</font></li><textformat blockindent="36">Amazing Animated Theatrical Short Film</textformat>
+<li><font face="myriadBlack" color="#005AAB">"The Pixar Story" By Leslie Iwerks</font></li><textformat blockindent="36">An Award-Winning Filmmaker Tells The Riveting Story Of The Innovative Company That Revolutionized Hollywood</textformat>
+<li><font face="myriadBlack" color="#005AAB">Animation Sound Design: Building Worlds From The Sound Up</font></li><textformat blockindent="36">Legendary Sound Designer Ben Burtt Shares Secrets Of Creating The Sounds Of WALL-E</textformat>
+<li><font face="myriadBlack" color="#005AAB">"Lots Of Bots" Storybook</font></li><textformat blockindent="36">This Imaginative Storybook Comes To Life Loaded With Fun Games</textformat>
+<li><font face="myriadBlack" color="#005AAB">BnL Shorts</font></li><textformat blockindent="36">An Amusing Peek Into The Inner Workings Of The Buy n Large Corporation</textformat>
+<li><font face="myriadBlack" color="#005AAB">Audio Commentary</font></li><textformat blockindent="36">With Director Andrew Stanton</textformat>
+<li><font face="myriadBlack" color="#005AAB">Sneak Peek - WALL-E's Tour Of The Universe</font></li><br /><li><font face="myriadBlack" color="#005AAB">WALL-E's Treasures And Trinkets</font></li><textformat blockindent="36">Hilarious Moments</textformat>
+<li><font face="myriadBlack" color="#005AAB">"Making Of" Featurettes</font></li><br><li><font face="myriadBlack" color="#005AAB">Deleted Scenes</font></li>
+<textformat blockindent="252"><font face="myriadBlack" color="#981c22">ONLY AVAILABLE ON 3-DISC SPECIAL EDITION:</font></textformat><img src="media/images/common/about_disc3_disneyfile.png" />
+
+
+
+
+
+
+
+
+
+
+
+<font face="myriadBlack" size="14">BLU-RAY TECHNICAL SPECIFICATIONS</font>
+<font size="11"><textformat blockindent="36"><font face="myriadBlack">FEATURE:</font></textformat><li>1080p High Definition / 2.39:1</li><li>English 5.1 DTS-HD Master Audio</li><li>English, French, Spanish Language Tracks</li>
+<textformat blockindent="36"><font face="myriadBlack">DISC 1 BONUS:</font></textformat><li>1080p High Definition</li><li>English 5.1 & 2.0 Dolby Digital</li><li>English SDH</li>
+<textformat blockindent="36"><font face="myriadBlack">DISC 2 BONUS:</font></textformat><li>1080p High Definition</li><li>English 5.1 & 2.0 Dolby Digital</li><li>English SDH</li></font>]]>
+			</copyVar>
+		</subsection>
+	</section>
+	
+	<!-- 4 Characters This section will have it's own XML for content since it is part of the experience -->
+	<section  sname="Characters" epkSection="false" loading="false" value="false" comingsoon="false" experienceSection="true" deeplink="true" deeplinkSection="1" deeplinkSubSection="2" linkout="false" hitbox="characters" hitboxCategory="/walle/about/char" omniture="characters" omnitureCategory="about" omnitureType="regular">
+		<!--<file path="sections/characters.swf" />-->
+	</section>
+	
+	<!-- 5 Downloads -->
+	<section  sname="Downloads" epkSection="true" loading="true" value="true" comingsoon="false" linkout="false" deeplink="false" hitbox="downloads" hitboxCategory="/walle/downloads" omniture="home" omnitureCategory="downloads" omnitureType="regular" actiontag="http://switch.atdmt.com/action/WallE_widgetndownloads">
+		<navLabel x="38" y="20">
+			<![CDATA[WIDGET &]]>
+		</navLabel>
+		<navLabel x="29" y="33.5">
+			<![CDATA[DOWNLOADS]]>
+		</navLabel>
+		<headerLabel letterSpacing="7.5">
+			<![CDATA[<font size="27">DOWNLOADS</font>]]>
+		</headerLabel>
+		<file path="sections/downloads.swf" />
+		<subsection sname="Wallpaper" hitbox="Wallpaper" value="true" comingsoon="false" linkout="false"  hitbox="WALLPAPERS" hitboxCategory="/walle/downloads/wallpapers" omniture="home" omnitureCategory="downloads:wallpapers" omnitureType="regular">
+			<path file="javascript:popWindow('media/downloads/wallpaper/wallpaper.html?image=_REPLACESTRING_','800','600','wallpaper');" />
+			<sizes>
+				<size w="1280" h="1024" id="small"><![CDATA[SMALL]]></size>
+				<size w="1600" h="1200" id="large"><![CDATA[LARGE]]></size>
+				<size w="1920" h="1080" id="hidef"><![CDATA[HI-DEF]]></size>
+			</sizes>
+			<navLabel><![CDATA[WALLPAPER]]></navLabel>
+			<item hitbox="WALLPAPER_01" hitboxCategory="/walle/downloads/wallpapers" image="media/downloads/wallpaper/thumbs/thumb_01.jpg" file="WallE_01" omniture="wp1" omnitureCategory="downloads:wallpapers" omnitureType="downloads" />
+			<item hitbox="WALLPAPER_02" hitboxCategory="/walle/downloads/wallpapers" image="media/downloads/wallpaper/thumbs/thumb_02.jpg" file="WallE_02" omniture="wp2" omnitureCategory="downloads:wallpapers" omnitureType="downloads" />
+			<item hitbox="WALLPAPER_03" hitboxCategory="/walle/downloads/wallpapers" image="media/downloads/wallpaper/thumbs/thumb_03.jpg" file="WallE_03" omniture="wp3" omnitureCategory="downloads:wallpapers" omnitureType="downloads" />
+			<item hitbox="WALLPAPER_04" hitboxCategory="/walle/downloads/wallpapers" image="media/downloads/wallpaper/thumbs/thumb_04.jpg" file="WallE_04" omniture="wp4" omnitureCategory="downloads:wallpapers" omnitureType="downloads" />
+			<item hitbox="WALLPAPER_05" hitboxCategory="/walle/downloads/wallpapers" image="media/downloads/wallpaper/thumbs/thumb_05.jpg" file="WallE_05" omniture="wp5" omnitureCategory="downloads:wallpapers" omnitureType="downloads" />
+			<item hitbox="WALLPAPER_06" hitboxCategory="/walle/downloads/wallpapers" image="media/downloads/wallpaper/thumbs/thumb_06.jpg" file="WallE_06" omniture="wp6" omnitureCategory="downloads:wallpapers" omnitureType="downloads" />
+			<item hitbox="WALLPAPER_07" hitboxCategory="/walle/downloads/wallpapers" image="media/downloads/wallpaper/thumbs/thumb_07.jpg" file="WallE_07" omniture="wp7" omnitureCategory="downloads:wallpapers" omnitureType="downloads" />
+			<item hitbox="WALLPAPER_08" hitboxCategory="/walle/downloads/wallpapers" image="media/downloads/wallpaper/thumbs/thumb_08.jpg" file="WallE_08" omniture="wp8" omnitureCategory="downloads:wallpapers" omnitureType="downloads" />
+			<item hitbox="WALLPAPER_09" hitboxCategory="/walle/downloads/wallpapers" image="media/downloads/wallpaper/thumbs/thumb_09.jpg" file="WallE_09" omniture="wp9" omnitureCategory="downloads:wallpapers" omnitureType="downloads" />
+			<item hitbox="WALLPAPER_10" hitboxCategory="/walle/downloads/wallpapers" image="media/downloads/wallpaper/thumbs/thumb_10.jpg" file="WallE_10" omniture="wp10" omnitureCategory="downloads:wallpapers" omnitureType="downloads" />
+			<item hitbox="WALLPAPER_11" hitboxCategory="/walle/downloads/wallpapers" image="media/downloads/wallpaper/thumbs/thumb_11.jpg" file="WallE_11" omniture="wp11" omnitureCategory="downloads:wallpapers" omnitureType="downloads" />
+			<item hitbox="WALLPAPER_12" hitboxCategory="/walle/downloads/wallpapers" image="media/downloads/wallpaper/thumbs/thumb_12.jpg" file="WallE_12" omniture="wp12" omnitureCategory="downloads:wallpapers" omnitureType="downloads" />
+			<item hitbox="WALLPAPER_13" hitboxCategory="/walle/downloads/wallpapers" image="media/downloads/wallpaper/thumbs/thumb_13.jpg" file="WallE_13" omniture="wp13" omnitureCategory="downloads:wallpapers" omnitureType="downloads" />
+			<item hitbox="WALLPAPER_14" hitboxCategory="/walle/downloads/wallpapers" image="media/downloads/wallpaper/thumbs/thumb_14.jpg" file="WallE_14" omniture="wp14" omnitureCategory="downloads:wallpapers" omnitureType="downloads" />
+			<item hitbox="WALLPAPER_15" hitboxCategory="/walle/downloads/wallpapers" image="media/downloads/wallpaper/thumbs/thumb_15.jpg" file="WallE_15" omniture="wp15" omnitureCategory="downloads:wallpapers" omnitureType="downloads" />
+			<item hitbox="WALLPAPER_16" hitboxCategory="/walle/downloads/wallpapers" image="media/downloads/wallpaper/thumbs/thumb_16.jpg" file="WallE_16" omniture="wp16" omnitureCategory="downloads:wallpapers" omnitureType="downloads" />
+			<item hitbox="WALLPAPER_17" hitboxCategory="/walle/downloads/wallpapers" image="media/downloads/wallpaper/thumbs/thumb_17.jpg" file="WallE_17" omniture="wp17" omnitureCategory="downloads:wallpapers" omnitureType="downloads" />
+			<item hitbox="WALLPAPER_18" hitboxCategory="/walle/downloads/wallpapers" image="media/downloads/wallpaper/thumbs/thumb_18.jpg" file="WallE_18" omniture="wp18" omnitureCategory="downloads:wallpapers" omnitureType="downloads" />
+			<item hitbox="WALLPAPER_19" hitboxCategory="/walle/downloads/wallpapers" image="media/downloads/wallpaper/thumbs/thumb_19.jpg" file="WallE_19" omniture="wp19" omnitureCategory="downloads:wallpapers" omnitureType="downloads" />
+			<item hitbox="WALLPAPER_20" hitboxCategory="/walle/downloads/wallpapers" image="media/downloads/wallpaper/thumbs/thumb_20.jpg" file="WallE_20" omniture="wp20" omnitureCategory="downloads:wallpapers" omnitureType="downloads" />
+		</subsection>
+		<subsection sname="BuddyIcons" hitbox="Buddy" value="true" comingsoon="false" linkout="false"  hitbox="AIMICONS" hitboxCategory="/walle/downloads/icons" omniture="home" omnitureCategory="downloads:icons" omnitureType="regular">
+			<navLabel><![CDATA[BUDDY ICONS]]></navLabel>
+			<size w="48" h="48"><![CDATA[DOWNLOAD]]></size>
+			<item hitbox="AIM_01" hitboxCategory="/walle/downloads/icons" omniture="icon1" omnitureCategory="downloads:icons" omnitureType="downloads" image="media/downloads/aim/thumbs/icon_walle_1.png" file="javascript:popWindow('media/downloads/aim/icons.html?image=icon_walle_1.gif','500','500','buddyicons');" />
+			<item hitbox="AIM_02" hitboxCategory="/walle/downloads/icons" omniture="icon2" omnitureCategory="downloads:icons" omnitureType="downloads" image="media/downloads/aim/thumbs/icon_walle_2.png" file="javascript:popWindow('media/downloads/aim/icons.html?image=icon_walle_2.gif','500','500','buddyicons');" />
+			<item hitbox="AIM_03" hitboxCategory="/walle/downloads/icons" omniture="icon3" omnitureCategory="downloads:icons" omnitureType="downloads" image="media/downloads/aim/thumbs/icon_EVE.png" file="javascript:popWindow('media/downloads/aim/icons.html?image=icon_EVE.gif','500','500','buddyicons');" />
+			<item hitbox="AIM_04" hitboxCategory="/walle/downloads/icons" omniture="icon4" omnitureCategory="downloads:icons" omnitureType="downloads" image="media/downloads/aim/thumbs/icon_MO.png" file="javascript:popWindow('media/downloads/aim/icons.html?image=icon_MO.gif','500','500','buddyicons');" />
+			<item hitbox="AIM_05" hitboxCategory="/walle/downloads/icons" omniture="icon5" omnitureCategory="downloads:icons" omnitureType="downloads" image="media/downloads/aim/thumbs/icon_GO_4.png" file="javascript:popWindow('media/downloads/aim/icons.html?image=icon_GO_4.gif','500','500','buddyicons');" />
+			<item hitbox="AIM_06" hitboxCategory="/walle/downloads/icons" omniture="icon6" omnitureCategory="downloads:icons" omnitureType="downloads" image="media/downloads/aim/thumbs/icon_auto.png" file="javascript:popWindow('media/downloads/aim/icons.html?image=icon_auto.gif','500','500','buddyicons');" />
+			<item hitbox="AIM_07" hitboxCategory="/walle/downloads/icons" omniture="icon7" omnitureCategory="downloads:icons" omnitureType="downloads" image="media/downloads/aim/thumbs/icon_VN_GO.png" file="javascript:popWindow('media/downloads/aim/icons.html?image=icon_VN_GO.gif','500','500','buddyicons');" />
+			<item hitbox="AIM_08" hitboxCategory="/walle/downloads/icons" omniture="icon8" omnitureCategory="downloads:icons" omnitureType="downloads" image="media/downloads/aim/thumbs/icon_LT.png" file="javascript:popWindow('media/downloads/aim/icons.html?image=icon_LT.gif','500','500','buddyicons');" />
+			<item hitbox="AIM_09" hitboxCategory="/walle/downloads/icons" omniture="icon9" omnitureCategory="downloads:icons" omnitureType="downloads" image="media/downloads/aim/thumbs/icon_PR_T.png" file="javascript:popWindow('media/downloads/aim/icons.html?image=icon_PR_T.gif','500','500','buddyicons');" />
+			<item hitbox="AIM_10" hitboxCategory="/walle/downloads/icons" omniture="icon10" omnitureCategory="downloads:icons" omnitureType="downloads" image="media/downloads/aim/thumbs/icon_VAQ_M.png" file="javascript:popWindow('media/downloads/aim/icons.html?image=icon_VAQ_M.gif','500','500','buddyicons');" />
+			<item hitbox="AIM_11" hitboxCategory="/walle/downloads/icons" omniture="icon11" omnitureCategory="downloads:icons" omnitureType="downloads" image="media/downloads/aim/thumbs/icon_HAN_S.png" file="javascript:popWindow('media/downloads/aim/icons.html?image=icon_HAN_S.gif','500','500','buddyicons');" />
+			<item hitbox="AIM_12" hitboxCategory="/walle/downloads/icons" omniture="icon12" omnitureCategory="downloads:icons" omnitureType="downloads" image="media/downloads/aim/thumbs/icon_D_FIB.png" file="javascript:popWindow('media/downloads/aim/icons.html?image=icon_D_FIB.gif','500','500','buddyicons');" />
+			<item hitbox="AIM_13" hitboxCategory="/walle/downloads/icons" omniture="icon13" omnitureCategory="downloads:icons" omnitureType="downloads" image="media/downloads/aim/thumbs/icon_BRL_A.png" file="javascript:popWindow('media/downloads/aim/icons.html?image=icon_BRL_A.gif','500','500','buddyicons');" />
+		</subsection>
+		<subsection sname="Widget" sname="Widget" value="true" comingsoon="false" linkout="true" hitbox="WIDGET" hitboxCategory="/walle/downloads/widget" omniture="home" omnitureCategory="downloads:widgets" omnitureType="regular" linkpath="javascript:popWindow('media/downloads/widget','480','480','widget');">
+			<navLabel><![CDATA[WIDGET]]></navLabel>
+		</subsection>
+	</section>
+	
+	<!-- 6 GAMES -->
+	<section  sname="Games" epkSection="true" loading="true" value="true" comingsoon="false" linkout="false" deeplink="false" hitbox="GAMES" hitboxCategory="/walle/interactive+content/games" omniture="home" omnitureCategory="games" omnitureType="games" actiontag="http://switch.atdmt.com/action/WallE_games">
+		<navLabel x="66" y="13"><![CDATA[GAMES]]></navLabel>
+		<headerLabel letterSpacing="7.5">
+			<![CDATA[<font size="27">GAMES</font>]]>
+		</headerLabel>
+		<file path="sections/games.swf" />
+		<item sname="ScrapShoot" comingsoon="false" legal="false" title="Scrap Shoot" rolloverCopy="PLAY" image="media/images/games/scrapshoot.jpg" linkpath="javascript:popWindow('games/scrap_shoot/','660','600','gameWin');" hitbox="scrap_shoot" hitboxCategory="/walle/interactive+content/games" omniture="scrap_shoot" omnitureCategory="games" omnitureType="games" linkout="false">
+			<navLabel><![CDATA[Scrap Shoot]]></navLabel>
+			<rolloverLabel><![CDATA[PLAY]]></rolloverLabel>
+		</item>
+		<item sname="TrashTower" comingsoon="false" legal="false" title="Trash Tower" rolloverCopy="PLAY" image="media/images/games/trashtower.jpg" linkpath="javascript:popWindow('games/trash_tower/','660','600','gameWin');" hitbox="trash_tower" hitboxCategory="/walle/interactive+content/games" omniture="trash_tower" omnitureCategory="games" omnitureType="games" linkout="false">
+			<navLabel><![CDATA[Trash Tower]]></navLabel>
+			<rolloverLabel><![CDATA[PLAY]]></rolloverLabel>
+		</item>
+		<item sname="Pop" comingsoon="false" legal="false" title="Pop!" rolloverCopy="PLAY" image="media/images/games/pop.jpg" linkpath="javascript:popWindow('games/pop/','660','600','gameWin');" hitbox="pop" hitboxCategory="/walle/interactive+content/games" omniture="pop" omnitureCategory="games" omnitureType="games" linkout="false">
+			<navLabel><![CDATA[Pop!]]></navLabel>
+			<rolloverLabel><![CDATA[PLAY]]></rolloverLabel>
+		</item>
+		<item sname="SayIt" comingsoon="false" legal="false" title="Say It Like Wall-E" rolloverCopy="PLAY" image="media/images/games/sayit.jpg" linkpath="javascript:popWindow('games/sayit/','660','600','gameWin');" hitbox="say_it" hitboxCategory="/walle/interactive+content/games" omniture="say_it" omnitureCategory="games" omnitureType="games" linkout="false">
+			<navLabel><![CDATA[Say It Like Wall-E]]></navLabel>
+			<rolloverLabel><![CDATA[PLAY]]></rolloverLabel>
+		</item>
+		<item sname="Pinball" comingsoon="false" legal="false" title="Pinball" rolloverCopy="PLAY" image="media/images/games/pinball.jpg" linkpath="javascript:popWindow('games/pinball/','640','680','gameWin');" hitbox="pinball" hitboxCategory="/walle/interactive+content/games" omniture="pinball" omnitureCategory="games" omnitureType="games" linkout="false">
+			<navLabel><![CDATA[Pinball]]></navLabel>
+			<rolloverLabel><![CDATA[PLAY]]></rolloverLabel>
+		</item>
+		<item sname="SpaceEscape" comingsoon="false" legal="false" title="Space Escape" rolloverCopy="COMING SOON" image="media/images/games/spaceEscape.png" linkpath="javascript:popWindow('games/space_escape/','760','710','gameWin');" hitbox="space_escape" hitboxCategory="/walle/interactive+content/games" omniture="space_escape" omnitureCategory="games" omnitureType="games" linkout="false">
+			<navLabel><![CDATA[Space Escape]]></navLabel>
+			<rolloverLabel><![CDATA[PLAY]]></rolloverLabel>
+		</item>
+		<item sname="VideoGame" comingsoon="false" legal="true" title="Video Game" rolloverCopy="MORE INFO" image="media/images/games/videoGame.png" linkpath="javascript:openWindow('http://wall-e.playthq.com/');" hitbox="exit_wal_videogame" hitboxCategory="/walle/interactive+content/games" omniture="exit_wal_videogame" omnitureCategory="games" omnitureType="games" linkout="true">
+			<navLabel><![CDATA[Video Game]]></navLabel>
+			<rolloverLabel><![CDATA[MORE INFO]]></rolloverLabel>
+		</item>
+		<item sname="ImageMaker" comingsoon="false" legal="false" title="Image Maker" rolloverCopy="PLAY" image="media/images/games/imagemaker.jpg" linkpath="javascript:popWindow('games/image_maker/','800','600','gameWin');" hitbox="image_maker" hitboxCategory="/walle/interactive+content/games" omniture="image_maker" omnitureCategory="games" omnitureType="games" linkout="false">
+			<navLabel><![CDATA[Image Maker]]></navLabel>
+			<rolloverLabel><![CDATA[PLAY]]></rolloverLabel>
+		</item>
+		<item sname="TreasureRoundup" comingsoon="false" legal="false" title="Treasure Round-Up" rolloverCopy="PLAY" image="media/images/games/treasure.png" linkpath="javascript:popWindow('games/treasure_roundup/','760','620','gameWin');" hitbox="treasure_roundup" hitboxCategory="/walle/interactive+content/games" omniture="treasure_roundup" omnitureCategory="games" omnitureType="games" linkout="false">
+			<navLabel><![CDATA[Treasure Round-Up]]></navLabel>
+			<rolloverLabel><![CDATA[PLAY]]></rolloverLabel>
+		</item>
+		<item sname="CupShuffle" comingsoon="false" legal="false" title="Cup Shuffle" rolloverCopy="PLAY" image="media/images/games/cupshuffle.png" linkpath="javascript:popWindow('games/cup_shuffle/','650','630','gameWin');" hitbox="cup_shuffle" hitboxCategory="/walle/interactive+content/games" omniture="cup_shuffle" omnitureCategory="games" omnitureType="games" linkout="false">
+			<navLabel><![CDATA[Cup Shuffle]]></navLabel>
+			<rolloverLabel><![CDATA[PLAY]]></rolloverLabel>
+		</item>
+	</section>
+	
+	
+	<!-- 7 VIDEO -->
+	<section  sname="Video" epkSection="true" loading="true" value="true" comingsoon="false" linkout="false" deeplink="false" hitbox="VIDEOS" hitboxCategory="/walle/multimedia" omniture="home" omnitureCategory="videos" omnitureType="regular" actiontag="http://switch.atdmt.com/action/WallE_videos">
+		<navLabel x="64" y="26">
+			<![CDATA[VIDEOS]]>
+		</navLabel>
+		<file path="sections/video.swf" />
+		<!-- size attribute adjusts player & mask, to prevent letterboxing or black bars -->
+		<!-- e.g. size=fullVideoWidth,fullVideoHeight,maskWidth,maskHeight -->
+			<item sname="Trailer" title="TRAILER" hitbox="TRAILER" hitboxCategory="/walle/multimedia/trailers" omniture="trailer1" omnitureCategory="videos:trailers" omnitureType="videos" image="media/images/video/trailer.png" file="http://www.totaleclips.com/Player/Bounce.aspx?eclipid=e39524&bitrateid=406&vendorid=3&type=.flv" otheroptions="false" size="640,360,640,274">
+				<navLabel><![CDATA[TRAILER (small test)]]></navLabel>
+			</item>
+			<item sname="WallesTreasures" title="WALL-E'S TREASURES" hitbox="TREASURES" hitboxCategory="/walle/multimedia/clips" omniture="clip1" omnitureCategory="videos:clips" omnitureType="videos" image="media/images/video/clip1.jpg" file="http://www.totaleclips.com/Player/Bounce.aspx?eclipid=e42994&bitrateid=442&vendorid=3&type=.flv" otheroptions="false" size="640,272,640,272">
+				<navLabel><![CDATA[VACUUM VIGNETTE]]></navLabel>
+			</item>
+			<item sname="EvesEntrance" title="EVE'S ENTRANCE" hitbox="EVES+ENTRANCE" hitboxCategory="/walle/multimedia/clips" omniture="clip1" omnitureCategory="videos:clips" omnitureType="videos" image="media/images/video/clip2.jpg" file="http://www.totaleclips.com/Player/Bounce.aspx?eclipid=e42999&bitrateid=442&vendorid=3&type=.flv" otheroptions="false" size="640,272,640,272">
+				<navLabel><![CDATA[VACUUM VIGNETTE]]></navLabel>
+			</item>
+			<item sname="ForeignContaminant" title="FOREIGN CONTAMINANT" hitbox="FOREIGN+CONTAMINANT" hitboxCategory="/walle/multimedia/clips" omniture="clip1" omnitureCategory="videos:clips" omnitureType="videos" image="media/images/video/clip3.jpg" file="http://www.totaleclips.com/Player/Bounce.aspx?eclipid=e43002&bitrateid=442&vendorid=3&type=.flv" otheroptions="false" size="640,272,640,272">
+				<navLabel><![CDATA[VACUUM VIGNETTE]]></navLabel>
+			</item>
+			<item sname="RepairWard" title="THE REPAIR WARD" hitbox="REPAIR+WARD" hitboxCategory="/walle/multimedia/clips" omniture="clip1" omnitureCategory="videos:clips" omnitureType="videos" image="media/images/video/clip4.jpg" file="http://www.totaleclips.com/Player/Bounce.aspx?eclipid=e43003&bitrateid=442&vendorid=3&type=.flv" otheroptions="false" size="640,272,640,272">
+				<navLabel><![CDATA[VACUUM VIGNETTE]]></navLabel>
+			</item>
+			<item sname="TreasuresAndTrinkets" title="TREASURES AND TRINKETS" hitbox="bclip1" hitboxCategory="/walle/multimedia/bonus+clips" omniture="bclip1" omnitureCategory="videos:bonusclips" omnitureType="videos" image="media/images/video/bonusclip1.jpg" file="http://www.totaleclips.com/Player/Bounce.aspx?eclipid=e43018&bitrateid=406&vendorid=3&type=.flv" otheroptions="false" size="640,360,640,360">
+				<navLabel><![CDATA[VACUUM VIGNETTE]]></navLabel>
+			</item>
+			<item sname="ReasonForBots" title="REASON FOR BOTS" hitbox="bclip2" hitboxCategory="/walle/multimedia/bonus+clips" omniture="bclip2" omnitureCategory="videos:bonusclips" omnitureType="videos" image="media/images/video/bonusclip2.jpg" file="http://www.totaleclips.com/Player/Bounce.aspx?eclipid=e43012&bitrateid=406&vendorid=3&type=.flv" otheroptions="false" size="640,360,640,360">
+				<navLabel><![CDATA[VACUUM VIGNETTE]]></navLabel>
+			</item>
+</section>
+	
+	
+	
+	<!-- 8 Photos -->
+	<section sname="Photos" epkSection="true" loading="true" value="true" comingsoon="false" linkout="false" deeplink="false" hitbox="PHOTOS" hitboxCategory="/walle/multimedia/photo+galleries" omniture="home" omnitureCategory="photos" omnitureType="regular" actiontag="http://switch.atdmt.com/action/WallE_gallery">
+		<navLabel x="74" y="26">
+			<![CDATA[GALLERY]]>
+		</navLabel>
+		<headerLabel letterSpacing="7.5">
+			<![CDATA[<font size="27">GALLERY</font>]]>
+		</headerLabel>
+		<file path="sections/photos.swf" />
+		<item>media/images/gallery/image_01.png</item>
+		<item>media/images/gallery/image_02.png</item>
+		<item>media/images/gallery/image_03.png</item>
+		<item>media/images/gallery/image_04.png</item>
+		<item>media/images/gallery/image_05.png</item>
+		<item>media/images/gallery/image_06.png</item>
+		<item>media/images/gallery/image_07.png</item>
+		<item>media/images/gallery/image_08.png</item>
+		<item>media/images/gallery/image_10.png</item>
+		<item>media/images/gallery/image_11.png</item>
+		<item>media/images/gallery/image_12.png</item>
+		<item>media/images/gallery/image_13.png</item>
+		<item>media/images/gallery/image_14.png</item>
+	</section>
+	
+	<!-- 9 partners -->
+  <section  sname="Partners" epkSection="true" loading="true" value="true" comingsoon="false" linkout="false"  deeplink="false" hitbox="PARTNERS" hitboxCategory="/walle/information/partners" omniture="home" omnitureCategory="partners" omnitureType="regular">
+		<navLabel x="28" y="29">
+			<![CDATA[PARTNERS]]>
+		</navLabel>
+		<headerLabel letterSpacing="7.5">
+			<![CDATA[<font size="27">PARTNERS</font>]]>
+		</headerLabel>
+  	<file path="sections/partners.swf" />
+    <item sname="NasaRover" title="NASA Mars Rover" legal="true" image="media/images/partners/nasarover.jpg" linkpath="javascript:openWindow('http://marsrovername.jpl.nasa.gov/');" hitbox="exit_wal_partners_nasarover" hitboxCategory="/walle/information/home" omniture="exit_wal_partners_nasarover" omnitureCategory="homepage" omnitureType="home" />
+    <item sname="Eureka" title="Eureka" legal="true" image="media/images/partners/eureka.gif" linkpath="javascript:openWindow('http://www.eureka.com/');" hitbox="exit_wal_partners_eureka" hitboxCategory="/walle/information/home" omniture="exit_wal_partners_eureka" omnitureCategory="homepage" omnitureType="home" />
+	<item sname="MinuteMaid" title="Minute Maid" legal="true" image="media/images/partners/minutemaid.gif" linkpath="javascript:openWindow('http://www.minutemaid.com');" hitbox="exit_wal_partners_minute+maid" hitboxCategory="/walle/information/home" omniture="exit_wal_partners_minute_maid" omnitureCategory="homepage" omnitureType="home" />
+	<item sname="NationalRaisin" title="National Raisin" legal="true" image="media/images/partners/nationalraisin.jpg" linkpath="javascript:openWindow('http://www.nationalraisin.com');" hitbox="exit_wal_partners_national+raisin" hitboxCategory="/walle/information/home" omniture="exit_wal_partners_national_raisin" omnitureCategory="homepage" omnitureType="home" />
+	<item sname="WorldWideTelescope" title="World Wide Telescope" legal="true" image="media/images/partners/wwt.gif" linkpath="javascript:openWindow('http://www.worldwidetelescope.org/');" hitbox="exit_wal_worldwide+telescope" hitboxCategory="/walle/information/home" omniture="exit_wal_worldwide_telescope" omnitureCategory="homepage" omnitureType="home" />
+	<item sname="Sylvania" title="Sylvania"  legal="true" image="media/images/partners/sylvania.gif" linkpath="javascript:openWindow('http://www.sylvania.com/wall.e');" hitbox="exit_wal_sylvania" hitboxCategory="/walle/information/home" omniture="exit_wal_sylvania" omnitureCategory="homepage" omnitureType="home" />
+	<item sname="KennedySpaceCenter" title="Kennedy Space Center" legal="true" image="media/images/partners/kennedy.gif" linkpath="javascript:openWindow('http://www.kennedyspacecenter.com/?ic_campID=4&ic_pkw=GH_Disney_0808');" hitbox="exit_wal_kennedy+space+center" hitboxCategory="/walle/information/home" omniture="exit_wal_kennedy_space_center" omnitureCategory="homepage" omnitureType="home" />
+	</section>	
+   	
+	<!-- 10 Build-A-Bot  This section will have it's own XML for content since it is part of the experience-->
+	<section sname="BuildABot" epkSection="false" loading="false" value="true" comingsoon="false"  experienceSection="true" deeplink="true" deeplinkSection="1" deeplinkSubSection="3" linkout="true" hitbox="BUILDABOT" hitboxCategory="/walle/interactive+content/games" omniture="buildabot" omnitureCategory="games" omnitureType="games" actiontag="http://switch.atdmt.com/action/WallE_buildabot">
+		<navLabel x="67" y="16">
+			<![CDATA[BUILD-A-BOT]]>
+		</navLabel>
+		<comingsoonLabel x="0" y="30">
+			<![CDATA[<font size="26">BUILD-A-BOT</font><br /><font size="16">BUILD YOUR OWN ROBOT!</font><br /><font size="20" color="#CD0606">COMING SOON ...</font>]]>
+		</comingsoonLabel>
+		<axiomHeader x="0" y="53.5">
+			<![CDATA[<font size="24">BUILD-A-BOT</font>]]>
+		</axiomHeader>
+		<axiomButton>
+			<!--
+			<label y="99">
+				<![CDATA[<font size="18">COMING SOON!</font>]]>
+			</label>
+			-->
+			<label y="91">
+				<![CDATA[<font size="10">CLICK TO GET STARTED BUILDING</font>]]>
+			</label>
+			<label y="104">
+				<![CDATA[<font size="17">YOUR VERY OWN BOT!</font>]]>
+			</label>
+		</axiomButton>
+		
+		<link sname="BuildABot">javascript:popWindow('buildabot/','983','662','buildabot');</link>
+		<!--<file path="sections/tickets.swf" />-->
+	</section>
+
+	<!-- 11 This is one of the homepage bursts -->
+	<section sname="WorldWideTelescope" epkSection="false" loading="false" value="true" comingsoon="false"  experienceSection="false" deeplink="false" linkout="true" hitbox="exit_wal_worldwide+telescope" hitboxCategory="/walle/information/home" omniture="exit_wal_worldwide+telescope" omnitureCategory="homepage" omnitureType="home">
+		<link>javascript:openWindow('http://www.worldwidetelescope.org/');</link>
+	</section>
+		
+	<!-- 12 Pre-street homepage burst -->
+	<section sname="DisneyMovieRewards" epkSection="false" loading="false" value="true" comingsoon="false"  experienceSection="false" deeplink="false" linkout="true" delay="0.75" hitbox="exit_wal_dmr" hitboxCategory="/walle/information/home" omniture="exit_wal_synergy_dmr_homeburst" omnitureCategory="homepage" omnitureType="home">
+		<link>javascript:loadPage('http://www.disneymovierewards.com/');</link>
+	</section>
+		
+	<!-- 13 Pre-street homepage burst -->
+	<section sname="DMRSweeps" epkSection="false" loading="false" value="true" comingsoon="false"  experienceSection="false" deeplink="false" linkout="true" delay="0.75" hitbox="exit_wal_synergy_dmr_sweeps" hitboxCategory="/walle/information/home" omniture="exit_wal_dmr_sweeps" omnitureCategory="homepage" omnitureType="home">
+		<link>javascript:loadPage('http://disney.go.com/disneymovierewards/wall-e/?cmp=dmov_dmr_lec_walsweeps_walle_site_sweeps_button');</link>
+	</section>
+
+	<!-- 14 Accolades homepage burst -->
+	<section sname="Accolades" epkSection="false" loading="false" value="true" comingsoon="false"  experienceSection="false" deeplink="false" linkout="true" delay="0" hitbox="exit_wal_accolades" hitboxCategory="/walle/information/home" omniture="exit_wal_accolades" omnitureCategory="homepage" omnitureType="home">
+		<link>javascript:popWindow('media/accolades','820','440','accolades');</link>
+	</section>
+
+</sections>
+
+<scrapstash hitbox="scrapstash" hitboxCategory="/walle/interactive+content/games" omniture="scrapstash" omnitureCategory="main" omnitureType="experience">
+	<link sname="genericLink" hitbox="exit_wal_stash_dmr1" hitboxCategory="/walle/interactive+content/games" omniture="exit_wal_stash_dmr1" omnitureCategory="main" omnitureType="experience">javascript:openWindow('http://www.disneymovierewards.com/');</link>
+	<link sname="codeLink" hitbox="exit_wal_stash_dmr2" hitboxCategory="/walle/interactive+content/games" omniture="exit_wal_stash_dmr2" omnitureCategory="main" omnitureType="experience">javascript:openWindow('http://www.disneymovierewards.com/');</link>
+</scrapstash>
+<!-- HOME PAGE NAVIGATION -->
+<!-- these are the buttons displayed on the homepage -->
+<homepagenavigation>
+	<item value="true" sectionid="10">
+		<navLabel y="-9">
+			<![CDATA[<font size="12">BUILD-A-BOT</font>]]>
+		</navLabel>
+	</item>
+	<item value="true" sectionid="6">
+		<navLabel y="-8.6">
+			<![CDATA[<font size="12">GAMES</font>]]>
+		</navLabel>
+	</item>
+	<item value="true" sectionid="7">
+		<navLabel y="-8.6">
+			<![CDATA[<font size="12">VIDEOS</font>]]>
+		</navLabel>
+	</item>
+	<item value="true" sectionid="4">
+		<navLabel y="-10.5">
+			<![CDATA[<font size="13">CHARACTERS</font>]]>
+		</navLabel>
+	</item>
+	<item value="true" sectionid="0">
+		<navLabel y="-30.5">
+			<![CDATA[<textformat leading="-2"><font size="13">EXPLORE</font><br /><font size="15">WALL•E'S<br />TRUCK</font></textformat>]]>
+		</navLabel>
+	</item>
+	<item value="true" sectionid="1">
+		<navLabel y="-17">
+			<![CDATA[<textformat leading="-2"><font size="15">EXPLORE THE</font><br /><font size="18">AXIOM</font></textformat>]]>
+		</navLabel>
+	</item>	
+</homepagenavigation>
+
+</xmldata>

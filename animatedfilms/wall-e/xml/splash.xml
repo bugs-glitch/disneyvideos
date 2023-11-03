@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<xmldata>
+<!-- global movie info -->
+<movieinfo>
+	<!-- initial properties for Omniture instantiation -->
+	<hbxPageName>home</hbxPageName>
+	<hbxMlc>/walle/information/home</hbxMlc>
+	<hbxAccount>DM520604MHNA</hbxAccount>
+	<omnitureAccount>wdgdsec</omnitureAccount>
+	<omnitureSite>wal</omnitureSite>
+	<omnitureCategory>dmov</omnitureCategory>
+	<omnitureSiteSection>home</omnitureSiteSection>
+	<omniturePageName>home</omniturePageName>
+	<omnitureContentType>homepage</omnitureContentType>
+	<omnitureProperty>wal</omnitureProperty>
+	<omnitureGenre>pixar</omnitureGenre>
+	<!-- This defines date to flip the street read: yyyy,mm,dd -->
+	<!-- display prestreet if before this date; display poststreet if after -->
+	<!-- use querystring in URL to test, e.g.: ../flash_site.html?today=2008,11,18 -->
+	<!-- each line appears @ top center of site by default; adjust position w/ x & y values -->
+	<!-- note: position of many elements throughout site may be adjusted with x & y values in this XML doc -->
+	<streetread date="2008,11,18">
+		<prestreet>
+			<line x="0" y="134">
+				<![CDATA[<font size="16">COMING TO DISNEY DVD AND BLU-RAY™ HI-DEF</font>]]>
+			</line>
+			<line x="0" y="156">
+				<![CDATA[<font size="24">NOVEMBER 18</font>]]>
+			</line>
+			<line x="0" y="296">
+				<![CDATA[<font size="28">#1 Animated Film Of The Year</font>]]>
+			</line>
+		</prestreet>
+		<poststreet>
+			<line x="-8" y="194">
+				<![CDATA[<font size="22">NOW AVAILABLE ON DISNEY DVD AND BLU-RAY™ HI-DEF</font>]]>
+			</line>
+		</poststreet>
+	</streetread>
+</movieinfo>
+
+<orderinfo>
+	<orderbtn id="dvd" x="610" y="607" url="javascript:openWindow('http://disney.go.com/guestservices/disclaimers/redirect?destination=http://www.amazon.com/Wall-E-Three-Disc-Special-Ben-Burtt/dp/B001EOQWEO/ref=sr_1_4?s=movies-tv');" hitbox="exit_wal_order_dvd" hitboxCategory="/walle/information/home" omniture="exit_wal_order_dvd" omnitureCategory="homepage" omnitureType="home" actiontag="http://switch.atdmt.com/action/WallE_buynow">
+		<navLabel x="0" y="-9">
+			<![CDATA[<font size="16">ORDER ON</font>]]>
+		</navLabel>
+		<navLabel x="0" y="8">
+			<![CDATA[<font size="16">DISNEY DVD</font>]]>
+		</navLabel>
+	</orderbtn>
+	<orderbtn id="bluray" x="847" y="607" url="javascript:openWindow('http://disney.go.com/guestservices/disclaimers/redirect?destination=http://www.amazon.com/Wall-E-Two-Disc-Edition-Live-Blu-ray/dp/B001EOQWF8/ref=tmm_blu_title_0');" hitbox="exit_wal_order_bluray" hitboxCategory="/walle/information/home" omniture="exit_wal_order_bluray" omnitureCategory="homepage" omnitureType="home" actiontag="http://switch.atdmt.com/action/WallE_BR_buynow">
+		<navLabel x="0" y="-9">
+			<![CDATA[<font size="16">ORDER ON</font>]]>
+		</navLabel>
+		<navLabel x="0" y="8">
+			<![CDATA[<font size="16">BLU-RAY HI-DEF</font>]]>
+		</navLabel>
+	</orderbtn>
+</orderinfo>
+
+<gfx>
+	<img id="img_dvd" src="media/images/splash/splash_dvd.png" shadow="5,90,0x000000,1,32,32,1,1" x="616" y="455" w="192" h="225" />
+	<img id="img_bluray" src="media/images/splash/splash_bluray.png" shadow="5,90,0x000000,1,32,32,1,1" x="842" y="456" w="192" h="222" />
+	<img id="img_logo" src="media/images/splash/splash_logo.png" x="498" y="135" w="415" h="132" />
+</gfx>
+
+<copyright x="866" y="662">
+	<![CDATA[<font size="10">© DISNEY/PIXAR</font>]]>
+</copyright>
+
+<accolades x="0" y="36" link="javascript:popWindow('media/accolades','820','440','accolades');" interval="5" omni="exit_wal_disneyfile_missingcode_splash" delay="10">
+	<img id="acc_1" src="media/images/splash/accolade_academy_bestanimated.png" x="0" y="0" w="468" h="57" />
+	<img id="acc_2" src="media/images/splash/accolade_1dvd_bluray.png" x="0" y="0" w="435" h="21" />
+	<img id="acc_3" src="media/images/splash/accolade_goldenglobe.png" x="0" y="-1" w="426" h="37" />
+	<img id="acc_4" src="media/images/splash/accolade_bestpicture.png" x="0" y="0" w="453" h="31" />
+</accolades>
+
+<nav x="0" y="252">
+	<main link="javascript:loadPage('flash_site.html');">
+		<navLabel x="0" y="-10">
+			<![CDATA[<font size="32">ENTER THE SITE</font></textformat>]]>
+		</navLabel>
+	</main>
+	<sub link="javascript:loadPage('flash_site.html?deeplink=Games');">
+		<navLabel>
+			<![CDATA[<textformat leading="-2"><font size="14">PLAY<br>GAMES</font></textformat>]]>
+		</navLabel>
+	</sub>
+	<sub link="javascript:loadPage('flash_site.html?deeplink=Downloads');">
+		<navLabel>
+			<![CDATA[<textformat leading="-2"><font size="14">NEW<br>DOWNLOADS</font></textformat>]]>
+		</navLabel>
+	</sub>
+	<sub link="javascript:popWindow('media/downloads/widget','480','480','widget');" hitbox="WIDGET" hitboxCategory="/walle/downloads/widget" omniture="widget" omnitureCategory="downloads:widgets" omnitureType="downloads">
+		<navLabel>
+			<![CDATA[<textformat leading="-2"><font size="14">WALL-E<br>WIDGET</font></textformat>]]>
+		</navLabel>
+	</sub>
+	<sub link="javascript:loadPage('flash_site.html?deeplink=Video');">
+		<navLabel>
+			<![CDATA[<textformat leading="-2"><font size="14">VIEW<br>TRAILER</font></textformat>]]>
+		</navLabel>
+	</sub>
+</nav>
+
+</xmldata>

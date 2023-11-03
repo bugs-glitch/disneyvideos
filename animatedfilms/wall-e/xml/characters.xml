@@ -1,0 +1,108 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+<xml>
+	<characters>
+		<item file="media/characters/WALLE_360.swf">
+			<name>WALL-E</name>
+			<details><![CDATA[WALL•E (Waste Allocation Load Lifter Earth-Class) is programmed to clean up the planet, one trash cube at a time. However, after 700 years he's developed one little glitch, a personality. He's extremely curious, highly inquisitive and a little lonely.
+
+&#8226; Solar-Powered Regeneration Unit  
+&#8226; Size 33 All-Terrain Modular Treads  
+&#8226; Twin Hydraulic Arm Shovels  
+&#8226; Digital Audio Recording/Playback Module  
+&#8226; Low-Convergence Head Mounted Laser]]></details>
+		</item>
+		<item file="media/characters/EVE_360.swf">
+			<name><![CDATA[EVE]]></name>
+			<details><![CDATA[EVE (Extra-terrestrial Vegetation Evaluator) is a sleek, state-of-the-art probe-droid. She is fast, she can fly, and she is equipped with a laser gun. EVE, also called Probe One by the Captain of the Axiom, is one of a fleet of similar robots sent to Earth on an undisclosed scanning mission. EVE has a classified "Directive" and she is determined to complete her mission successfully.
+
+&#8226; Binocular LED Visual Input/Output Display  
+&#8226; Anti-Gravity Magnetic Airframe  
+&#8226; Bio-Detection Scanner Beam  �
+&#8226; Bio-Stasis Torso Chamber  
+&#8226; Liquid-Cooled Quasar Ion Cannon]]></details>
+		</item>
+		<item file="media/characters/M_O_360.swf">
+			<name><![CDATA[M-O]]></name>
+			<details><![CDATA[M-O (Microbe Obliterator) is a cleaner-bot programmed to clean anything that comes aboard the Axiom that is deemed a "foreign contaminant." M-O travels speedily around the Axiom on his roller ball, cleaning the dirty objects he encounters. 
+
+&#8226; Binocular LED Visual Input/Output Display  
+&#8226; Disinfectant Dispensing Backpack  
+&#8226; Mono-Rotational Scrubbing Roller  
+&#8226; Gyroscopic Locomotion Sphere]]></details>
+		</item>
+		<item file="media/characters/GO_4_360.swf">
+			<name><![CDATA[GO-4]]></name>
+			<details><![CDATA[&#8226; Anti-Gravity Magnetic Airframe  
+&#8226; Omni-Stasis Torso Chamber  �
+&#8226; Anti-Grav Stasis Beam  
+&#8226; Rotation Red Head Light  
+&#8226; Two (2) Salute-Ready Telescopic Arm Units]]></details>
+		</item>
+		<item file="media/characters/AUTO_360.swf">
+			<name><![CDATA[Auto]]></name>
+			<details><![CDATA[The Axiom's autopilot, aptly named Auto, has piloted the ship through all of its 700 years in space. A carefully programmed robot in the form of the ship's steering wheel, Auto's manner is cold, mechanical and seemingly dutiful to the Captain.
+
+&#8226; Cycloptic LED Visual Input/Output Display  
+&#8226; Enhanced BnL Central Procession Unit  
+&#8226; Retractible 100k Volt Incapacitating Shocker  �
+&#8226; Visually-Pleasing Blinking LED bulbs  
+&#8226; Retractable Galvanized Claw]]></details>
+		</item>
+		<item file="media/characters/VN_GO_360.swf">
+			<name><![CDATA[VN-GO]]></name>
+			<details><![CDATA[&#8226; Multi-Color Fibrous Pigment Distribution System  
+&#8226; Easy-Grip Storage Handles  
+&#8226; Tri-Color Paint Container Module 
+&#8226; Dual 90 PSI Air Compressors  
+&#8226; Magnetic Hovering Locomotion Unit]]></details>
+		</item>
+		<item file="media/characters/L_T_360.swf">
+			<name><![CDATA[L-T]]></name>
+			<details><![CDATA[&#8226; 120 Watt Dual-Setting Halogen Bulb  
+&#8226; Easy-Locate Hull Pigmentation  
+&#8226; Anti-Gravity Magnetic Airframe  
+&#8226; Expanding Telescopic Neck Module]]></details>
+		</item>
+		<item file="media/characters/PR_T_360.swf">
+			<name><![CDATA[PR-T]]></name>
+			<details><![CDATA[&#8226; Anti-Gravity Magnetic Airframe  
+&#8226; Supportive Interactive Voice Chip  
+&#8226; Tweezer Arm  
+&#8226; Combination Magnifying Glass/Mirror Arm  
+&#8226; Sponge Arm  
+&#8226; Toothbrush Arm  
+&#8226; Mono-shade Lipstick Arm  
+&#8226; Electric Shaving Arm  
+&#8226; Scissor Arm]]></details>
+		</item>
+		<item file="media/characters/VAQ_M_360.swf">
+			<name><![CDATA[VAQ-M]]></name>
+			<details><![CDATA[&#8226; Accordion-Styled Vacuum Neck  
+&#8226; Translucent Dust Collection Chamber 
+&#8226; Twin Head-Mounted Scrubbing Rollers 
+&#8226; Attractive Decorational Striping  ]]></details>
+		</item>
+		<item file="media/characters/HAN_S_360.swf">
+			<name><![CDATA[HAN-S]]></name>
+			<details><![CDATA[&#8226; Soothing Visual Display  
+&#8226; Multi-Channel Hi-Fi Audio Speaker System  
+&#8226; Even-Tempered Behavioral Mod Chip with Temperament Stabilizers  
+&#8226; Dual Stress-Reducing Vibrational Massagers]]></details>
+		</item>
+		<item file="media/characters/D_FIB_360.swf">
+			<name><![CDATA[D-FIB]]></name>
+			<details><![CDATA[&#8226; Multi-Purpose Digital LED Readout Display  
+&#8226; Easy-To-Follow Instructional Decal 
+&#8226; Anti-Gravity Magnetic Airframe  
+&#8226; Dual 110k Volt Electro-Shock Pads]]></details>
+		</item>
+		<item file="media/characters/BRL_A_360.swf">
+			<name><![CDATA[BRL-A]]></name>
+			<details><![CDATA[&#8226; LED Visual Input/Output Display  
+&#8226; Cycloptic LED Visual Input/Output Display  
+&#8226; Spring-Loaded Shade Increasing Body Mass 
+&#8226; Attractive Striped Pattern 
+&#8226; Shock Absorbing Mono-Pod]]></details>
+		</item>
+	</characters>
+</xml>
