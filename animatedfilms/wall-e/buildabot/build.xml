@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<walle>
+	 <wData>
+	<wBuild>
+			<wGame>
+				<wName>claw</wName>
+				<wURL>games/claw.swf</wURL>
+			</wGame>
+			
+			<wGame>
+				<wName>bounce</wName>
+				<wURL>games/bounce.swf</wURL>
+			</wGame>
+			
+			<wGame>
+				<wName>bumper</wName>
+				<wURL>games/bumper.swf</wURL>
+			</wGame>
+			
+			<wGame>
+				<wName>roller</wName>
+				<wURL>games/roller.swf</wURL>
+			</wGame>
+			
+			<wGame>
+				<wName>wing</wName>
+				<wURL>games/wing.swf</wURL>
+			</wGame>
+			
+			<wGame>
+				<wName>vacuum</wName>
+				<wURL>games/vacuum.swf</wURL>
+			</wGame>
+		</wBuild>
+	</wData>
+</walle>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
