@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+		<page id='sitewide'>
+			<copy id='copyright'><![CDATA[© Disney/Pixar]]></copy>
+			<copy id='title'><![CDATA[IMAGE MAKER]]></copy>
+			<release_info>
+			<!-- Insert your release date below to set the date that the message switches to now in cinemas. Use the format YYYY-MM-DD-->
+				<date id='release_date'><![CDATA[2008-11-18]]></date>
+				<copy id='prerelease'><![CDATA[<textformat leading="-2"><font size="12">COMING TO DISNEY DVD AND BLU-RAY™ HI-DEF<br /><font size="22">NOVEMBER 18</font></textformat>]]></copy>
+				<copy id='postrelease'><![CDATA[<textformat leading="-2"><font size="18">NOW AVAILABLE</font><br /><font size="13">ON DISNEY DVD AND<br />BLU-RAY™ HI-DEF</font></textformat>]]></copy>
+			</release_info>
+			<order>
+				<copy id='order_dvd'><![CDATA[<textformat leading="-1"><font size="12">ORDER ON<br />DISNEY DVD</font></textformat>]]></copy>
+				<copy id='order_bluray'><![CDATA[<textformat leading="-1"><font size="12">ORDER ON<br />BLU-RAY HI-DEF</font></textformat>]]></copy>
+				<link id='order_dvd'><![CDATA[http://transfer.go.com/cgi/transfer.dll?name=23303&SOURCE=23303&srvc=store&goto=http://disneyshopping.go.com/webapp/wcs/stores/servlet/DSIProductDisplay?catalogId=10002&storeId=10051&productId=1234691&langId=-1&categoryId=13698&CMP=OTL-TWDC_BVHE&att=BVHE]]></link>
+				<link id='order_bluray'><![CDATA[http://transfer.go.com/cgi/transfer.dll?name=23303&SOURCE=23303&srvc=store&goto=http://disneyshopping.go.com/webapp/wcs/stores/servlet/DSIProductDisplay?catalogId=10002&storeId=10051&productId=1234689&langId=-1&categoryId=13698&CMP=OTL-TWDC_BVHE&att=BVHE]]></link>
+			</order>
+			<sitelogo>
+				<img id='logo'><![CDATA[usa/images/site_logo.png]]></img>
+				<pos id='x'><![CDATA[291]]></pos>
+				<pos id='y'><![CDATA[3]]></pos>
+			</sitelogo>
+		</page>
+		
+
+		<page id='preloader'>
+			<copy id='title'><![CDATA[IMAGE MAKER]]></copy>
+			<copy id='body'><![CDATA[Create your own unique WALL-E icons, pics, wallpapers <br />or whatever you like - it's up to you!]]></copy>
+			<copy id='goBtn'><![CDATA[GO!]]></copy>
+		</page>
+	
+		<page id='instruction'>
+			<copy id='title'><![CDATA[Instructions]]></copy>
+			<copy id='key'><![CDATA[<font size='13'>KEY TO ITEMS</font>]]></copy>
+			<copy id='body'><![CDATA[Choose the character poses you want from the left hand menus. You can also choose to switch the WALL-E logo on or off. <br /><br /> Use the menu at the top to set the dimensions of your JPG image. Enter a width and height and press SET. Or, you can pick a preset size from the OR CHOOSE PRESET drop-down menu.<br /><br />Drag the characters and logo around within the white area to design your image. Remember, your final image size might be larger than you see it on screen. <br /><br />When you're happy, click MAKE MY IMAGE. Your image will take a moment to be created, then you can save it to your computer.]]></copy>
+			<copy id='resize'><![CDATA[Click and drag to resize]]></copy>
+			<copy id='drag'><![CDATA[Click and drag to move the white area]]></copy>
+			<copy id='bin'><![CDATA[Click to delete]]></copy>
+			<copy id='zsort'><![CDATA[Brings item to the front]]></copy>
+		</page>
+		
+		<page id='assetView'>
+			<copy id='select_chars'><![CDATA[SELECT YOUR CHARACTERS]]></copy>
+			<copy id='walle'><![CDATA[WALL-E]]></copy>
+			<copy id='eve'><![CDATA[EVE]]></copy>
+			<copy id='logo'><![CDATA[LOGO]]></copy>
+			<copy id='on'><![CDATA[ON]]></copy>
+			<copy id='off'><![CDATA[OFF]]></copy>
+		</page>
+		
+		<page id='export'>
+			<copy id='image_size'><![CDATA[IMAGE SIZE   <font size="16">WxH</font>]]></copy>
+			<copy id='set'><![CDATA[SET]]></copy>
+			<copy id='make_button'><![CDATA[MAKE MY IMAGE]]></copy>
+			<myComboBox>
+				<copy id='cbTitle'><![CDATA[OR CHOOSE PRESET]]></copy>
+				<data>
+					<item>
+						<copy id='title'><![CDATA[Messenger display pic]]></copy>
+						<height><![CDATA[100]]></height>
+						<width><![CDATA[100]]></width>
+					</item>
+					<item>
+						<copy id='title'><![CDATA[Live Spaces Photo]]></copy>
+						<height><![CDATA[533]]></height>
+						<width><![CDATA[400]]></width>
+					</item>
+					<item>
+						<copy id='title'><![CDATA[Facebook profile pic]]></copy>
+						<height><![CDATA[200]]></height>
+						<width><![CDATA[300]]></width>
+					</item>
+					<item>
+						<copy id='title'><![CDATA[Facebook photo]]></copy>
+						<height><![CDATA[600]]></height>
+						<width><![CDATA[450]]></width>
+					</item>
+					<item>
+						<copy id='title'><![CDATA[MySpace profile pic]]></copy>
+						<height><![CDATA[170]]></height>
+						<width><![CDATA[250]]></width>
+					</item>
+					<item>
+						<copy id='title'><![CDATA[Bebo profile pic]]></copy>
+						<height><![CDATA[238]]></height>
+						<width><![CDATA[238]]></width>
+					</item>
+					<item>
+						<copy id='title'><![CDATA[Bebo header]]></copy>
+						<height><![CDATA[760]]></height>
+						<width><![CDATA[375]]></width>
+					</item>
+					<item>
+						<copy id='title'><![CDATA[iPhone Wallpaper]]></copy>
+						<height><![CDATA[320]]></height>
+						<width><![CDATA[480]]></width>
+					</item>
+					<item>
+						<copy id='title'><![CDATA[240x320 Mobile]]></copy>
+						<height><![CDATA[240]]></height>
+						<width><![CDATA[320]]></width>
+					</item>
+					<item>
+						<copy id='title'><![CDATA[128x168 Mobile]]></copy>
+						<height><![CDATA[128]]></height>
+						<width><![CDATA[168]]></width>
+					</item>
+					<item>
+						<copy id='title'><![CDATA[1024x768 Wallpaper]]></copy>
+						<height><![CDATA[1024]]></height>
+						<width><![CDATA[768]]></width>
+					</item>
+					<item>
+						<copy id='title'><![CDATA[1200x800 Wallpaper]]></copy>
+						<height><![CDATA[1200]]></height>
+						<width><![CDATA[800]]></width>
+					</item>
+			</data>
+			</myComboBox>
+			<url id='exportToUrl'><![CDATA[http://www2.disney.co.uk/DisneyMovies/Walle/imagemaker/encode.jsp]]></url>
+		</page>
+	
+		<item>
+			<set>1</set>
+			<image><![CDATA[images/thumbs/walle_1.png]]></image>
+			<fullscale><![CDATA[images/fullscale/walle_1.png]]></fullscale>
+		</item>
+		<item>
+			<set>1</set>
+			<image><![CDATA[images/thumbs/walle_2.png]]></image>
+			<fullscale><![CDATA[images/fullscale/walle_2.png]]></fullscale>
+		</item>
+		<item>
+			<set>1</set>
+			<image><![CDATA[images/thumbs/walle_3.png]]></image>
+			<fullscale><![CDATA[images/fullscale/walle_3.png]]></fullscale>
+		</item>
+			<item>
+			<set>1</set>
+			<image><![CDATA[images/thumbs/walle_4.png]]></image>
+			<fullscale><![CDATA[images/fullscale/walle_4.png]]></fullscale>
+		</item>
+		<item>
+			<set>1</set>
+			<image><![CDATA[images/thumbs/walle_5.png]]></image>
+			<fullscale><![CDATA[images/fullscale/walle_5.png]]></fullscale>
+		</item>
+		<item>
+			<set>1</set>
+			<image><![CDATA[images/thumbs/walle_6.png]]></image>
+			<fullscale><![CDATA[images/fullscale/walle_6.png]]></fullscale>
+		</item>
+		<item>
+			<set>1</set>
+			<image><![CDATA[images/thumbs/walle_7.png]]></image>
+			<fullscale><![CDATA[images/fullscale/walle_7.png]]></fullscale>
+		</item>
+		<item>
+			<set>1</set>
+			<image><![CDATA[images/thumbs/walle_8.png]]></image>
+			<fullscale><![CDATA[images/fullscale/walle_8.png]]></fullscale>
+		</item>
+		<item>
+			<set>1</set>
+			<image><![CDATA[images/thumbs/walle_9.png]]></image>
+			<fullscale><![CDATA[images/fullscale/walle_9.png]]></fullscale>
+		</item>
+		<item>
+			<set>1</set>
+			<image><![CDATA[images/thumbs/walle_10.png]]></image>
+			<fullscale><![CDATA[images/fullscale/walle_10.png]]></fullscale>
+		</item>
+		<item>
+			<set>1</set>
+			<image><![CDATA[images/thumbs/walle_11.png]]></image>
+			<fullscale><![CDATA[images/fullscale/walle_11.png]]></fullscale>
+		</item>
+				
+		<item>
+			<set>2</set>
+			<image><![CDATA[images/thumbs/eve_1.png]]></image>
+			<fullscale><![CDATA[images/fullscale/eve_1.png]]></fullscale>
+		</item>
+		<item>
+			<set>2</set>
+			<image><![CDATA[images/thumbs/eve_2.png]]></image>
+			<fullscale><![CDATA[images/fullscale/eve_2.png]]></fullscale>
+		</item>
+		<item>
+			<set>2</set>
+			<image><![CDATA[images/thumbs/eve_3.png]]></image>
+			<fullscale><![CDATA[images/fullscale/eve_3.png]]></fullscale>
+		</item>
+			<item>
+			<set>2</set>
+			<image><![CDATA[images/thumbs/eve_4.png]]></image>
+			<fullscale><![CDATA[images/fullscale/eve_4.png]]></fullscale>
+		</item>
+		<item>
+			<set>2</set>
+			<image><![CDATA[images/thumbs/eve_5.png]]></image>
+			<fullscale><![CDATA[images/fullscale/eve_5.png]]></fullscale>
+		</item>
+		<item>
+			<set>3</set>
+			<image><![CDATA[images/thumbs/logo_1.png]]></image>
+			<fullscale><![CDATA[images/fullscale/logo_1.png]]></fullscale>
+		</item>
+	
+</root>
