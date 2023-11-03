@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<release_date>
+	<!-- insert your local release date here, in this same format. This automatically switches the messaging to NOW IN CINEMAS on the specified date. -->
+		<year>2008</year>
+		<month>11</month>
+		<day>18</day>
+	</release_date>
+	
+	<right_panel>		
+		<now_in_cinemas><![CDATA[<font size="11">ON DISNEY DVD AND BLU-RAY™ HI-DEF</font><br><font size="15">NOVEMBER 18</font>]]></now_in_cinemas>
+		<soon><![CDATA[<font size="11">ON DISNEY DVD AND BLU-RAY™ HI-DEF</font><br><font size="15">NOVEMBER 18</font>]]></soon>
+
+		<visit_website><![CDATA[<font size="14">VISIT THE<br />OFFICIAL SITE</font>]]></visit_website>
+		<visit_tracking>order_dvd</visit_tracking>
+		<site_link>javascript:loadinparent('http://www.disney.com/walle',true);</site_link>
+
+		<order_dvd><![CDATA[ORDER ON<br />DISNEY DVD]]></order_dvd>
+		<order_dvd_tracking>order_dvd</order_dvd_tracking>
+		<order_dvd_link>javascript:openWindow('http://transfer.go.com/cgi/transfer.dll?name=23303&SOURCE=23303&srvc=store&goto=http://disneyshopping.go.com/webapp/wcs/stores/servlet/DSIProductDisplay?catalogId=10002&storeId=10051&productId=1234691&langId=-1&categoryId=13698&CME&att=BVHE');</order_dvd_link>
+
+		<order_br><![CDATA[ORDER ON<br />BLU-RAY HI-DEF]]></order_br>
+		<order_bluray_tracking>order_bluray</order_bluray_tracking>
+		<order_br_link>javascript:openWindow('http://transfer.go.com/cgi/transfer.dll?name=23303&SOURCE=23303&srvc=store&goto=http://disneyshopping.go.com/webapp/wcs/stores/servlet/DSIProductDisplay?catalogId=10002&storeId=10051&productId=1234689&langId=-1&categoryId=13698&CMP=OTL-TWDC_BVHE&att=BVHE');</order_br_link>
+		
+		<score><![CDATA[SCORE]]></score>
+		<high><![CDATA[HIGH:]]></high>
+		<balls><![CDATA[BALLS:]]></balls>
+		<start><![CDATA[START]]></start>
+		<restart><![CDATA[RESTART]]></restart>
+	</right_panel>
+	
+	<gameoverscreen>
+		<gameover><![CDATA[GAME OVER]]></gameover>
+	</gameoverscreen>
+	<options>
+		<cheatMode>false</cheatMode>
+		<debugMode>false</debugMode>
+	</options>
+</root>
