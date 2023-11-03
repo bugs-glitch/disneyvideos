@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>avatar</author>
+      <authoring_tool>Maya8.5 | ColladaMaya v3.03</authoring_tool>
+      <comments>Collada Maya Export Options: bakeTransforms=0;exportPolygonMeshes=1;bakeLighting=0;isSampling=0;
+curveConstrainSampling=0;removeStaticCurves=1;exportCameraAsLookat=0;
+exportLights=1;exportCameras=1;exportJointsAndSkin=1;
+exportAnimations=1;exportTriangles=1;exportInvisibleNodes=0;
+exportNormals=1;exportTexCoords=1;
+exportVertexColors=1;exportVertexColorsAnimation=0;exportTangents=0;
+exportTexTangents=0;exportConstraints=1;exportPhysics=1;exportXRefs=1;
+dereferenceXRefs=0;cameraXFov=0;cameraYFov=1</comments>
+      <source_data>file:///Users/avatar/Desktop/spaceShipLegHitTest.ma</source_data>
+    </contributor>
+    <created>2008-05-17T01:16:04Z</created>
+    <modified>2008-05-17T01:16:04Z</modified>
+    <unit meter="0.01" name="centimeter"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_physics_scenes>
+    <physics_scene id="MayaNativePhysicsScene">
+      <technique_common>
+        <gravity>0 -980 0</gravity>
+        <time_step>0.083</time_step>
+      </technique_common>
+    </physics_scene>
+  </library_physics_scenes>
+  <library_images>
+    <image id="file3" name="file3">
+      <init_from>../jpg/spaceShip.jpg</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="blinn3" name="blinn3">
+      <instance_effect url="#blinn3-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="blinn3-fx">
+      <profile_COMMON>
+        <newparam sid="file3-surface">
+          <surface type="2D">
+            <init_from>file3</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file3-sampler">
+          <sampler2D>
+            <source>file3-surface</source>
+            <minfilter>LINEAR_MIPMAP_LINEAR</minfilter>
+            <magfilter>LINEAR</magfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file3-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float>0.3</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+            <index_of_refraction>
+              <float>1</float>
+            </index_of_refraction>
+          </blinn>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="legHitTestShape1" name="legHitTestShape1">
+      <mesh>
+        <source id="legHitTestShape1-positions" name="position">
+          <float_array id="legHitTestShape1-positions-array" count="54">-0.621873 -0.5 0.999431 -0.621873 8.70774 0.999431 -0.621873 8.70774 -1.13339 -0.621873 -0.5 -1.13339 1.80297 -0.5 -2.93604 1.80297 -0.5 2.81425 1.80297 8.70774 -2.93604 1.80297 8.70774 2.81425 4.79946 -0.500001 -2.93604 4.79946 -0.500001 2.81425 4.79946 8.70774 -2.93604 4.79946 8.70774 2.81425 7.10156 -0.500001 -1.85204 7.10156 -0.500001 1.74241 7.10156 8.70774 -1.85204 7.10156 8.70774 1.74241 7.90543 -0.500001 -0.034329 7.90543 8.70774 -0.034329</float_array>
+          <technique_common>
+            <accessor source="#legHitTestShape1-positions-array" count="18" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="legHitTestShape1-normals" name="normal">
+          <float_array id="legHitTestShape1-normals-array" count="126">-0.599193 0 0.800605 -0.599193 0 0.800605 -0.315749 0 0.948843 -0.315749 0 0.948843 0 1 0 0 1 0 0.000000 1 0 0.000000 1 0 -0.596609 0 -0.802532 -0.596609 0 -0.802532 -0.31422 0 -0.94935 -0.31422 0 -0.94935 0 -1 0 0 -1 0 -0.000000 -1 0 -0.000000 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0.218268 0 -0.975889 0.218268 0 -0.975889 0.000000 1 0 0.000000 1 0 0.216151 0 0.97636 0.216151 0 0.97636 0 -1 0 0 -1 0 0.715435 0 -0.698679 0.715435 0 -0.698679 0 1 0 0 1 0 0.710937 0 0.703256 0.710937 0 0.703256 0.000000 -1 0 0.914558 0 -0.404454 0.914558 0 -0.404454 0 1 0.000000 0.911089 0 0.41221 0.911089 0 0.41221</float_array>
+          <technique_common>
+            <accessor source="#legHitTestShape1-normals-array" count="42" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="legHitTestShape1-map1" name="map1">
+          <float_array id="legHitTestShape1-map1-array" count="42">0.375 0 0.375 0.25 0.375 0.5 0.375 0.75 0.375 1 0.125 0 0.125 0.25 0.625 0 0.875 0 0.875 0.25 0.625 0.25 0.625 0 0.875 0 0.875 0.25 0.625 0.25 0.625 0 0.875 0 0.875 0.25 0.625 0.25 0.875 0 0.875 0.25</float_array>
+          <technique_common>
+            <accessor source="#legHitTestShape1-map1-array" count="21" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="legHitTestShape1-vertices">
+          <input semantic="POSITION" source="#legHitTestShape1-positions"/>
+        </vertices>
+        <triangles material="blinn3SG" count="32">
+          <input semantic="VERTEX" source="#legHitTestShape1-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#legHitTestShape1-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#legHitTestShape1-map1" offset="2" set="0"/>
+          <p>1 0 1 0 1 0 7 3 10 7 3 10 0 1 0 5 2 7 2 4 2 1 5 1 6 7 9 6 7 9 1 5 1 7 6 10 3 8 3 2 9 2 4 11 8 4 11 8 2 9 2 6 10 9 3 13 3 4 14 8 0 12 4 0 12 4 4 14 8 5 15 7 3 16 5 0 17 0 2 19 6 2 19 6 0 17 0 1 18 1 5 15 7 4 14 8 9 21 11 9 21 11 4 14 8 8 20 12 4 11 8 6 10 9 8 23 12 8 23 12 6 10 9 10 22 13 6 7 9 7 6 10 10 25 13 10 25 13 7 6 10 11 24 14 7 3 10 5 2 7 11 27 14 11 27 14 5 2 7 9 26 11 8 20 12 12 28 16 9 21 11 9 21 11 12 28 16 13 29 15 8 23 12 10 22 13 12 31 16 12 31 16 10 22 13 14 30 17 10 25 13 11 24 14 14 33 17 14 33 17 11 24 14 15 32 18 11 27 14 9 26 11 15 35 18 15 35 18 9 26 11 13 34 15 13 29 15 12 28 16 16 36 19 12 31 16 14 30 17 16 38 19 16 38 19 14 30 17 17 37 20 14 33 17 15 32 18 17 39 20 17 40 20 15 35 18 16 41 19 16 41 19 15 35 18 13 34 15</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="spaceShipLegHitTest">
+      <node id="legHitTest1" name="legHitTest1" type="NODE">
+        <translate sid="translate">-3.11265 -0.793544 -0.085193</translate>
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <scale sid="scale">1 0.388913 1</scale>
+        <instance_geometry url="#legHitTestShape1">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="blinn3SG" target="#blinn3">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0.041666</start_time>
+          <end_time>2</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_physics_scene url="#MayaNativePhysicsScene"/>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  AvatarLabs - AvarLabs - siteData.xml
+  
+  @client: Disney
+  @product:	Wall E Game
+  @document: Flash config/datafile
+  
+  @date-created: 4/11/2008
+  @date-modified: 2/11/2008
+  -->
+
+<site>
+		<!-- SETTINGS -->
+		<assets id="SETTINGS">
+			
+			<!-- SITE_BASE_URL
+				 The url where you are going to host all of the child assets.
+				 You need to be sure that your syntax is correct, it should look
+				 like this: http://domain.com/path/to/minisite/
+	  			 -->
+				 <url id="SITE_BASE_URL" value="http://build.avatarlabs.com/wall-e/game/index.php"/>
+				 
+			<!-- LEGAL_IMAGE
+				 The relative path to the billing block, you do not need to change this.
+				 note: flash will use this as SITE_BASE_URL + GAME_TITLE_PNG
+	  			 -->
+				
+			
+			<!-- TITLE TREATMENT-->
+				 <png id="TITLE" value="files/images/title_treatment.png" />
+				 <title_x id="title_x" value="273" />
+				 <title_y id="title_y" value="12" />
+				
+				 <!-- BG_TRACK_
+				 The relative path to the audio, you do not need to change this.
+				 note: flash will use this as SITE_BASE_URL + BG_AUDIO_URL
+	  			  -->
+				 <mp3 id="BG_AUDIO_URL" value="files/audio/03_1m9_workday_cut.mp3"/>
+			 
+			 <!-- LINK URLS_
+				   -->
+				 <url id="ORDER_DVD" value="javascript:openWindow('http://transfer.go.com/cgi/transfer.dll?name=23303&SOURCE=23303&srvc=store&goto=http://disneyshopping.go.com/webapp/wcs/stores/servlet/DSIProductDisplay?catalogId=10002&storeId=10051&productId=1234691&langId=-1&categoryId=13698&CMP=OTL-TWDC_BVHE&att=BVHE');"/>
+				 <url id="ORDER_BLURAY" value="javascript:openWindow('http://transfer.go.com/cgi/transfer.dll?name=23303&SOURCE=23303&srvc=store&goto=http://disneyshopping.go.com/webapp/wcs/stores/servlet/DSIProductDisplay?catalogId=10002&storeId=10051&productId=1234689&langId=-1&categoryId=13698&CMP=OTL-TWDC_BVHE&att=BVHE');"/>
+			 
+			 <!-- RELEASE DATE_
+				   -->
+				 <date id="OFFICIAL_STREET_DATE" value="2008,11,18"/>
+
+	</assets>
+
+	<!-- STRINGS -->
+	<strings id="STRINGS">
+			<!-- Preloader -->
+			<string id="PRESTREET"><![CDATA[<TEXTFORMAT LEADING="-2"><FONT SIZE="12">COMING TO DISNEY DVD AND BLU-RAY™ HI-DEF</font><br /><FONT SIZE="20">NOVEMBER 18</FONT></TEXTFORMAT>]]></string>
+			<string id="POSTSTREET"><![CDATA[<TEXTFORMAT LEADING="-2"><FONT SIZE="19">NOW AVAILABLE</FONT><br /><FONT SIZE="12">ON DISNEY DVD AND BLU-RAY™ HI-DEF</FONT></TEXTFORMAT>]]></string>
+			<string id="ORDER_ON_DVD"><![CDATA[<TEXTFORMAT LEADING="-1"><FONT SIZE="12">ORDER ON<br />DISNEY DVD</FONT></TEXTFORMAT>]]></string>
+			<string id="ORDER_ON_BLURAY"><![CDATA[<TEXTFORMAT LEADING="-1"><FONT SIZE="12">ORDER ON<br />BLU-RAY HI-DEF</FONT></TEXTFORMAT>]]></string>
+			<string id="COPYRIGHT"><![CDATA[<FONT SIZE="9">© DISNEY/PIXAR</FONT>]]></string>
+		
+			<!-- Preloader -->
+			<string id="LOADING"><![CDATA[<FONT SIZE="12">LOADING...</FONT>]]></string>
+			
+			<!-- Treasure names -->
+			<string id="FIRE_EXTINGUISHER"><![CDATA[<FONT SIZE="19">Fire Extinguisher</FONT>]]></string>
+			<string id="RUBIKS_CUBE"><![CDATA[<FONT SIZE="19">Rubiks Cube</FONT>]]></string>
+			<string id="BARBER_POLE"><![CDATA[<FONT SIZE="19">Barber Pole</FONT>]]></string>
+			<string id="BOWLING_PIN"><![CDATA[<FONT SIZE="19">Bowling Pin</FONT>]]></string>
+			<string id="BIRD_CAGE"><![CDATA[<FONT SIZE="19">Bird Cage</FONT>]]></string>
+			<string id="HOUR_GLASS"><![CDATA[<FONT SIZE="19">Hour Glass</FONT>]]></string>
+			<string id="CLAY_POT"><![CDATA[<FONT SIZE="19">Clay Pot</FONT>]]></string>
+			<string id="FOAM_HAND"><![CDATA[<FONT SIZE="19">Foam Hand</FONT>]]></string>
+			<string id="VHS_TAPE"><![CDATA[<FONT SIZE="19">VHS Tape</FONT>]]></string>
+			<string id="EGG_BEATER"><![CDATA[<FONT SIZE="19">Egg Beater</FONT>]]></string>
+			
+			<!-- OverlayText -->
+			<string id="VISIT_SITE"><![CDATA[<FONT SIZE="19">VISIT OFFICIAL SITE</FONT>]]></string>
+			<string id="GAME_TITLE"><![CDATA[<FONT SIZE="15">TREASURE ROUND•UP</FONT>]]></string>
+			<string id="CLICK"><![CDATA[<FONT SIZE="12">CLICK</FONT>]]></string>
+			<string id="SPACE_BAR"><![CDATA[<FONT SIZE="12">SPACE BAR</FONT>]]></string>
+			<string id="VIEWS"><![CDATA[<FONT SIZE="12">VIEWS</FONT>]]></string>
+			
+			<!-- Practice Panel -->
+			<string id="PRACTICE_PLAY_GAME"><![CDATA[<FONT SIZE="19">PLAY GAME!</FONT>]]></string>
+			
+			<!-- Instructions Panel -->
+			<string id="PRACTICE"><![CDATA[<FONT SIZE="19">PRACTICE</FONT>]]></string>
+			<string id="PLAY_GAME"><![CDATA[<FONT SIZE="19">PLAY GAME!</FONT>]]></string>
+			<string id="WELCOME"><![CDATA[<FONT SIZE="19">WELCOME!</FONT>]]></string>
+			<string id="INSTRUCTIONS_TEXT"><![CDATA[GUIDE WALL•E USING YOUR ARROW KEYS TO EXPLORE THE PLANETARY TERRAIN AND FIND EXCITING TREASURES! COLLECT SPEED ORBS TO MOVE EXTRA FAST, AND GATHER FUN TREASURES TO BOOST YOUR SCORE. BEAT YOUR BEST TIME AND COMPETE FOR HIGH SCORE!]]></string>
+			<string id="PAPERVISION_LOADING_TEXT"><![CDATA[<FONT SIZE="14">GAME IS LOADING</FONT>]]></string>
+			
+			<!-- Status Mc -->
+			<string id="STATUS_POWER"><![CDATA[<FONT SIZE="12">POWER</FONT>]]></string>
+			<string id="STATUS_TREASURES"><![CDATA[<FONT SIZE="12">TREASURES</FONT>]]></string>
+			
+			<!-- Send To Friend Panel -->
+			<string id="SEND_HEADER"><![CDATA[<FONT SIZE="19">INVITE A FRIEND</FONT>]]></string>
+			<string id="YOUR_NAME"><![CDATA[<FONT SIZE="11">YOUR NAME</FONT>]]></string>
+			<string id="YOUR_EMAIL"><![CDATA[<FONT SIZE="11">YOUR EMAIL ADDRESS</FONT>]]></string>
+			<string id="FRIENDS_NAME"><![CDATA[<FONT SIZE="11">FRIENDS NAME</FONT>]]></string>
+			<string id="FRIENDS_EMAIL"><![CDATA[<FONT SIZE="11">FRIENDS EMAIL ADDRESS</FONT>]]></string>
+			<string id="SEND"><![CDATA[<FONT SIZE="19">SEND</FONT>]]></string>
+			<string id="SEND_CLOSE"><![CDATA[<FONT SIZE="12">CLOSE</FONT>]]></string>
+			
+			<!-- Win Panel -->
+			<string id="WIN_HEADER"><![CDATA[<FONT SIZE="19">YOUR SCORE</FONT>]]></string>
+			<string id="WIN_PLAY_AGAIN"><![CDATA[<FONT SIZE="19">PLAY<br> AGAIN</FONT>]]></string>
+			<string id="WIN_INVITE_FRIEND"><![CDATA[<FONT SIZE="19">INVITE A<br> FRIEND</FONT>]]></string>
+			<string id="POINTS_ABREVE"><![CDATA[<FONT SIZE="16">pts!</FONT>]]></string>
+			
+			<!-- Update Text -->
+			<string id="SPEED_BOOST"><![CDATA[<FONT SIZE="19">SPEED BOOST!</FONT>]]></string>
+			<string id="TIME_BOOST"><![CDATA[<FONT SIZE="19">POWER ADDED!</FONT>]]></string>
+			<string id="TIME_LOST"><![CDATA[<FONT SIZE="19">POWER REMOVED!</FONT>]]></string>
+			<string id="POINTS_ADDED"><![CDATA[<FONT SIZE="19">POINTS ADDED!</FONT>]]></string>
+			
+			<!-- Mis -->
+			<string id="PTS"><![CDATA[<FONT SIZE="19">pts!</FONT>]]></string>
+			<string id="PAUSE"><![CDATA[<FONT SIZE="12">PAUSE</FONT>]]></string>
+			<string id="PAUSED"><![CDATA[<FONT SIZE="19">PRESS TO<br>UNPAUSE GAME</FONT>]]></string>
+			
+			<!-- EMAIL TEXT -->
+			<!-- Be mindfull not to replace this string %DO_NOT_REPLACE% in your text -->
+			<string id="FROM"><![CDATA[From]]></string>
+			<string id="SENDER_BODY"><![CDATA[Your friend %DO_NOT_REPLACE% has been invited to play <a href="http://www.disney.com/walle/?deeplink=Games"><b>WALL•E’s Treasure Round•Up</b></a> game. Thank you! <br><br> Disney/Pixar presents WALL•E, on Disney DVD and Blu-ray™ Hi-Def November 18.]]></string>
+			<string id="SENDER_SUBJECT"><![CDATA[You have invited %DO_NOT_REPLACE% to play WALL•E’s Treasure Round•Up!]]></string>
+			<string id="RECIEVER_BODY"><![CDATA[WALL•E and your friend %DO_NOT_REPLACE% challenge you to play <a href="http://www.disney.com/walle/?deeplink=Games"><b>WALL•E’s Treasure Round•Up</b></a> game! Can you beat your friend’s high score? Check out WALL•E and control him to collect treasures.  Use power-ups and speed boosts for a chance at the highest score! <br><br> Disney/Pixar presents WALL•E, on Disney DVD and Blu-ray™ Hi-Def November 18.]]></string>
+			<string id="RECIEVER_SUBJECT"><![CDATA[%DO_NOT_REPLACE% has challenged you to play WALL•E’s Treasure Round-Up!]]></string>
+			
+	</strings>
+		
+</site>

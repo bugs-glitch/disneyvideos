@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>avatar</author>
+      <authoring_tool>Maya8.5 | ColladaMaya v3.03</authoring_tool>
+      <comments>Collada Maya Export Options: bakeTransforms=0;exportPolygonMeshes=1;bakeLighting=0;isSampling=0;
+curveConstrainSampling=0;removeStaticCurves=1;exportCameraAsLookat=0;
+exportLights=1;exportCameras=1;exportJointsAndSkin=1;
+exportAnimations=1;exportTriangles=1;exportInvisibleNodes=0;
+exportNormals=1;exportTexCoords=1;
+exportVertexColors=1;exportVertexColorsAnimation=0;exportTangents=0;
+exportTexTangents=0;exportConstraints=1;exportPhysics=1;exportXRefs=1;
+dereferenceXRefs=0;cameraXFov=0;cameraYFov=1</comments>
+      <source_data>file:///Volumes/rockstar/_clients/_disney/Wall-E/game/_design/wall-e%20reference/wallemodel/model/scenes/foamhand.ma</source_data>
+    </contributor>
+    <created>2008-05-06T02:53:40Z</created>
+    <modified>2008-05-06T02:53:40Z</modified>
+    <unit meter="0.01" name="centimeter"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_physics_scenes>
+    <physics_scene id="MayaNativePhysicsScene">
+      <technique_common>
+        <gravity>0 -980 0</gravity>
+        <time_step>0.083</time_step>
+      </technique_common>
+    </physics_scene>
+  </library_physics_scenes>
+  <library_images>
+    <image id="file1" name="file1">
+      <init_from>../files/jpg/foamhand.jpg</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="blinn1" name="blinn1">
+      <instance_effect url="#blinn1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="blinn1-fx">
+      <profile_COMMON>
+        <newparam sid="file1-surface">
+          <surface type="2D">
+            <init_from>file1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file1-sampler">
+          <sampler2D>
+            <source>file1-surface</source>
+            <minfilter>LINEAR_MIPMAP_LINEAR</minfilter>
+            <magfilter>LINEAR</magfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file1-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>0</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+            <index_of_refraction>
+              <float>1</float>
+            </index_of_refraction>
+          </blinn>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="pCubeShape1" name="pCubeShape1">
+      <mesh>
+        <source id="pCubeShape1-positions" name="position">
+          <float_array id="pCubeShape1-positions-array" count="180">-0.834096 0.55512 0.113726 0.761467 0.55512 0.113726 -0.888569 0.970452 0.113726 0.81957 0.970452 0.113726 -0.888569 0.970452 -0.154387 0.81957 0.970452 -0.154387 -0.834096 0.55512 -0.154387 0.761467 0.55512 -0.154387 -0.786887 0.275496 -0.154387 0.710626 0.275496 -0.154387 0.710626 0.275496 0.113726 -0.786887 0.275496 0.113726 -0.786887 0.003134 -0.154387 0.710626 0.003134 -0.154387 0.710626 0.003134 0.113726 -0.786887 0.003134 0.113726 -0.852254 1.36265 0.113726 0.859517 1.36265 0.113726 0.859517 1.36265 -0.154387 -0.852254 1.36265 -0.154387 -0.700416 1.59041 0.113726 0.870362 1.59041 0.113726 0.870362 1.59041 -0.154387 -0.700416 1.59041 -0.154387 -0.555808 1.6844 0.113726 0.870362 1.6844 0.113726 0.870362 1.6844 -0.154387 -0.555808 1.6844 -0.154387 -0.395922 1.84269 0.113726 0.859517 1.84269 0.113726 0.859517 1.84269 -0.154387 -0.395922 1.84269 -0.154387 -0.112077 1.89258 0.113726 0.859517 1.89258 0.113726 0.859517 1.89258 -0.154387 -0.112077 1.89258 -0.154387 -0.001772 1.96277 0.113726 0.849489 1.96277 0.113726 0.849489 1.96277 -0.154387 -0.001772 1.96277 -0.154387 0.178726 2.00288 0.113726 0.849489 2.00288 0.113726 0.849489 2.00288 -0.154387 0.178726 2.00288 -0.154387 0.178726 2.8744 0.113726 0.800041 2.8744 0.113726 0.800041 2.8744 -0.154387 0.178726 2.8744 -0.154387 0.169454 3.59448 0.113726 0.719689 3.59448 0.113726 0.719689 3.59448 -0.154387 0.169454 3.59448 -0.154387 0.226045 3.7303 0.113726 0.672799 3.7303 0.113726 0.672799 3.7303 -0.154387 0.226045 3.7303 -0.154387 0.340843 3.80791 0.113726 0.556384 3.80791 0.113726 0.556384 3.80791 -0.154387 0.340843 3.80791 -0.154387</float_array>
+          <technique_common>
+            <accessor source="#pCubeShape1-positions-array" count="60" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCubeShape1-normals" name="normal">
+          <float_array id="pCubeShape1-normals-array" count="420">0 0 1 0 0 1 0 0 1 0 0 1 0 1 0.000000 0 1 0.000000 0 1 0.000000 0 1 0.000000 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0.987319 -0.15875 0 0.987319 -0.15875 0 0.992779 -0.119959 0 0.992779 -0.119959 0 -0.988945 -0.148283 0 -0.988945 -0.148283 0 -0.999819 -0.019038 0 -0.999819 -0.019038 0 0 0 -1 0 0 -1 0.995959 -0.089805 0 0.995959 -0.089805 0 0 0 1 0 0 1 -0.996505 -0.083529 0 -0.996505 -0.083529 0 0 0 -1 0 0 -1 1 0 0 1 0 0 0 0 1 0 0 1 -1 0 0 -1 0 0 0 0 1 0 0 1 0.997223 -0.074473 0 0.997223 -0.074473 0 0 0 -1 0 0 -1 -0.942699 0.333644 0 -0.942699 0.333644 0 0 0 1 0 0 1 0.999717 -0.023789 0 0.999717 -0.023789 0 0 0 -1 0 0 -1 -0.83205 0.5547 0 -0.83205 0.5547 0 0 0 1 0 0 1 0.999415 0.034198 0 0.999415 0.034198 0 0 0 -1 0 0 -1 -0.544989 0.838443 0 -0.544989 0.838443 0 -0.544989 0.838443 0 -0.544989 0.838443 0 0 0 1 0 0 1 0.999415 0.034198 0 0.999415 0.034198 0 0 0 -1 0 0 -1 -0.703551 0.710645 0 -0.703551 0.710645 0 -0.703551 0.710645 0 -0.703551 0.710645 0 0 0 1 0 0 1 0.997484 0.070889 0 0.997484 0.070889 0 0 0 -1 0 0 -1 -0.173097 0.984905 -0.000000 -0.173097 0.984905 -0.000000 -0.173097 0.984905 -0.000000 -0.173097 0.984905 -0.000000 0 0 1 0 0 1 0.997484 0.070888 0 0.997484 0.070888 0 0 0 -1 0 0 -1 -0.536876 0.843661 -0.000000 -0.536876 0.843661 -0.000000 -0.536876 0.843661 -0.000000 -0.536876 0.843661 -0.000000 0 0 1 0 0 1 0.999599 0.028334 0 0.999599 0.028334 0 0 0 -1 0 0 -1 -0.21693 0.976187 -0.000000 -0.21693 0.976187 -0.000000 -0.21693 0.976187 -0.000000 -0.21693 0.976187 -0.000000 0 0 1 0 0 1 0.996482 0.083804 0 0.996482 0.083804 0 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -0.999979 -0.006437 0 -0.999979 -0.006437 0 0 0 1 0 0 1 0.975508 0.219964 0 0.975508 0.219964 0 0 0 -1 0 0 -1 -0.981823 0.1898 0 -0.981823 0.1898 0 0 0 1 0 0 1 0.791455 0.611228 0 0.791455 0.611228 0 0 0 -1 0 0 -1 -0.774067 0.633104 0.000000 -0.774067 0.633104 0.000000 0 0 1 0 0 1 0.554699 0.832051 0 0.554699 0.832051 0 0 0 -1 0 0 -1 -0.560073 0.828443 0.000000 -0.560073 0.828443 0.000000</float_array>
+          <technique_common>
+            <accessor source="#pCubeShape1-normals-array" count="140" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCubeShape1-map1" name="map1">
+          <float_array id="pCubeShape1-map1-array" count="264">0.452228 0.137447 0.846705 0.137447 0.86107 0.24013 0.438761 0.24013 0.4639 0.068314 0.834135 0.068314 0.870946 0.337095 0.447739 0.337095 0.4639 0.000977 0.834135 0.000977 0.873627 0.393405 0.485279 0.393405 0.873627 0.416643 0.521031 0.416643 0.870946 0.455778 0.56056 0.455778 0.870946 0.468111 0.630736 0.468111 0.868467 0.485466 0.658007 0.485466 0.868467 0.495382 0.702632 0.495382 0.856242 0.71085 0.702632 0.71085 0.836376 0.888878 0.700339 0.888878 0.824783 0.922457 0.714331 0.922457 0.796002 0.941645 0.742713 0.941645 0.403977 0.953776 0.403977 0.900487 0.470263 0.900487 0.470263 0.953776 0.403977 0.871705 0.470263 0.871705 0.470263 0.982158 0.403977 0.982158 0.000094 0.701614 0.422403 0.701614 0.408038 0.804298 0.013561 0.804298 0.009072 0.604649 0.432279 0.604649 0.395469 0.87343 0.025233 0.87343 0.046612 0.54834 0.434961 0.54834 0.395469 0.940768 0.025233 0.940768 0.082363 0.525101 0.434961 0.525101 0.121893 0.485967 0.432279 0.485967 0.192069 0.473633 0.432279 0.473633 0.21934 0.456279 0.4298 0.456279 0.263965 0.446362 0.4298 0.446362 0.263965 0.230895 0.417575 0.230895 0.261673 0.052866 0.397709 0.052866 0.275664 0.019287 0.386117 0.019287 0.304046 0.0001 0.357335 0.0001 0.574032 0.848181 0.574032 0.477946 0.640319 0.477946 0.640319 0.848181 0.877426 0.137447 0.943712 0.137447 0.943712 0.24013 0.877426 0.24013 0.877426 0.068314 0.943712 0.068314 0.943712 0.337095 0.877426 0.337095 0.877426 0.000977 0.943712 0.000977 0.943712 0.393405 0.877426 0.393405 0.943712 0.416643 0.877426 0.416643 0.943712 0.455778 0.877426 0.455778 0.943712 0.468111 0.877426 0.468111 0.943712 0.485466 0.877426 0.485466 0.943712 0.495382 0.877426 0.495382 0.943712 0.71085 0.877426 0.71085 0.943712 0.888878 0.877426 0.888878 0.943712 0.922457 0.877426 0.922457 0.436829 0.547128 0.503115 0.547128 0.503115 0.649811 0.436829 0.649811 0.436829 0.477995 0.503115 0.477995 0.503115 0.746776 0.436829 0.746776 0.436829 0.410658 0.503115 0.410658 0.503115 0.803086 0.436829 0.803086 0.503115 0.826324 0.436829 0.826324 0.503115 0.865459 0.436829 0.865459 0.640319 0.9999 0.574032 0.9999 0.574032 0.929724 0.640319 0.929724 0.574032 0.902453 0.640319 0.902453 0.574032 0.857828 0.640319 0.857828 0.504464 0.460598 0.570751 0.460598 0.570751 0.676066 0.504464 0.676066 0.570751 0.854094 0.504464 0.854094 0.570751 0.887673 0.504464 0.887673</float_array>
+          <technique_common>
+            <accessor source="#pCubeShape1-map1-array" count="132" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCubeShape1-vertices">
+          <input semantic="POSITION" source="#pCubeShape1-positions"/>
+        </vertices>
+        <triangles material="blinn1SG" count="116">
+          <input semantic="VERTEX" source="#pCubeShape1-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#pCubeShape1-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#pCubeShape1-map1" offset="2" set="0"/>
+          <p>0 0 0 1 1 1 2 3 3 2 3 3 1 1 1 3 2 2 56 4 30 57 5 31 59 7 33 59 7 33 57 5 31 58 6 32 5 9 39 7 10 40 4 8 38 4 8 38 7 10 40 6 11 41 12 12 68 13 13 69 15 15 71 15 15 71 13 13 69 14 14 70 1 16 72 7 17 73 3 19 75 3 19 75 7 17 73 5 18 74 6 20 100 0 21 101 4 23 103 4 23 103 0 21 101 2 22 102 7 10 40 9 24 44 6 11 41 6 11 41 9 24 44 8 25 45 7 17 73 1 16 72 9 27 77 9 27 77 1 16 72 10 26 76 1 1 1 0 0 0 10 29 5 10 29 5 0 0 0 11 28 4 0 21 101 6 20 100 11 31 105 11 31 105 6 20 100 8 30 104 8 25 45 9 24 44 12 33 49 12 33 49 9 24 44 13 32 48 9 27 77 10 26 76 13 35 81 13 35 81 10 26 76 14 34 80 10 29 5 11 28 4 14 37 9 14 37 9 11 28 4 15 36 8 11 31 105 8 30 104 15 39 109 15 39 109 8 30 104 12 38 108 2 3 3 3 2 2 16 41 7 16 41 7 3 2 2 17 40 6 3 19 75 5 18 74 17 43 79 17 43 79 5 18 74 18 42 78 4 8 38 19 44 42 5 9 39 5 9 39 19 44 42 18 45 43 4 23 103 2 22 102 19 47 107 19 47 107 2 22 102 16 46 106 16 41 7 17 40 6 20 49 11 20 49 11 17 40 6 21 48 10 17 43 79 18 42 78 21 51 83 21 51 83 18 42 78 22 50 82 19 44 42 23 52 46 18 45 43 18 45 43 23 52 46 22 53 47 19 47 107 16 46 106 23 55 111 23 55 111 16 46 106 20 54 110 20 49 11 21 48 10 24 57 13 24 57 13 21 48 10 25 56 12 21 51 83 22 50 82 25 59 85 25 59 85 22 50 82 26 58 84 23 52 46 27 60 50 22 53 47 22 53 47 27 60 50 26 61 51 23 62 111 20 63 110 27 65 113 27 65 113 20 63 110 24 64 112 24 57 13 25 56 12 28 67 15 28 67 15 25 56 12 29 66 14 25 59 85 26 58 84 29 69 87 29 69 87 26 58 84 30 68 86 27 60 50 31 70 52 26 61 51 26 61 51 31 70 52 30 71 53 27 72 113 24 73 112 31 75 115 31 75 115 24 73 112 28 74 114 28 67 15 29 66 14 32 77 17 32 77 17 29 66 14 33 76 16 29 69 87 30 68 86 33 79 89 33 79 89 30 68 86 34 78 88 31 70 52 35 80 54 30 71 53 30 71 53 35 80 54 34 81 55 31 82 116 28 83 117 35 85 119 35 85 119 28 83 117 32 84 118 32 77 17 33 76 16 36 87 19 36 87 19 33 76 16 37 86 18 33 79 89 34 78 88 37 89 91 37 89 91 34 78 88 38 88 90 35 80 54 39 90 56 34 81 55 34 81 55 39 90 56 38 91 57 35 92 119 32 93 118 39 95 121 39 95 121 32 93 118 36 94 120 36 87 19 37 86 18 40 97 21 40 97 21 37 86 18 41 96 20 37 89 91 38 88 90 41 99 93 41 99 93 38 88 90 42 98 92 39 90 56 43 100 58 38 91 57 38 91 57 43 100 58 42 101 59 39 102 121 36 103 120 43 105 123 43 105 123 36 103 120 40 104 122 41 96 20 45 106 22 40 97 21 40 97 21 45 106 22 44 107 23 41 99 93 42 98 92 45 109 95 45 109 95 42 98 92 46 108 94 42 101 59 43 100 58 46 111 61 46 111 61 43 100 58 47 110 60 43 112 124 40 113 125 47 115 127 47 115 127 40 113 125 44 114 126 45 106 22 49 116 24 44 107 23 44 107 23 49 116 24 48 117 25 45 109 95 46 108 94 49 119 97 49 119 97 46 108 94 50 118 96 46 111 61 47 110 60 50 121 63 50 121 63 47 110 60 51 120 62 47 115 127 44 114 126 51 123 129 51 123 129 44 114 126 48 122 128 48 117 25 49 116 24 52 125 27 52 125 27 49 116 24 53 124 26 49 119 97 50 118 96 53 127 99 53 127 99 50 118 96 54 126 98 51 120 62 55 128 64 50 121 63 50 121 63 55 128 64 54 129 65 51 123 129 48 122 128 55 131 131 55 131 131 48 122 128 52 130 130 53 124 26 57 132 28 52 125 27 52 125 27 57 132 28 56 133 29 53 127 34 54 126 35 57 135 31 57 135 31 54 126 35 58 134 32 54 129 65 55 128 64 58 137 67 58 137 67 55 128 64 59 136 66 55 131 36 52 130 37 59 139 33 59 139 33 52 130 37 56 138 30</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="foamhand">
+      <node id="pCube1" name="pCube1" type="NODE">
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <instance_geometry url="#pCubeShape1">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="blinn1SG" target="#blinn1">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0.041666</start_time>
+          <end_time>2</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_physics_scene url="#MayaNativePhysicsScene"/>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

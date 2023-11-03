@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<cheats>
+		<!-- put 'true' to activate-->
+		<active>false</active>
+	</cheats>
+	
+	<intro_screen>
+		<header><![CDATA[TRASH TOWER]]></header>
+		<body><![CDATA[Can you help WALL·E demolish the trash tower while keeping his pet cockroach Hal away from the electrified cable?]]></body>
+		
+		<bonus_title><![CDATA[Bonus<br>Video!]]></bonus_title>
+		<bonus_info><![CDATA[Complete level 10<br>to unlock video]]></bonus_info>
+	</intro_screen>
+
+	<global_header>
+		<release_year>2008</release_year>
+		<!-- 1 for January, 2 for February etc-->
+		<release_month>11</release_month>
+		<release_day>18</release_day>
+		<!-- the logo is actually hard-coded at this location (relative to the cid defined in the Javascript) -->
+		<!-- because it loads concurrently with this XML data to display on the loading screen -->
+		<!-- ...but you can adjust its x & y value here -->
+		<logo src="images/logo.swf" x="" y="6" />
+		<prestreet x="0" y="74">
+			<![CDATA[<textformat leading="-2"><font size="12">COMING TO DISNEY DVD AND BLU-RAY™ HI-DEF<br /><font size="22">NOVEMBER 18</font></textformat>]]>
+		</prestreet>		
+		<poststreet y="70">
+			<![CDATA[<textformat leading="-2"><font size="22">NOW AVAILABLE</font><br /><font size="12">ON DISNEY DVD AND<br />BLU-RAY™ HI-DEF</font></textformat>]]>
+		</poststreet>		
+		<order_label_dvd y="-3">
+			<![CDATA[<textformat leading="-2"><font size="12">ORDER ON<br />DISNEY DVD</font></textformat>]]>
+		</order_label_dvd>		
+		<order_label_bluray y="-3">
+			<![CDATA[<textformat leading="-2"><font size="12">ORDER ON<br />BLU-RAY™ HI-DEF</font></textformat>]]>
+		</order_label_bluray>		
+		<order_url_dvd>javascript:openWindow('http://transfer.go.com/cgi/transfer.dll?name=23303&SOURCE=23303&srvc=store&goto=http://disneyshopping.go.com/webapp/wcs/stores/servlet/DSIProductDisplay?catalogId=10002&storeId=10051&productId=1234691&langId=-1&categoryId=13698&CMP=OTL-TWDC_BVHE&att=BVHE');</order_url_dvd>		
+		<order_url_bluray>javascript:openWindow('http://transfer.go.com/cgi/transfer.dll?name=23303&SOURCE=23303&srvc=store&goto=http://disneyshopping.go.com/webapp/wcs/stores/servlet/DSIProductDisplay?catalogId=10002&storeId=10051&productId=1234689&langId=-1&categoryId=13698&CMP=OTL-TWDC_BVHE&att=BVHE');</order_url_bluray>		
+	</global_header>
+	
+	<global_frame>
+		<play_button><![CDATA[PLAY]]></play_button>
+		<video_button><![CDATA[VIDEO]]></video_button>
+		<levels><![CDATA[LEVELS]]></levels>
+		<instructions_button><![CDATA[HELP]]></instructions_button>
+		<instructions_header><![CDATA[HOW TO PLAY]]></instructions_header>
+		<instructions_copy><![CDATA[The aim is to remove as many beams from the towers as you can. Simply click a beam to remove it. But try to keep the platform and WALL·E's pet cockroach Hal above the electrified cable!<br><br>There are 10 levels in total and you need to remove enough beams on each to unlock the next level. Your BEST SCORE from each level goes towards your TOTAL SCORE and you can retry levels whenever you like to improve your TOTAL SCORE. Complete level 10 and unlock the bonus WALL·E video clip!
+		]]></instructions_copy>
+		<instructions_close><![CDATA[CLOSE]]></instructions_close>
+		<instructions_image_hal><![CDATA[Hal]]></instructions_image_hal>
+		<instructions_image_click_beams><![CDATA[Click beams<br>to remove]]></instructions_image_click_beams>
+		<instructions_image_keep_away><![CDATA[Keep these away<br>from each other]]></instructions_image_keep_away>
+	</global_frame>
+
+	<progress_board>
+		<total_score><![CDATA[TOTAL SCORE]]></total_score>
+		<combined><![CDATA[FROM ALL LEVELS]]></combined>
+		
+		<current_level><![CDATA[CURRENT LEVEL]]></current_level>
+		<you_need><![CDATA[YOU NEED]]></you_need>
+		<you_have><![CDATA[YOU HAVE]]></you_have>
+		<level_best><![CDATA[LEVEL BEST]]></level_best>
+	</progress_board>
+	
+	<next_level_panel>
+		<title><![CDATA[LEVEL OVER]]></title>
+		<try_again><![CDATA[TRY AGAIN]]></try_again>
+		<next_level><![CDATA[NEXT LEVEL]]></next_level>
+		<watch_video><![CDATA[WATCH VIDEO]]></watch_video>
+		<locked><![CDATA[LOCKED]]></locked>
+		<target_not_met><![CDATA[TARGET NOT MET]]></target_not_met>
+		<sub_copy><![CDATA[OR JUMP TO ANY OF THE UNLOCKED LEVELS FROM THE MENU BELOW]]></sub_copy>
+	</next_level_panel>
+	
+	<game_stuff>
+		<stabilising><![CDATA[STABILISING]]></stabilising>
+	</game_stuff>
+	
+	<unlocked_panel>
+		<next_level><![CDATA[NEXT LEVEL UNLOCKED!]]></next_level>
+		<video><![CDATA[VIDEO UNLOCKED!]]></video>
+		<keep_going><![CDATA[OR KEEP GOING FOR EXTRA POINTS]]></keep_going>
+	</unlocked_panel>
+	
+	<end_screen>
+		<header><![CDATA[CONGRATULATIONS!]]></header>
+		<body><![CDATA[You unlocked the video! Click below to find out what happens when WALL·E discovers a new toy!]]></body>
+		<watch_video><![CDATA[WATCH VIDEO]]></watch_video>
+		<locked><![CDATA[VIDEO LOCKED]]></locked>
+		<get_to_ten><![CDATA[COMPLETE LEVEL 10 FIRST]]></get_to_ten>
+		<replay><![CDATA[KEEP PLAYING]]></replay>
+		<video_loading><![CDATA[LOADING...]]></video_loading>
+		<video_path>usa/video/teaser.flv</video_path>
+	</end_screen>
+</root>
