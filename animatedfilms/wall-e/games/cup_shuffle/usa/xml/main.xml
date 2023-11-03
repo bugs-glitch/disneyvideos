@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<global_header>
+		<release_year>2008</release_year>
+		<!-- 1 for January, 2 for February etc-->
+		<release_month>11</release_month>
+		<release_day>18</release_day>
+		<!-- the logo is actually hard-coded at this location (relative to the cid defined in the Javascript) -->
+		<!-- because it loads concurrently with this XML data to display on the loading screen -->
+		<!-- ...but you can adjust its x & y value here -->
+		<logo src="images/logo.swf" x="" y="30" />
+		<prestreet x="0" y="70">
+			<![CDATA[<textformat leading="-1"><font size="14">COMING TO DISNEY DVD AND BLU-RAY™ HI-DEF<br /><font size="20">NOVEMBER 18</font></textformat>]]>
+		</prestreet>		
+		<poststreet x="0" y="70">
+			<![CDATA[<textformat leading="-1"><font size="18">NOW AVAILABLE</font><br /><font size="12">ON DISNEY DVD AND BLU-RAY™ HI-DEF</font></textformat>]]>
+		</poststreet>		
+		<order_label_dvd y="-3">
+			<![CDATA[<textformat leading="-2"><font size="12">ORDER ON<br />DISNEY DVD</font></textformat>]]>
+		</order_label_dvd>		
+		<order_label_bluray y="-3">
+			<![CDATA[<textformat leading="-2"><font size="12">ORDER ON<br />BLU-RAY™ HI-DEF</font></textformat>]]>
+		</order_label_bluray>		
+		<order_url_dvd>javascript:openWindow('http://transfer.go.com/cgi/transfer.dll?name=23303&SOURCE=23303&srvc=store&goto=http://disneyshopping.go.com/webapp/wcs/stores/servlet/DSIProductDisplay?catalogId=10002&storeId=10051&productId=1234691&langId=-1&categoryId=13698&CMP=OTL-TWDC_BVHE&att=BVHE');</order_url_dvd>		
+		<order_url_bluray>javascript:openWindow('http://transfer.go.com/cgi/transfer.dll?name=23303&SOURCE=23303&srvc=store&goto=http://disneyshopping.go.com/webapp/wcs/stores/servlet/DSIProductDisplay?catalogId=10002&storeId=10051&productId=1234689&langId=-1&categoryId=13698&CMP=OTL-TWDC_BVHE&att=BVHE');</order_url_bluray>		
+	</global_header>
+	<copy>
+		<txt id="loading"><![CDATA[<font size='10'>LOADING</font>]]></txt>
+		<txt id="loading2"><![CDATA[<font size='15'>LOADING</font>]]></txt>
+		<txt id="sound"><![CDATA[SOUND]]></txt>
+		<txt id="sectionBack"><![CDATA[<font size='22'>BACK</font>]]></txt>
+		<txt id="videoBack"><![CDATA[<font size='12'>BACK</font>]]></txt>
+		<txt id="skip"><![CDATA[<font size='13'>SKIP</font>]]></txt>
+		<txt id="copyright"><![CDATA[<font size='10'>© DISNEY/PIXAR</font>]]></txt>
+		<txt id="begin_prompt"><![CDATA[<font size='11'>CAN YOU FIND THE CUP<br>HAL IS HIDING UNDER?</font>]]></txt>
+		<txt id="skip_video"><![CDATA[<font size='11.5'>SKIP VIDEO</font>]]></txt>
+		<txt id="skip_intro"><![CDATA[<font size='11.5'>SKIP INTRO</font>]]></txt>
+		<txt id="chances"><![CDATA[<font size='7'>CHANCES</font>]]></txt>
+		<txt id="score"><![CDATA[<font size='7'>SCORE</font>]]></txt>
+		<txt id="level"><![CDATA[<font size='7'>LEVEL</font>]]></txt>
+		<txt id="game_title"><![CDATA[<font size='40'>WALL•E’S CUP SHUFFLE</font>]]></txt>
+		<txt id="earned_bonus"><![CDATA[<font size='22'>YOU'VE EARNED A<br>BONUS FROM WALL•E</font>]]></txt>
+		<txt id="view"><![CDATA[<font size='13'>VIEW</font>]]></txt>
+		<txt id="continue_game"><![CDATA[<font size='13'>CONTINUE GAME</font>]]></txt>
+		<txt id="gameover_header"><![CDATA[<font size='28'>GAME OVER!</font>]]></txt>
+		<txt id="gameover_body"><![CDATA[<font size='13'>Too slow! You're going to have to do some serious training if you want to be an expert Hal finder.</font>]]></txt>
+		<txt id="sound_off"><![CDATA[<font size='10'>SOUND OFF</font>]]></txt>
+		<txt id="sound_on"><![CDATA[<font size='10'>SOUND ON</font>]]></txt>
+		<txt id="instructions"><![CDATA[<font size='14'>INSTRUCTIONS</font>]]></txt>
+		<txt id="congrats_header"><![CDATA[<font size='28'>CONGRATULATIONS!</font>]]></txt>
+		<txt id="congrats_body"><![CDATA[<font size='16'>Nicely done! Those cups were quick, but you found Hal like a champ! You scoreed a cool</font>]]></txt>
+		<txt id="congrats_points"><![CDATA[<font size='10'>POINTS</font>]]></txt>
+		<txt id="begin_game"><![CDATA[<font size='23'>BEGIN GAME</font>]]></txt>
+		<txt id="play_again"><![CDATA[<font size='23'>PLAY AGAIN</font>]]></txt>
+		<txt id="achievements"><![CDATA[<font size='8'>ACHIEVEMENTS</font>]]></txt>
+		<txt id="instructions_body"><![CDATA[<font size='13'>WALL–E's best friend Hal is hiding under these junkyard cups — and it's up to you to find him!  Are you up to the challenge?
+Just follow these easy steps to play the game and find his quick and crafty friend:
+<li>To start, WALL-E will show you which cup Hal is under.</li>
+<li>Then WALL-E will shuffle the cups.  Keep your eyes peeled –and whatever you do: DON'T LOSE TRACK OF HAL! </li>
+<li>When WALL-E stops shuffling, pick the cup you think Hal is hiding under.</li>
+<li>Finally, make your guess!  You’ll soon see if you have what it takes to hang with Hal!</li>
+There are 5 levels. Each level has 3 shuffles. To complete a level, just find Hal two out of three tries. If you miss twice in any level, the game is over SO BE CAREFUL!
+To reward your efforts, a special video called an “achievement” will appear every time you complete a level.  You can score points for every level you've won, plus extra points for your awesome winning streaks.
+You must complete all five levels to see the video achievements, and once you’ve unlocked a video, you can always watch it again by clicking on it.
+Good luck and be sure not to lose Hal!</font>]]></txt>
+		<txt id="how_to_play"><![CDATA[<font size='10'>HOW TO PLAY</font>]]></txt>
+	</copy>
+	<encouragements>
+		<txt><![CDATA[Which Cup Is It?]]></txt>
+		<txt><![CDATA[Go Ahead, Pick A Cup!]]></txt>
+		<txt><![CDATA[Choose Your Cup!]]></txt>
+		<txt><![CDATA[Where's Hal Hiding?]]></txt>
+		<txt><![CDATA[Make Your Choice!]]></txt>
+		<txt><![CDATA[Can You Find Hal?]]></txt>
+	</encouragements>
+	<feedback_correct>
+		<txt><![CDATA[Way To Go]]></txt>
+		<txt><![CDATA[Great Job]]></txt>
+		<txt><![CDATA[Terrific]]></txt>
+		<txt><![CDATA[Nice Job]]></txt>
+		<txt><![CDATA[You're On A Roll!]]></txt>
+	</feedback_correct>
+	<feedback_incorrect>
+		<txt><![CDATA[Way To Go]]></txt>
+		<txt><![CDATA[Great Job]]></txt>
+		<txt><![CDATA[Terrific]]></txt>
+		<txt><![CDATA[Nice Job]]></txt>
+		<txt><![CDATA[You're On A Roll!]]></txt>
+	</feedback_incorrect>
+</root>
