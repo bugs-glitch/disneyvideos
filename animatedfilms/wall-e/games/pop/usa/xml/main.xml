@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<global_header>
+		<copy id='release_year'>2008</copy>
+		<!-- 1 for January, 2 for February etc-->
+		<copy id='release_month'>11</copy>
+		<copy id='release_day'>18</copy>
+		<!-- the logo is actually hard-coded at this location (relative to the cid defined in the Javascript) -->
+		<!-- because it loads concurrently with this XML data to display on the loading screen -->
+		<!-- ...but you can adjust its x & y value here -->
+		<copy id='logo_img'>images/logo.swf</copy>
+		<copy id='prestreet_read'>
+			<![CDATA[<textformat leading="-2"><font size="12">COMING TO DISNEY DVD AND BLU-RAY™ HI-DEF<br /><font size="22">NOVEMBER 18</font></textformat>]]>
+		</copy>
+		<copy id='poststreet_read'>
+			<![CDATA[<textformat leading="-2"><font size="22">NOW AVAILABLE</font><br /><font size="12">ON DISNEY DVD AND<br />BLU-RAY™ HI-DEF</font></textformat>]]>
+		</copy>
+		<copy id='order_label_dvd'>
+			<![CDATA[<textformat leading="-2"><font size="12">ORDER ON<br />DISNEY DVD</font></textformat>]]>
+		</copy>
+		<copy id='order_label_bluray'>
+			<![CDATA[<textformat leading="-2"><font size="12">ORDER ON<br />BLU-RAY™ HI-DEF</font></textformat>]]>
+		</copy>
+		<copy id='order_url_dvd'>javascript:openWindow("http://transfer.go.com/cgi/transfer.dll?name=23303&SOURCE=23303&srvc=store&goto=http://disneyshopping.go.com/webapp/wcs/stores/servlet/DSIProductDisplay?catalogId=10002&storeId=10051&productId=1234691&langId=-1&categoryId=13698&CMP=OTL-TWDC_BVHE&att=BVHE");</copy>
+		<copy id='order_url_bluray'>javascript:openWindow("http://transfer.go.com/cgi/transfer.dll?name=23303&SOURCE=23303&srvc=store&goto=http://disneyshopping.go.com/webapp/wcs/stores/servlet/DSIProductDisplay?catalogId=10002&storeId=10051&productId=1234689&langId=-1&categoryId=13698&CMP=OTL-TWDC_BVHE&att=BVHE");</copy>
+		<copy id='copyrightRead'><![CDATA[<font size="9">© Disney/Pixar</font>]]></copy>
+	</global_header>
+
+	<section id='general'>
+		<copy id='start'>START</copy>
+		<copy id='freeplay_title'>FREE PLAY</copy>
+		<copy id='continue'><![CDATA[<font size="11">CONTINUE</font>]]></copy>
+		<copy id='play'>NEXT</copy>
+		<copy id='home'>HOME</copy>
+		<copy id='visit_site'>Visit Official Site</copy>
+		<copy id='level'>level</copy>
+		<copy id='score'>SCORE</copy>
+		<copy id='high_score'>BEST</copy>
+		<copy id='intro_copy'><![CDATA[Use EVE's laser to pop WALL·E's bubble wrap as fast as you can!]]></copy>
+		<copy id='game_title'><![CDATA[POP!]]></copy>	
+		<copy id='instruction_button'>Instructions</copy>
+		<copy id='restart_btn'><![CDATA[<font size="12">RESTART</font>]]></copy>
+		<copy id='speed'><![CDATA[Speed bonus:]]></copy>
+		<copy id='copyright'><![CDATA[© Disney/Pixar]]></copy>
+		<copy id='timer'><![CDATA[Time:]]></copy>
+		<copy id='bubblesLeft'><![CDATA[BUBBLES LEFT!]]></copy>
+		<copy id='newsheet_title'><![CDATA[NEW SHEET]]></copy>
+	</section>
+	
+	<section id='instructions'>
+			<copy id='instructions_title'><![CDATA[INSTRUCTIONS]]></copy>
+			<copy id='instructions_body'><![CDATA[Just move your mouse to pop the bubbles with EVE's laser.<br>But don't touch WALL·E's hands or move off the sheet, because your laser will freeze for a few seconds!]]></copy>
+	</section>
+		
+	<section id='instructions_freeplay'>
+			<copy id='instructions_freeplay_title'><![CDATA[INSTRUCTIONS]]></copy>
+			<copy id='instructions_freeplay_body'><![CDATA[Just point EVE's laser at the bubbles to pop them! There are three fun sheets to choose from, so get popping!]]></copy>
+	</section>
+	
+	<section id='end_section'>
+		<copy id='end_title'>WELL DONE!</copy>
+		<copy id='end_title_fail'><![CDATA[You didn’t pop all the bubbles in time. Press RESTART to have another go!<br>I’m sure you can do it!]]></copy>
+		<copy id='end_body_fail'></copy>
+		<copy id='end_body_success'></copy>
+		<copy id='end_score'>SCORE</copy>
+		<copy id='end_bestscore'>BEST</copy>
+		<url id='bonus_download'></url>
+	</section>
+	
+	<section id='instructions'>
+		<level id='freeplay'>
+			<page id='freeplay_1'>
+				<copy id='freeplay_1_title'>FREEPLAY</copy>
+				<copy id='freeplay_1_body'>Just point EVE's laser at the bubbles to pop them! There are three fun sheets to choose from, so get popping!</copy>
+			</page>
+		</level>
+		<level id='1'>
+			<page id='1_1'>
+				<copy id='1_1_title'>NICE AND EASY</copy>
+				<copy id='1_1_body'>Pop all the bubbles within 45 seconds, but don't hit WALL·E's fingers!</copy>
+			</page>
+		</level>
+		<level id='2'>
+			<page id='2_1'>
+				<copy id='2_1_title'>MORE BUBBLES</copy>
+				<copy id='2_1_body'>WALL·E has a larger sheet this time - but you still only have 45 seconds!</copy>
+			</page>
+		</level>
+		<level id='3'>
+			<page id='3_1'>
+				<copy id='3_1_title'>ROTATION</copy>
+				<copy id='3_1_body'>Now WALL·E is moving the sheet - don't move off it!</copy>
+			</page>
+		</level>
+		<level id='4'>
+			<page id='4_1'>
+				<copy id='4_1_title'>AVOID THE HOLES</copy>
+				<copy id='4_1_body'>Your laser freezes if you move off the sheet!</copy>
+			</page>
+		</level>
+		<level id='5'>
+			<page id='5_1'>
+				<copy id='5_1_title'>ROTATING HOLES</copy>
+				<copy id='5_1_body'>It's getting really hard now!</copy>>
+			</page>
+		</level>
+		<level id='6'>
+			<page id='6_1'>
+				<copy id='6_1_title'>WEIRD SHAPE</copy>
+				<copy id='6_1_body'>Where did WALL·E find this crazy piece?!</copy>>
+			</page>
+		</level>
+		<level id='7'>
+			<page id='7_1'>
+				<copy id='7_1_title'>ZOOMING</copy>
+				<copy id='7_1_body'>This time he moves the sheet forward and back.</copy>>
+			</page>
+		</level>
+		<level id='8'>
+			<page id='8_1'>
+				<copy id='8_1_title'>FINAL LEVEL!</copy>
+				<copy id='8_1_body'>WALL·E can't keep still! If you get this, you're amazing!</copy>>
+			</page>
+		</level>
+		
+		<level id='stage_end'>
+			<copy id = 'stage_end_title'>LEVEL COMPLETE</copy>
+			<copy id = 'stage_end_copy'>THE FASTER YOU POP, THE HIGHER YOUR SCORE!</copy>
+			<copy id = 'stage_end_score'>SCORE:</copy>
+		</end>
+	</section>
+
+	</root>

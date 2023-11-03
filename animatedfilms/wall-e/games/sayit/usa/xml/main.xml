@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<global_header>
+		<release_year id="release_year">2008</release_year>
+		<!-- 1 for January, 2 for February etc-->
+		<release_month id="release_month">11</release_month>
+		<release_day id="release_day">18</release_day>
+		<prestreet id="prestreet">
+			<![CDATA[<textformat leading="-2"><font size="12">COMING TO DISNEY DVD AND BLU-RAY™ HI-DEF<br /><font size="22">NOVEMBER 18</font></textformat>]]>
+		</prestreet>		
+		<poststreet id="poststreet">
+			<![CDATA[<textformat leading="-2"><font size="22">NOW AVAILABLE</font><br /><font size="12">ON DISNEY DVD AND<br />BLU-RAY™ HI-DEF</font></textformat>]]>
+		</poststreet>		
+		<prestreetY id="prestreetY">
+			<![CDATA[74]]>
+		</prestreetY>		
+		<poststreetY id="poststreetY">
+			<![CDATA[70]]>
+		</poststreetY>		
+		<order_label_dvd id="order_label_dvd">
+			<![CDATA[<textformat leading="-2"><font size="12">ORDER ON<br />DISNEY DVD</font></textformat>]]>
+		</order_label_dvd>		
+		<order_label_bluray id="order_label_bluray">
+			<![CDATA[<textformat leading="-2"><font size="12">ORDER ON<br />BLU-RAY™ HI-DEF</font></textformat>]]>
+		</order_label_bluray>		
+		<order_url_dvd id="order_url_dvd">javascript:openWindow('http://transfer.go.com/cgi/transfer.dll?name=23303&SOURCE=23303&srvc=store&goto=http://disneyshopping.go.com/webapp/wcs/stores/servlet/DSIProductDisplay?catalogId=10002&storeId=10051&productId=1234691&langId=-1&categoryId=13698&CMP=OTL-TWDC_BVHE&att=BVHE');</order_url_dvd>		
+		<order_url_bluray id="order_url_bluray">javascript:openWindow('http://transfer.go.com/cgi/transfer.dll?name=23303&SOURCE=23303&srvc=store&goto=http://disneyshopping.go.com/webapp/wcs/stores/servlet/DSIProductDisplay?catalogId=10002&storeId=10051&productId=1234689&langId=-1&categoryId=13698&CMP=OTL-TWDC_BVHE&att=BVHE');</order_url_bluray>		
+		<copyright id="copyright">
+			<![CDATA[<font size="9">© DISNEY/PIXAR</font>]]>
+		</copyright>		
+	</global_header>
+
+	<section id='general'>
+		<copy id='game_title'><![CDATA[SAY IT LIKE WALL·E]]></copy>	
+	</section>
+	
+	<section id='intro'>
+		<copy id='intro_body'><![CDATA[Can you say it like WALL·E does? Now's your chance. Plug in your mic or just use your keyboard. Take the challenge now!]]></copy>
+		<copy id='intro_click'><![CDATA[CLICK WHAT YOU WANT TO SAY]]></copy>
+		<copy id='walle_btn'><![CDATA[WALL·E]]></copy>
+		<copy id='eve_btn'><![CDATA[EVE]]></copy>
+		<copy id='locked'><![CDATA[LOCKED]]></copy>
+		<copy id='mp3_title'><![CDATA[FREE DOWNLOADS]]></copy>
+		<copy id='mp3_body'><![CDATA[Grab these WALL·E & EVE MP3s for you to use!]]></copy>
+		<copy id='mp3_btn1'><![CDATA[WALL·E MP3]]></copy>
+		<copy id='mp3_btn2'><![CDATA[EVE MP3]]></copy>
+		<copy id='mic_title'><![CDATA[GET CONNECTED!]]></copy>
+		<copy id='mic_subheading'><![CDATA[FIRST MAKE SURE YOUR MIC IS PLUGGED IN. THEN...]]></copy>
+		<copy id='mic_instruction_allow'><![CDATA[CLICK ALLOW TO CONTINUE]]></copy>
+		<copy id='mic_instruction_deny'><![CDATA[CLICK DENY TO CANCEL]]></copy>
+		<copy id='mic_rollover'><![CDATA[CLICK TO CONTROL THE GAME WITH YOUR MIC]]></copy>
+		<copy id='mic_disabled_rollover'><![CDATA[YOU HAVE DISABLED THE MICROPHONE, REFRESH THE PAGE]]></copy>
+		<copy id='keyboard_rollover'><![CDATA[CLICK TO CONTROL THE GAME WITH YOUR SPACEBAR]]></copy>
+		
+		<url id='mp3_1'><![CDATA[downloads/walle.zip]]></url>
+		<url id='mp3_2'><![CDATA[downloads/eve.zip]]></url>
+		
+	</section>
+	
+	<section id='chooser'>
+		<copy id='chooser_title'><![CDATA[HOW WOULD YOU LIKE TO PLAY?]]></copy>
+		<copy id='chooser_mic_btn'><![CDATA[MIC]]></copy>
+		<copy id='chooser_keys_btn'><![CDATA[KEYS]]></copy>
+	</section>
+	
+	<section id='mic_calibration'>
+		<copy id='calibration_button'><![CDATA[GO]]></copy>
+		<copy id='calibration_title'><![CDATA[Let's do a quick<BR>microphone test]]></copy>
+		<copy id='calibration_remain_silent'><![CDATA[REMAIN SILENT]]></copy>
+		<copy id='calibration_then_press_go'><![CDATA[Then press 'go']]></copy>
+		<copy id='calibration_testing'><![CDATA[Testing...]]></copy>
+		<copy id='calibration_get_ready_to_say'><![CDATA[Get ready to say<BR>'testing']]></copy>
+		<copy id='calibration_say_testing'><![CDATA[Say 'testing' now!]]></copy>
+	</section>
+	
+	<section id='instructions'>
+		<copy id='instruction_title'><![CDATA[INSTRUCTIONS]]></copy>
+		<copy id='instruction_body'><![CDATA[<u>Play with your Microphone:</u><br><br>When asked how you’d like to play, select ‘Mic’ and follow the on-screen instructions to check your microphone is working.<br><br>At the start of the game you will hear WALL-E say his name - as he speaks a red sound wave will appear. Your challenge is to try and copy this line as best you can using your own voice. The closer your sound wave is to WALL-E’s the higher you will score!<br><br><u>Play with your keyboard:</u><br><br>When asked how you’d like to play, select ‘Keys’<br><br>At the start of the game you will hear WALL-E say his name - as he speaks a red sound wave will appear. Your challenge is to try and copy this line as best you with your own sound wave. Make your sound wave by tapping the spacebar repeatedly – tap faster or slower to make your wave rise and fall. The closer your sound wave is to WALL-E’s the higher you will score!]]></copy>
+	</section>
+	
+	
+	<section id='game'>
+		<copy id='instruction_mic'><![CDATA[USE YOUR MIC]]></copy>
+		<copy id='instruction_spacebar'><![CDATA[START TAPPING THE SPACEBAR NOW]]></copy>
+		<copy id='game_say_walle'><![CDATA[SAY: WALL·E]]></copy>
+		<copy id='game_say_eve'><![CDATA[SAY: EVE]]></copy>
+		<copy id='game_push_bar'><![CDATA[PRESS SPACEBAR QUICKLY!]]></copy>
+		<copy id='game_demo_listen'><![CDATA[LISTEN TO DEMO]]></copy>
+		<copy id='game_demo_btn'><![CDATA[LISTEN AGAIN]]></copy>
+		<copy id='game_start_btn'><![CDATA[LET'S GO!]]></copy>
+		<copy id='game_listen'><![CDATA[WHEN YOU ARE READY...]]></copy>
+		<copy id='game_menu_btn'><![CDATA[MENU]]></copy>
+		<copy id='game_recording'><![CDATA[RECORDING]]></copy>
+		<copy id='calculating'><![CDATA[CALCULATING SCORE]]></copy>
+		<copy id='end_replay'><![CDATA[REPLAY]]></copy>
+		<copy id='end_score'><![CDATA[YOUR SCORE]]></copy>
+		<copy id='end_high'><![CDATA[HIGH]]></copy>
+		<copy id='end_tryagain'><![CDATA[TRY AGAIN]]></copy>
+
+		<!-- END MESSAGES FOR LEVEL 1, AND IF EVE IS LOCKED -->
+		<copy id='end_bad_score'><![CDATA[TRY HARDER! YOU NEED $points% OR MORE TO UNLOCK EVE]]></copy>
+		<copy id='end_ok_score'><![CDATA[GOOD! BUT YOU NEED $points% OR MORE TO UNLOCK EVE]]></copy>
+		<copy id='end_good_score'><![CDATA[EXCELLENT SCORE! YOU'VE UNLOCKED EVE!]]></copy>
+
+		<!-- END MESSAGES FOR LEVEL 2, OR LEVEL 1 IF EVE IS UNLOCKED -->
+		<copy id='end_bad_score_unlocked'><![CDATA[NOT BAD - BUT TRY HARDER!]]></copy>
+		<copy id='end_ok_score_unlocked'><![CDATA[GOOD! BUT YOU COULD DO BETTER]]></copy>
+		<copy id='end_good_score_unlocked'><![CDATA[EXCELLENT SCORE!]]></copy>
+
+		<copy id='end_unlocked'><![CDATA[TRY EVE]]></copy>
+	</section>
+
+</root>
