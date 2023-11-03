@@ -1,0 +1,5 @@
+function openRatingsDisclaimer(URL){
+	win = window.open('http://disney.go.com/disneyvideos/javascript/disclaimer/disclaimer.html?http://'+URL, 'intermediate', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=370,height=210');
+}
+
+document.writeln('	<center><font face="verdana, arial, helvetica, sans-serif" size="1" class="textcolor"><a href="http://home.disney.go.com/guestservices/disclaimers/redirect?destination=http://www.mpaa.org" target="_blank">www.mpaa.org</a> | <a href="http://home.disney.go.com/guestservices/disclaimers/redirect?destination=http://www.filmratings.com" target="_blank">www.filmratings.com</a> | <a href="http://home.disney.go.com/guestservices/disclaimers/redirect?destination=http://www.parentalguide.org" target="_blank">www.parentalguide.org</a></font></center>	');
