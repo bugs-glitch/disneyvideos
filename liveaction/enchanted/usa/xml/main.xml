@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<!-- HOME -->
+	<!-- active of 0 hides the section, 1 shows it, 2 shows coming soon on rollover -->
+	<page id='home' active='1'>
+		<!-- DO NOT CHANGE THE FORMAT OF THE RELEASE DATE 
+	      IT MUST REMAIN AS YYYY-MM-DD -->
+		<release_date>2008-03-18</release_date>
+		<prerelease_copy><![CDATA[IN CINEMAS<br>DECEMBER 12]]></prerelease_copy>
+		<postrelease_copy>NOW IN CINEMAS</postrelease_copy>
+		<loading>Loading</loading>
+		<comingsoon>coming soon</comingsoon>
+	</page>
+	<page id='synopsis' active='1' pos='1'>
+		<copy id='title'>About</copy>
+		<subpage id='story' active='1'>
+			<copy id='nav'>Story</copy>
+			<copy id='initial_letter'>A</copy>
+			<copy id='main'><![CDATA[            fairy tale comes to life in this thoroughly original, new Disney Classic. Drawing inspiration from its classic heritage, Disney creates an inspired story unlike any you’ve experienced before. Filled with excitement, fun and incredible music from the legendary Alan Menken, ENCHANTED is the ultimate fish-out-of-water adventure. For princess-to-be Giselle, life is a fairy tale — until she’s banished from the animated land of Andalasia and thrust into the very unmagical, live-action world of modern-day Manhattan. When a cynical, no-nonsense divorce lawyer comes to her aid, little does he realize this joyful, wide-eyed innocent is about to enchant him. ENCHANTED — the musical comedy that will have your entire family under its spell. ]]></copy>
+		</subpage>
+		<subpage id='dvdbonus' active='1'>
+			<copy id='nav'>Disney DVD Bonus Features</copy>
+			<copy id='initial_letter'></copy>
+			<copy id='main'><![CDATA[-Deleted Scenes
+
+-Bloopers
+
+-Fantasy Comes To Life — Discover Enchanted’s cinematic wizardry in these behind-the-scenes featurettes
+
+-Pip’s Predicament: A Pop-Up Adventure — After Giselle lands in New York, Pip goes on a daring mission to rescue Prince Edward in Andalasia ]]></copy>
+		</subpage>
+		<subpage id='bluraybonus' active='1'>
+			<copy id='nav'>Blu-ray Bonus Features</copy>
+			<copy id='initial_letter'></copy>
+			<copy id='main'><![CDATA[-Exclusive To Disney Blu-ray
+THE D-FILES— Discover all the hidden references to classic Disney films in this fun and rewarding challenge
+
+-Deleted Scenes
+
+-Bloopers
+
+-Fantasy Comes To Life— Discover Enchanted’s cinematic wizardry in these behind-the-scenes featurettes
+
+-Pip’s Predicament: A Pop-Up Adventure — After Giselle lands in New York, Pip goes on a daring mission to rescue Prince Edward in Andalasia
+
+-Music Video “Ever Ever After” Performed By Carrie Underwood ]]></copy>
+		</subpage>
+		<subpage id='techspecs' active='1'>
+			<copy id='nav'>Tech Specs</copy>
+			<copy id='initial_letter'></copy>
+			<copy id='main'><![CDATA[DVD SPECIFICATIONS
+May Only Apply To Feature Film
+-DTS 5.1 Digital Surround Sound
+
+-Dolby Digital 5.1 Surround Sound
+
+-French And Spanish Language Tracks
+
+-French And Spanish Subtitles
+
+-Widescreen (2.35:1) — Enhanced For 16x9 Televisions
+
+
+BLU-RAY SPECIFICATIONS
+FEATURE
+Video - 1080p High Definition / 2.35:1 / 1.85:1 Storybook Beginning
+Audio - English Dolby TrueHD (48 kHz /24-bit)
+ English, French, Spanish 5.1 Dolby Digital
+Subtitles - English SDH, French, Spanish
+
+BONUS
+Video - 1080p or 1080i or 480i
+Audio - English 5.1 or 2.0 Dolby Digital, French, Spanish
+Subtitles - English SDH ]]></copy>
+		</subpage>
+	</page>
+	<!-- VIDEO -->
+<page id='videos' active='1' pos='2'>
+		<copy id="title">Video</copy>
+		<video id='trailer' listpos="1">
+			<copy id='title'>Trailer</copy>
+			<sublink>trailer</sublink>
+			<url>http://progressive.totaleclips.com.edgesuite.net/370/e37007_bf08.flv</url>
+			<url_low>http://progressive.totaleclips.com.edgesuite.net/370/e37007_bf03.flv</url_low>
+			<thumb>video/thumbnails/videos_thumb_01.jpg</thumb>
+		</video>
+		
+		<video id='clip|1' listpos="2">
+			<copy id='title'>Falling Princess</copy>
+			<sublink>falling</sublink>
+			<url>http://progressive.totaleclips.com.edgesuite.net/379/e37971_bf07.flv</url>
+			<url_low>http://progressive.totaleclips.com.edgesuite.net/379/e37971_bf13.flv</url_low>
+			<thumb>video/thumbnails/e37938_thumb.jpg</thumb>
+		</video>
+		<video id='clip|2' listpos="3">
+			<copy id='title'>Pip's Mime</copy>
+			<sublink>pip</sublink>
+			<url>http://progressive.totaleclips.com.edgesuite.net/379/e37975_bf07.flv</url>
+			<url_low>http://progressive.totaleclips.com.edgesuite.net/379/e37975_bf13.flv</url_low>
+			<thumb>video/thumbnails/e37942_thumb.jpg</thumb>
+		</video>
+		<video id='clip|3' listpos="4">
+			<copy id='title'>Angry Queen</copy>
+			<sublink>queen</sublink>
+			<url>http://progressive.totaleclips.com.edgesuite.net/379/e37978_bf07.flv</url>
+			<url_low>http://progressive.totaleclips.com.edgesuite.net/379/e37978_bf13.flv</url_low>
+			<thumb>video/thumbnails/e37945_thumb.jpg</thumb>
+		</video>
+		<video id='clip|4' listpos="5">
+			<copy id='title'>True Loves Kiss</copy>
+			<sublink>kiss</sublink>
+			<url>http://progressive.totaleclips.com.edgesuite.net/379/e37999_bf07.flv</url>
+			<url_low>http://progressive.totaleclips.com.edgesuite.net/379/e37999_bf13.flv</url_low>
+			<thumb>video/thumbnails/e37947_thumb.jpg</thumb>
+		</video>
+		<video id='bonus|1' listpos="6">
+			<copy id='title'>Bloopers</copy>
+			<sublink>bloopers</sublink>
+			<url>http://progressive.totaleclips.com.edgesuite.net/379/e37988_bf17.flv</url>
+			<url_low>http://progressive.totaleclips.com.edgesuite.net/379/e37988_bf14.flv</url_low>
+			<thumb>video/thumbnails/e37956_thumb.jpg</thumb>
+		</video>
+		<video id='bonus|2' listpos="7">
+			<copy id='title'>Back to Roots</copy>
+			<sublink>roots</sublink>
+			<url>http://progressive.totaleclips.com.edgesuite.net/379/e37993_bf17.flv</url>
+			<url_low>http://progressive.totaleclips.com.edgesuite.net/379/e37993_bf14.flv</url_low>
+			<thumb>video/thumbnails/e37961_thumb.jpg</thumb>
+		</video>
+	</page>
+	<!-- GALLERY -->
+	<page id='gallery' active='1' pos='3'>
+		<copy id="title">Gallery</copy>
+		<image listpos='1'>
+			<copy id='title'></copy>
+			<thumb>images/gallery/gallery_thumb_01.jpg</thumb>
+			<url>images/gallery/gallery_image_01.jpg</url>
+		</image>
+		<image listpos='2'>
+			<copy id='title'></copy>
+			<thumb>images/gallery/gallery_thumb_02.jpg</thumb>
+			<url>images/gallery/gallery_image_02.jpg</url>
+		</image>
+		<image listpos='3'>
+			<copy id='title'></copy>
+			<thumb>images/gallery/gallery_thumb_03.jpg</thumb>
+			<url>images/gallery/gallery_image_03.jpg</url>
+		</image>
+		<image listpos='4'>
+			<copy id='title'></copy>
+			<thumb>images/gallery/gallery_thumb_04.jpg</thumb>
+			<url>images/gallery/gallery_image_04.jpg</url>
+		</image>
+		<image listpos='5'>
+			<copy id='title'></copy>
+			<thumb>images/gallery/gallery_thumb_05.jpg</thumb>
+			<url>images/gallery/gallery_image_05.jpg</url>
+		</image>
+		<image listpos='6'>
+			<copy id='title'></copy>
+			<thumb>images/gallery/gallery_thumb_06.jpg</thumb>
+			<url>images/gallery/gallery_image_06.jpg</url>
+		</image>
+			<image listpos='7'>
+			<copy id='title'></copy>
+			<thumb>images/gallery/gallery_thumb_07.jpg</thumb>
+			<url>images/gallery/gallery_image_07.jpg</url>
+		</image>
+		<image listpos='8'>
+			<copy id='title'></copy>
+			<thumb>images/gallery/gallery_thumb_08.jpg</thumb>
+			<url>images/gallery/gallery_image_08.jpg</url>
+		</image>
+		<image listpos='9'>
+			<copy id='title'></copy>
+			<thumb>images/gallery/gallery_thumb_09.jpg</thumb>
+			<url>images/gallery/gallery_image_09.jpg</url>
+		</image>
+		<image listpos='10'>
+			<copy id='title'></copy>
+			<thumb>images/gallery/gallery_thumb_10.jpg</thumb>
+			<url>images/gallery/gallery_image_10.jpg</url>
+		</image>
+		<image listpos='11'>
+			<copy id='title'></copy>
+			<thumb>images/gallery/gallery_thumb_11.jpg</thumb>
+			<url>images/gallery/gallery_image_11.jpg</url>
+		</image>
+		<image listpos='12'>
+			<copy id='title'></copy>
+			<thumb>images/gallery/gallery_thumb_12.jpg</thumb>
+			<url>images/gallery/gallery_image_12.jpg</url>
+		</image>
+		<image listpos='13'>
+			<copy id='title'></copy>
+			<thumb>images/gallery/gallery_thumb_13.jpg</thumb>
+			<url>images/gallery/gallery_image_13.jpg</url>
+		</image>
+			<image listpos='14'>
+			<copy id='title'></copy>
+			<thumb>images/gallery/gallery_thumb_14.jpg</thumb>
+			<url>images/gallery/gallery_image_14.jpg</url>
+		</image>
+		<image listpos='15'>
+			<copy id='title'></copy>
+			<thumb>images/gallery/gallery_thumb_15.jpg</thumb>
+			<url>images/gallery/gallery_image_15.jpg</url>
+		</image>
+		<image listpos='16'>
+			<copy id='title'></copy>
+			<thumb>images/gallery/gallery_thumb_16.jpg</thumb>
+			<url>images/gallery/gallery_image_16.jpg</url>
+		</image>
+	</page>
+	<!-- GAMES  -->
+	<page id='games' active='1' pos='4'>
+		<copy id="title">Games</copy>
+		<game listpos='1' active='1' tracktag='games|nab+the+apples' width="900" height="720">
+			<sublink>apples</sublink>
+			<copy id="title">Nab the Apples</copy>
+			<copy id="description">Queen Narissa is trying to tempt Princess Giselle with some special apples - some poisonous, some not.  Help Pip protect Giselle and collect all of the red and golden apples.  Watch out for obstacles and the poison apples!</copy>
+			<thumb>games/images/game1_thumb.jpg</thumb>
+			<main_image>games/images/game1.jpg</main_image>
+			<url><![CDATA[usa/games/nabtheapples/index.html]]></url>
+		</game>
+		<game listpos='2' active='1' tracktag='games|character+match' width="994" height="800">
+			<copy id="title">Character Match</copy>
+			<sublink>match</sublink>
+			<copy id="description">Throughout Walt Disney movie history, there have been many famous pairs: Cinderella and Prince Charming, Belle and the Beast...and now, Giselle and Edward. Or is it Giselle and Robert?</copy>
+			<thumb>games/images/game2_thumb.jpg</thumb>
+			<main_image>games/images/game2.jpg</main_image>
+			<url><![CDATA[usa/games/match/index.html]]></url>
+		</game>
+		<game listpos='5' active='1' tracktag='games|sing+a+long' width="700" height="582">
+			<copy id="title">Sing-a-Long</copy>
+			<sublink>singalong</sublink>
+			<copy id="description">Sing along with the Enchanted Characters!  Choose a song, and follow the words as they are displayed.  Don't miss a beat!</copy>
+			<thumb>games/images/game3_thumb.jpg</thumb>
+			<main_image>games/images/game3.jpg</main_image>
+			<url><![CDATA[usa/games/sing-a-long/index.html]]></url>
+		</game>
+		<game listpos='3' active='1' tracktag='games|jumping+pip' width="863" height="753">
+			<copy id="title">Jumping Pip</copy>
+			<sublink>jumpingpip</sublink>
+			<copy id="description">Help Pip the Chipmunk spring high above the New York City skyline, collecting food as you bounce.</copy>
+			<thumb>games/images/game7_thumb.jpg</thumb>
+			<main_image>games/images/game7.jpg</main_image>
+			<url><![CDATA[usa/games/jumpingpip/index.html]]></url>
+		</game>
+		<game listpos='4' active='1' tracktag='games|enchanted+crossing' width="1024" height="888">
+			<copy id="title">Crossing</copy>
+			<sublink>crossing</sublink>
+			<copy id="description">You have 3 chances to guide all of the characters across Times Square.  Be sure to avoid the potholes & traffic jams!</copy>
+			<thumb>games/images/game9_thumb.jpg</thumb>
+			<main_image>games/images/game9.jpg</main_image>
+			<url><![CDATA[usa/games/crossing/index.html]]></url>
+		</game>
+	</page>
+	<!-- CHARACTERS -->
+	<page id='characters' active='1' pos='5'>
+		<copy id="title">Cast</copy>
+		
+		<pictureframes>
+			<copy id='giselle'>Giselle</copy>
+			<copy id='robert'>Robert</copy>
+			<copy id='edward'>Edward</copy>
+			<copy id='narissa'>Narissa</copy>
+		</pictureframes>
+		
+		<character id='giselle'>
+			<copy id='name'>Giselle</copy>
+			<copy id='actor'>Amy Adams</copy>
+			<copy id='biog'><![CDATA[AMY ADAMS has built an impressive list of credits, challenging herself with each new role.
+			
+Adams will star in Mike Nichols' "Charlie Wilson's War" opposite Tom Hanks, Julia Roberts and Phillip Seymour Hoffman. The film is based on a Texas congressman Charlie Wilson's (Hanks) covert dealings in Afghanistan, where his efforts to assist rebels in their war with the Soviets have some unforeseen and long-reaching effects. Universal Pictures is scheduled to release the film on December 25th 2007.
+
+Adams will also star in Christine Jeffs and Karen Moncrieff's "Sunshine Cleaning" opposite Emily Blunt. The dark family comedy film is about two lost sisters (Adams, Blunt) who find themselves after starting an unlikely business in crime-scene-cleanup. 
+
+Adams recently wrapped production on Bharat Nalluri's "Miss Pettigrew Lives for a Day" opposite Frances McDormand. The Universal and Focus Feature film is about a governess (McDormand) in 1938 who gets a taste of glamour when she goes to work in the home of an up and coming actress (Adams). One of the governess' chores is to sort out the actresses unrespectable affairs. 
+
+Adams will soon start production on John Patrick Shanley's "Doubt" opposite Meryl Streep and Philip Seymour Hoffman. Set at a Catholic school in the Bronx, the film centers on a nun who grows suspicious when a priest begins taking too much interest in the life of a young black student.
+
+Adams’ role in Phil Morrison’s "Junebug" in 2005 earned her a nomination for a SAG Award. She won an Independent Spirit Award, Broadcast Film Critics Association Award, National Society of Film Critics Award, a San Francisco Film Critics Society Award, as well as the Breakthrough Gotham Award. Adams also won the Special Jury Prize for Acting at the 2005 Sundance Film Festival for her role as the pregnant, childlike 'Ashley,' who is awe-struck by the arrival of her glamorous sister-in-law.
+
+Adams' other film credits include Adam McKay's "Talladega Nights: The Ballad of Ricky Bobby" with Will Ferrell, Clare Kilner's "The Wedding Date" with Debra Messing and Dermot Mulroney, Steven Spielberg's "Catch Me If You Can" with Leonardo DiCaprio, Reginald Hudlin's "Serving Sara," Anthony Abrams' "Pumpkin," and Michael Patrick Jann's "Drop Dead Gorgeous."  Adams' television credits include guest starring roles on "The Office" and "The West Wing."
+
+]]></copy>
+		<image>
+			<url>images/character/characters_main_giselle.jpg</url>
+		</image>
+		</character>
+		<character id='robert'>
+			<copy id='name'>Robert</copy>
+			<copy id='actor'>Patrick Dempsey</copy>
+			<copy id='biog'><![CDATA[Two-time Golden Globe nominee and 2006 SAG nominee for Best Performance by an Actor in a Television Series - Drama, can currently be seen on ABC-TV's hit medical drama, "Grey's Anatomy." "Grey's Anatomy" won the 2007 Golden Globe for Best Television Series – Drama as well as the 2007 SAG Award for Outstanding Performance by an Ensemble in a Drama Series.   The show also received Emmy nominations in 2006 and 2007 for Outstanding Drama Series as well as a 2005 Golden Globe nomination for Best Television Series - Drama.  Although he is perhaps best known as the unlikely heartthrob of such classic '80s nostalgia films such as "Can't Buy Me Love" and "Loverboy," Patrick Dempsey has grown into a mature actor and a talent that Hollywood continues to recognize.  He most recently starred in Richard LaGravenese's "Freedom Writers," opposite Hilary Swank and will be seen in May 2008 starring opposite Michelle Monaghan in "Made of Honor".
+			
+Dempsey nabbed an Emmy nomination for his portrayal of Aaron Brooks, Sela Ward's 
+psychologically unbalanced brother, in the critically acclaimed television program "Once & Again."  In 2004, Dempsey co-starred in the highly-acclaimed HBO production, "Iron Jawed Angels," opposite Hilary Swank and Anjelica Huston.   
+
+Other theatrical films include: "Sweet Home Alabama," "Scream 3," "With Honors," "Outbreak," "Hugo Pool," "The Treat," "The Palace Thief," "Heaven Help Us," " Happy Together," "Some Girls," "Coupe De Ville," "Run, Mobsters" and "In the Mood."
+
+In 2003, Dempsey made a memorable guest appearance on NBC's hit show, "Will & Grace," as Will's love interest.  Additionally, Dempsey starred in the NBC-TV movie based on Fyodor Dostoyevsky's "Crime and Punishment," opposite Ben Kingsley.  He also appeared in the television miniseries "20,000 Leagues Under the Sea" with Michael Caine.  He co-starred with Oliver Reed in the biblical epic "Jeremiah."  Other television movies and miniseries include:  "JFK: Reckless Youth," "A Season in Purgatory," "Blood Knot," "The Right to Remain Silent," "In a Shallow Grave" and "Blonde."
+
+Dempsey was born and raised in Lewiston, Maine.  He first appeared onstage as David in the San Francisco production of "Torch Song Trilogy."  Other early stage work included "On Golden Pond" for the Maine Acting Company; the international touring production of "Brighton Beach Memoirs," which was directed by Gene Saks; and "The Subject Was Roses" at the Roundabout Theatre in New York.  He recently took to the stage in The Pasadena Playhouse run of  "The Importance of Being Earnest," starring as Algernon Moncrieff.
+
+In addition to acting, Dempsey is an avid racing enthusiast and has participated in the Panoz Series and the Pro Miata series.  He currently lives in Los Angeles, California, with his wife, Jillian, and their three children Talula, Sullivan and Darby.
+
+]]></copy>
+		<image>
+			<url>images/character/characters_main_robert.jpg</url>
+		</image>
+		</character>
+		
+		<character id='edward'>
+			<copy id='name'>Prince Edward</copy>
+			<copy id='actor'>James Marsden</copy>
+			<copy id='biog'><![CDATA[Displaying astonishing versatility with a wide range of films, has quickly carved out a distinctive place in Hollywood.
+
+Marsden was seen this summer in Adam Shankman's box-office hit HAIRSPRAY opposite John Travolta, Queen Latifah, Michelle Pheiffer and Christoper Walken.  Marsden plays Corny Collins, the host of the tv dance show.  
+
+Marsden recently wrapped production on "27 Dresses," a romantic comedy for Fox 2000 and Spyglass Entertainment.  "27 Dresses" centers on a young woman, played by Katherine Heigl, who always ends up as a bridesmaid, but never the bride.  Marsden plays the lucky man who will change her bridesmaid status for good.  Fox is set to release the film on January 11, 2007.  
+
+Marsden was recently seen in "Superman Returns" for director Bryan Singer. Following a mysterious absence of several years, the Man of Steel comes back to Earth in the epic action-adventure. Marsden stars as 'Richard White,' a relation to Daily Planet editor Perry White and a new rival for the affections of 'Lois Lane.'  Kevin Spacey, Kate Bosworth, Brandon Routh and Frank Langella also starred.
+
+Marsden also recently starred in "X-Men: The Last Stand." Directed by Brett Ratner, Marsden reprised his role as 'Scott Summers/Cyclops' in 20th Century Fox's hugely successful franchise based on the Marvel comic book series.
+
+Also due for release is the independent film:  "The Alibi."  "The Alibi" tells the story of 'Ray Elliott' (Steve Coogan) who runs a successful business providing alibis for men and women who cheat on their spouses.  Marsden plays 'Wendall Hatch,' a man who murders his girlfriend while on a clandestine weekend get-away.  Selma Blair, John Leguizamo and Rebecca Romijn also star.
+
+Recent films also include the Nick Cassavetes romantic drama "The Notebook" with Rachel McAdams, James Garner, Gena Rowlands, Joan Allen, and Ryan Gosling, Merchant Ivory's "Heights" with Glenn Close and Elizabeth Banks, and the blockbusters "X-Men" and "X2" with Patrick Stewart, Rebecca Romijn, Halle Berry, Famke Janssen, Anna Paquin and Ian McKellen. 
+
+Additional film credits include the MGM thriller "Disturbing Behavior" with Katie Holmes and Nick Stahl; "10th and Wolf"; Davis Guggenheim's "Gossip", a Warner Bros. drama opposite Kate Hudson; Tony Piccirillo's "24th Day"; New Line's comedy "Sugar and Spice" with Mena Suvari and Marley Shelton for director Francine McDougall; "Interstate 60" with Gary Oldman, Chris Cooper, Ann Margaret, Amy Smart, and Christopher Lloyd.  His notable television roles include 'Glen Floy' on the final season of the Emmy winning, David E. Kelley series "Ally McBeal." 
+
+Marsden currently resides in Los Angeles with his wife and two children.
+
+]]></copy>
+		<image>
+			<url>images/character/characters_main_edward.jpg</url>
+		</image>
+		</character>
+		<character id='narissa'>
+			<copy id='name'>Queen Narissa</copy>
+			<copy id='actor'>Susan Sarandon</copy>
+			<copy id='biog'><![CDATA[Academy Award® winning actress SUSAN SARANDON (1996, Best Actress, <i>Dead Man Walking</i>) made her feature film acting debut in the movie "Joe," which she followed with a continuing role in the drama "A World Apart."  Her early film credits include:  "The Great Waldo Pepper," "Lovin' Molly," "The Front Page" and the 1975 cult classic, "The Rocky Horror Picture Show."  Sarandon's additional feature credits include "King of the Gypsies," "The Hunger," "The Sweet Hearts," "Compromising Positions," "The January Man," "White Palace," "The Buddy System," "Sweet Hearts Dance," "A Dry White Season," "The Witches of Eastwick," "Bob Roberts," "Light Sleeper," "Little Women" and "Safe Passage."
+
+Sarandon starred opposite Paul Newman and Gene Hackman in "Twilight"; with Julia Roberts in the poignant comedy "Stepmom"; in the erotic farce "Illuminata," directed by John Turturro; Tim Robbins' drama "Cradle Will Rock"; Wayne Wang's "Anywhere But Here"; and Stanley Tucci's "Joe Gould's Secret."  She also provided one of the voices for the hit animated feature "Rugrats in Paris" and served as narrator for Laleh Khadivi's documentary "900 Women," about female prison inmates.  She also starred in HBO's "Earthly Possessions," based on the Anne Tyler novel and directed by James Lapine.  On Broadway, Sarandon appeared in "An Evening with Richard Nixon" and received critical acclaim for her performances Off-Broadway in "A Coupla White Chicks Sittin' Around Talkin'" and the thriller "Extremities" and in the Off-Off-Broadway production of "The Guys."
+
+Sarandon has been seen in Brad Silberling's "Moonlight Mile" with Dustin Hoffman; in the comedy "Igby Goes Down" with Jeff Goldblum; and in "The Banger Sisters," with Goldie Hawn and Geoffrey Rush.  She was also in "Children of Dune" for the Sci-Fi channel and in "Ice Bound" for CBS and Miramax TV.  She appeared in "Shall We Dance" with Richard Gere and Jennifer Lopez and "Alfie" with Jude Law.  Recently, she has been in Cameron Crowe's "Elizabethtown," starring Kirsten Dunst and Orlando Bloom; John Turturro's "Romance & Cigarettes" with Kate Winslet and James Gandolfini; Ann Turner's "Irresistible" with Sam Neill and Emily Blunt; and opposite Billy Bob Thornton and Seann William Scott in the comedy "Mr. Woodcock."
+
+Upcoming projects for the prolific actress include "Bernard and Doris," opposite Ralph Fiennes, "Emotional Arithmetic," "In the Valley of Elah" and the live-action "Speed Racer."
+
+]]></copy>
+		<image>
+			<url>images/character/characters_main_narissa.jpg</url>
+		</image>
+		</character>
+	</page>
+
+	<!-- DOWNLOADS -->
+	<page id='downloads' active='1' pos='6'>
+		<copy id="title">Downloads</copy>
+		<copy id="wallpaper_title">Wallpapers</copy>
+		<copy id="msn_title">Buddy Icons</copy>
+		<copy id="screensaver_title">Screensavers</copy>
+		<copy id="signature_title">E-mail Signatures</copy>
+		<!--  it is assumed that the all images go in the country id/wallpaper folder and that the files will be named in the following fashion:
+		wallpapers_thumb_name.jpg
+		1024x768_name.jpg
+		1280x1024_name.jpg 
+		(and so on for different sizes)
+		-->
+		<wallpaper name="wallpaper_1"/>
+		<wallpaper name="wallpaper_2"/>
+		<wallpaper name="wallpaper_3"/>
+		<wallpaper name="wallpaper_4"/>
+		
+		<!--  it is assumed that the all images go in the country id/msn folder and that the files will be named in the following fashion:
+		msn_name.jpg	-->
+		<msn name="image_1" />
+		<msn name="image_2" />
+		<msn name="image_3" />
+		<msn name="image_4" />
+		
+		<ss_download>
+			<item name="screensaver_1">
+				<thumb><![CDATA[usa/images/downloads/screensaver_thumb.jpg]]></thumb>
+			</item>
+			<item name="screensaver_2">
+				<thumb><![CDATA[usa/images/downloads/e-mail_thumb.jpg]]></thumb>
+			</item>
+		</ss_download>
+		<emailsig>
+			<item trackTag="email_sig_1">
+				<thumb><![CDATA[usa/images/downloads/e-mail_1_thumb.jpg]]></thumb>
+			</item>
+			<item trackTag="email_sig_2">
+				<thumb><![CDATA[usa/images/downloads/e-mail_2_thumb.jpg]]></thumb>
+			</item>
+		</emailsig>
+		
+	</page>
+	
+	
+	
+	</page>
+</root>

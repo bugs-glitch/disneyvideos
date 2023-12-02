@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<title>Enchanted - the Official Disney DVD and Blu-ray Hi-Def Website</title>
+
+	<script src="../../js/swfobject.js" type="text/javascript"></script>
+
+ <style type="text/css">
+      body{background:#fff;margin:0;}
+      body,td,a{font:10px verdana, arial;color:#000;text-decoration: none;}
+      .copyright {font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #666666;}
+    </style>
+</head>
+		
+<body bgcolor="#000">
+<div align="right"><a href="javascript:close();" style="(font-size:10px;padding-right:8px;}">click to close - X</a></div>
+		
+<div id="wrapper"><div id="flashcontent"><div id="noflashLayer"></div></div></div>
+<script type="text/javascript">
+// <![CDATA[
+var so = new SWFObject("wallpapers.swf", "wallpapers", "770", "200", "6", "#ffffff");
+so.write("flashcontent");
+// ]]>
+</script>
+<script language="javascript">
+	  var width     = getQueryParamValue('width');
+	  var height    = getQueryParamValue('height');
+      var wpname    = getQueryParamValue('wpname');
+	  var dimensions = width + "x" + height;
+	  var filename = dimensions + "_"+ wpname  +".jpg";
+      document.write("<img alt='' title='Enchanted' border='0' height='" + height + "' src='"+ filename +"' width='" +  width + "' />");
+
+
+
+	  var trackingString = dimensions + "+" + wpname;
+	  
+</script>
+
+<!-- BEGIN DOL Web Analytics 1.0 DO NOT EDIT OR REMOVE THIS LINE-->
+<script language="JavaScript" src="http://aglobal.go.com/stat/dolWebAnalytics.js"></script>
+<script language="JavaScript">
+cto=new CTO();
+cto.h.mlc="enchanted/downloads/wallpapers;/downloads/live+action/enchanted/wallpapers";
+cto.h.pageName=trackingString;
+cto.account="wdgdsec";
+cto.category="dmov";
+cto.site="enc";
+cto.siteSection="downloads:wallpapers";
+cto.pageName=trackingString.replace("+","_");
+cto.contentType="downloads";
+cto.property="enc";
+cto.genre="liveaction";
+cto.track();
+</script>
+<!-- END DOL Web Analytics 1.0 -->
+
+</body>
+</html>
