@@ -1,0 +1,94 @@
+html {margin:0; padding:0; border:0; }
+
+body {
+	margin:0; padding:0; border:0;
+	text-align: center;
+	background:#fff top left repeat;
+	font: 70%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	color:#318dbb;
+	}
+
+td.standard {
+	margin:0; padding:0; border:0;
+	vertical-align: top;
+	background:#fff top left repeat;
+	font: 70%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	color:#999999;
+}
+
+td.alternative {
+	margin:0; padding:0; border:0;
+	vertical-align: top;
+	background:#fff top left repeat;
+	font: 70%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	color:#999999;
+}
+	
+A:link, A:visited, A:active { text-decoration: underline; color: #999999 }
+
+#wrapper{margin: 0 auto;}
+
+
+#flashcontent {font-family:arial, verdana, tahoma; color:#999999; font-size:14px; height:224px;}
+#flashcontent a:link {font-weight:bold; color:#000000;}
+#flashcontent a:visited {font-weight:bold; color:#000000;}
+#flashcontent a:active, #content a:hover {font-weight:bold; color:#EC274D;}
+
+
+#noflashLayer {font-family:arial, verdana, tahoma; color:#999999; font-size:14px; height:224px; visibility:hidden; align:center;}
+#noflashLayer a:link {font-weight:bold; color:#999999;}
+#noflashLayer a:visited {font-weight:bold; color:#999999;}
+#noflashLayer a:active, #content a:hover {font-weight:bold; color:#EC274D;}
+
+
+#info{
+}
+#copyright{
+	margin-top:18px;
+	margin-bottom:18px;
+}
+
+#download html{ min-width:0px; }
+
+#textonly{
+	color:#164573;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:16px;
+	margin:auto;
+	padding:auto;
+	text-align:left;
+	width:690px;
+}
+#textonly_header, #textonly #links{
+	text-align:center;
+}
+#textonly a:link, #info a:link{
+	color:#007fc2;
+}
+#textonly h1, #textonly h2{
+	font-size:12px;
+	margin:0px;
+	padding:0px;
+}
+#textonly h1{
+	text-transform:uppercase;
+}
+#textonly p{
+	padding:0px;
+	margin-bottom:9px;
+	margin-top:9px;
+}
+#textonly ul{
+	margin:0px;
+	padding-bottom:14px;
+	padding-top:5px;
+}
+#textonly li{
+	margin:0px;
+	padding-bottom:2px;
+	padding-top:2px;
+}
+.spacer{
+	height:24px;
+}
