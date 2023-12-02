@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<game>
+  <instructions><![CDATA[Queen Narissa is trying to tempt Princess Giselle with some special apples—some poisonous, some not. Use the arrow keys to help Pip protect Giselle and collect all of the red and golden apples. Watch out for obstacles and the poison apples—they will lower your life level. Good luck, and hurry!]]></instructions>
+  <congrats><![CDATA[Congratulations! you have earned a high score. Please enter your name below.]]></congrats>
+  <gameOver>
+    <gameComplete><![CDATA[Congratulations!<br>You have gathered up many apples and have saved Giselle from harm.<br>Send this game to a friend and see if they beat your score!]]></gameComplete>
+    <gameLost><![CDATA[So sorry! You must try again. Help save Giselle before it’s too late!]]></gameLost>
+  </gameOver>
+  <level id="1">
+    <brief>
+      <![CDATA[Good apples are red<br>Good apples are green<br>Watch out for the brown ones because they are mean!]]></brief>
+  </level>
+  <level id="2">
+    <brief><![CDATA[Remember to avoid the bunnies and leap over Prince Edward’s sword!]]></brief>
+  </level>
+  <level id="3">
+    <brief><![CDATA[I hear there is a dragon around these parts, so be careful!]]></brief>
+  </level>
+  <level id="4">
+    <brief><![CDATA[Almost there! Be swift, as this level is a challenge!]]></brief>
+  </level>
+</game>

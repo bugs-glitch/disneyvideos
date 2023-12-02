@@ -1,0 +1,96 @@
+<sections>
+	<scores>
+		<score name="rossco" country="England" score="75201"/>
+		<score name="rossco1" country="England" score="75202"/>
+		<score name="rossco2" country="England" score="75203"/>
+		<score name="rossco3" country="England" score="75204"/>
+		<score name="rossco4" country="vbeui" score="7531220"/>
+		<score name="rossco5" country="England" score="67520"/>
+		<score name="rossco6" country="vdsvgweqa" score="656357520"/>
+		<score name="bossco" country="England" score="75205"/>
+		<score name="feossco" country="England" score="7520"/>
+		<score name="rovwesssco" country="England" score="20"/>
+		<score name="rossgwefco" country="England" score="0"/>
+		<score name="zrossco" country="Englfvqwvgqwand" score="7520"/>
+		<score name="qrossco" country="England" score="7520"/>
+		<score name="trossco" country="England" score="7520"/>
+		<score name="trossco1" country="fwafva" score="7520"/>
+		<score name="zrossco" country="England" score="75242340"/>
+		<score name="qwrossco" country="ZEngland" score="752430"/>
+		<score name="wrossco" country="England" score="75878720"/>
+		<score name="prossco" country="England" score="75634620"/>
+	</scores>
+	<countrylist>
+		<country code="EN"><![CDATA[England]]></country>
+		<country code="SP"><![CDATA[Spain]]></country>
+		<country code="IT"><![CDATA[Italy]]></country>
+		<country code="FR"><![CDATA[France]]></country>
+		<country code="UR"><![CDATA[Ukraine]]></country>
+		<country code="AZ"><![CDATA[Azbekistan]]></country>
+		<country code="AU"><![CDATA[Australia]]></country>
+		<country code="EI"><![CDATA[Ireland]]></country>
+		<country code="SC"><![CDATA[Scotland]]></country>
+		<country code="SU"><![CDATA[Switzerland]]></country>
+	</countrylist>
+	<mainscreen>
+		<score><![CDATA[Your Score]]></score>
+		<time><![CDATA[Time Left]]></time>
+		<play><![CDATA[Play]]></play>
+		<buttons>
+			<help><![CDATA[Help]]></help>
+			<friend><![CDATA[Tell A<bf>Friend]]></friend>
+			<scores><![CDATA[High<br>Scores]]></scores>
+			<back><![CDATA[BACK]]></back>
+		</buttons>
+	</mainscreen>
+	<helpscreen>
+		<body><![CDATA[<font size=''></font>]]></body>
+		<fruit points="-100"><![CDATA[Apple]]></fruit>
+		<fruit points="100"><![CDATA[Pretzel]]></fruit>
+		<fruit points="150"><![CDATA[Pizza]]></fruit>
+		<fruit points="200"><![CDATA[Nuts]]></fruit>
+		<fruit points="250"><![CDATA[Hot Dog]]></fruit>		
+		<fruit points="300"><![CDATA[Apple]]></fruit>		
+	</helpscreen>
+	<scorescreen>
+		<name><![CDATA[<font size='25'>Name</font>]]></name>
+		<country><![CDATA[<font size='25'>Country</font>]]></country>
+		<score><![CDATA[<font size='25'>Score</font>]]></score>
+	</scorescreen>
+	<friendscreen>
+		<name><![CDATA[Your Name]]></name>
+		<email><![CDATA[Your Email]]></email>
+		<fname><![CDATA[Friends Name]]></fname>
+		<femail><![CDATA[Friends Email]]></femail>
+		<send><![CDATA[Send]]></send>
+		<success><![CDATA[Thanks for telling your friends!]]></success>
+		<fail><![CDATA[Please fix email errors]]></fail>
+	</friendscreen>
+	<gameoverscreen>
+		<title><![CDATA[Well Done!]]></title>
+		<score><![CDATA[Your Score Is:]]></score>
+		<success><![CDATA[High Score!]]></success>
+		<fail><![CDATA[No High Score]]></fail>
+		<name><![CDATA[Enter Your Name]]></name>
+		<submit><![CDATA[Submit]]></submit>
+		<country><![CDATA[Country]]></country>	
+		<challenge><![CDATA[Country]]></challenge>
+		<select><![CDATA[Country]]></select>
+		<errorname><![CDATA[Please Enter a Name]]></errorname>
+		<errorcountry><![CDATA[Please Enter a Country]]></errorcountry>
+	</gameoverscreen>
+	<maingame>
+		<trick  id="frontflip"><![CDATA[frontflip]]></trick>
+		<trick  id="backflip"><![CDATA[backflip]]></trick>
+		<trick  id="bellyflop"><![CDATA[bellyflop]]></trick>
+		<trick  id="frontflip"><![CDATA[frontflip]]></trick>
+		<trick  id="backflip"><![CDATA[backflip]]></trick>
+		<trick  id="bellyflop"><![CDATA[bellyflop]]></trick>
+		<string id="comboTitle1"><![CDATA[SUPER]]></string>
+		<string id="comboTitle2"><![CDATA[COMBO]]></string>
+	</maingame>
+</sections>
+
+
+
+		
