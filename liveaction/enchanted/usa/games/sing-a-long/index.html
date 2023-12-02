@@ -1,0 +1,35 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Enchanted : Sing-A-Long</title>
+
+<script language="JavaScript" type="text/javascript">
+// FORCES REDIRECT TO "A" DOMAIN FOR ALL PAGES
+var phd_loc = document.location; //the current URL
+
+if( phd_loc.host == "disney.go.com"  || phd_loc.host == "www.disney.go.com" ){
+	var redirectloc = phd_loc.protocol + "//adisney.go.com" + phd_loc.pathname + phd_loc.search;
+	top.location.replace(redirectloc);
+}
+</script>
+
+
+<style type="text/css">
+	.outer { height: 500px; } 
+	.width-spacer { height: 1px; width: 700px; }
+</style>
+</head>
+<body bgcolor="#0B1C51" marginwidth="0" marginheight="0" topmargin="0" leftmargin="0">
+
+<div class="outer">
+	<div id="flashcontent"></div>
+	<div class="width-spacer"></div>
+</div>
+<script type="text/javascript" src="include/swfobject.js"></script>
+	<script type="text/javascript">
+		var so = new SWFObject("singalong.swf", "singalong", "700", "500", "8", "#000000");
+		so.write("flashcontent");
+	</script>
+
+</body>
+</html>
